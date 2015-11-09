@@ -116,12 +116,7 @@
      margin:0 auto;
  }
  
- 
- @media (max-width: 600px) {
-    .image-C, .description-C{
-      max-width:288px;
-    }
-}
+
  
 </style>
 
