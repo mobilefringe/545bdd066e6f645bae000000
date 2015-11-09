@@ -1,0 +1,189 @@
+<style>
+.title-gg{    
+    font-size: 26px;     
+    font-family: ChronicleDisplay-Italic;    
+}
+.content-gg{    
+    font-family:Whitney-light;    
+    font-size:18px;    
+    margin-bottom:0px;    
+    width:288px;    
+}
+.type-gg{
+    margin:0 auto;
+    
+}
+.description-gg{     
+    font-family: ChronicleDeck-Roman;    
+    font-size: 14px;    
+    margin-bottom:0px;    
+    text-align:left;      
+    line-height:22px;      
+    margin-right:15px;
+}
+.description-image{    
+    margin-top:12px;
+}
+.store-gg{
+    font-family: ChronicleDisplay-Italic;
+    font-weight:bold;font-size:14px;
+}
+
+.style-A, .style-B, .style-D,.style-C, .style-F {    
+    max-width:288px;      
+    text-align:center;    
+    padding-left:11px; 
+    padding-right:11px;   
+    vertical-align:top;    
+    float:left;
+}
+  
+
+.image-C, .description-C{
+  margin:0 auto;
+  max-width:908px;
+}
+.image-C img{
+    width:100%;
+    margin-bottom:22px;
+}
+.style-D img{
+    width:100%;
+    margin:0 auto;
+    
+}
+.style-D{
+    max-width:598px;
+    height:auto;
+    float:left;
+    margin-right:11px;
+}
+.description-D{    
+    max-width:288px;      text-align:center;    margin:11px;    vertical-align:top;    float:left;
+    
+}
+
+.description-F{
+    height:328px;
+}    
+
+  .style-button{
+      margin-top:15px;
+      
+  }
+  .style-button a{
+      float:left;
+      margin-right:30px;
+  }
+  .sylt-button div{
+      
+  }
+  .gray-long{
+   background-image: url("http://kodekloud.s3.amazonaws.com/sites/545bdd066e6f645bae000000/59ca012c41d508e31682ced6e6a0a106/dottedLong.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 3px;
+    margin: 0 auto;
+    padding: 1em; 
+  }
+  
+  .container-G{
+      margin:0 auto;
+      max-width:693px;
+      vertical-align:middle;
+  }
+ .style-G{
+    display:inline-block;
+    max-width: 394px;
+    padding-left:11px; 
+ }
+ 
+ .description-G{
+    display:inline-block;
+    max-width:288px;    
+    text-align:center;    
+    margin:11px;    
+    float:left;
+    margin-top:250px;
+ }
+ 
+ .description-G p{
+     vertical-align:middle;
+ }
+ 
+ .style-H{
+     max-width:908px;
+     margin:0 auto;
+ }
+ 
+ 
+ @media (max-width: 600px) {
+    .image-C, .description-C{
+      max-width:288px;
+    }
+}
+ 
+</style>
+
+
+    <section>
+
+        <script>
+  
+        
+        
+        
+            $(function(){
+                $('#add_new_content_block').click(function(event){
+                    event.preventDefault();
+                    $.ajax({
+                        url : "/new_web_content_block_inline",
+                        type: "POST",
+                        data : {authenticity_token: '<%=form_authenticity_token%>' ,
+                                web_page_id: '<%=web_page_id%>'},
+                        success: function(data, textStatus, jqXHR)
+                        {
+                            console.log(textStatus);
+                        },
+                        error: function (jqXHR, textStatus, errorThrown)
+                        {
+                            alert('There was an error loading this content:'+textStatus);
+                        }
+                    });
+                    
+                });
+                
+            });
+            
+            
+            $(document).ready(function() {
+                $.ajax({
+                    url : "/all_web_content_block_inline",
+                    type: "POST",
+                    data : {authenticity_token: '<%=form_authenticity_token%>' ,
+                            web_page_id: '<%=web_page_id%>'},
+                    success: function(data, textStatus, jqXHR)
+                    {
+                        console.log(textStatus);
+                    },
+                    error: function (jqXHR, textStatus, errorThrown)
+                    {
+                        alert('There was an error loading this content:'+textStatus);
+                    }
+                });
+
+            });
+        
+        </script>
+        
+    </section>
+
+    <div id="all_content_blocks">
+        Loading Blog Entries....
+        
+    </div>
+
+
+
+
+
