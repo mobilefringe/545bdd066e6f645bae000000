@@ -1,0 +1,662 @@
+@font-face {
+    font-family: "ChronicleDisplay-Italic-Bold";
+    src: url("http://kodekloud.s3.amazonaws.com/sites/545bdd066e6f645bae000000/6fa234292be32f532b2821a784dc4c8b/ChronicleDeck-BoldItalic.ttf");
+}
+
+.holiday-gift-guide h1 {
+    margin-bottom:20px;     
+    color:#9b9b9b;
+    margin-top:0px;
+}
+h1 .current_item {
+    color: black;
+    
+}
+.look-book-head{
+      font-family: ChronicleDisplay-Italic;
+  font-size: 3.0em;
+  letter-spacing: 1px;
+}
+
+.holiday-gift-guide h2{
+ max-width:850px;   
+ margin-bottom:0px;
+}
+.holiday-popup-footer{
+     font-family: ChronicleDisplay-Italic;
+    font-size:12px;
+    margin-top:34px;
+    margin-bottom:0px;
+    letter-spacing: 1px; 
+}
+
+.popup-form-div label{
+    font-size:13px;
+    color:black;
+    font-family: WhitneyHTF-Book;
+    float:left;
+    width:95px;
+}
+.holiday-typebox{
+    width:183px !important;
+    height:23px !important;
+    float:left;
+   margin-bottom:6px !important;
+   margin-right:20px !important;
+   font-size:12px;
+   padding:3px !important;
+}
+.floater-left{
+    float:left;
+}
+  .gray-long{
+   background-image: url("http://kodekloud.s3.amazonaws.com/sites/545bdd066e6f645bae000000/6fa234292be32f532b2821a784dc4c8b/dottedgrayLong.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 3px;
+    margin: 0 auto;
+    margin-bottom: 11px; 
+    margin-top: 55px; 
+    float: left;
+    width: 100%;
+  }
+label{
+margin-top:0px;    
+}
+.agree-btn{
+    margin-top:5px;
+    width:100%;
+}
+.agree-btn label{
+    width:125px;
+    margin-top:15px;
+}
+#agree_newsletter{
+    margin-bottom:8px;
+}
+.holiday-option{
+    font-family: WhitneyHTF-Book;
+    font-size:12px;
+    color:black;
+    float:left;
+    margin-right:15px;
+    margin-bottom:0px;
+}
+.holiday-popup-header{
+    font-size:28px;
+    color:black;
+    text-align:center;
+    font-family: ChronicleDisplay-Italic;
+    margin-bottom:0px;
+}
+.holiday-money{
+    font-family: ChronicleDeck-bold; 
+    font-size:80px;
+    color:black;
+    margin-bottom: 0px;
+    text-align: center;
+    height:65px;
+    line-height:0.8em;
+    margin:0 auto;
+}
+.holiday-ds{
+    text-align:center;
+  font-family: ChronicleDeck-bold; 
+    font-weight:bold;
+    font-size:20px;
+    margin-bottom: 0px;
+}
+
+ .holiday-btn{
+     font-family: ChronicleDeck-Roman;
+     font-size:13px;
+     background-color:#e70033 !important;
+     width:109px;
+     height:23px;
+     border:none;
+     padding-top:3px;
+     margin-bottom:15px;
+ }      
+.popup-close{
+    background-image:url("http://kodekloud.s3.amazonaws.com/sites/545bdd066e6f645bae000000/49986ff249df53ba1e26eb3c6fefc753/close.png");
+    cursor:pointer;
+    margin-bottom:0px;
+    height:24px;
+    width:24px;
+}
+
+.hidden-popup-bg {
+   background-color:rgba(0, 0, 0, 0.65);
+   height:100%;
+   width:100%;
+   position:fixed;
+   z-index:999999999;
+   display:none;
+   top:0;
+}
+.hidden-popup-form {
+    background: none repeat scroll 0 0 #fff;
+    max-width:640px;
+    padding: 20px;
+    padding-top:10px;
+    padding-right:10px;
+    margin:0 auto;
+    margin-top:80px;
+}
+.holiday-divider-first{
+    background-image: url("http://kodekloud.s3.amazonaws.com/sites/545bdd066e6f645bae000000/9a65c1b2b2f04b74bde6d0f057d70551/dotted.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 2px;
+    
+    margin-top: 15px;
+    margin-bottom:17px;
+}
+.holiday-divider-second{
+    background-image: url("http://kodekloud.s3.amazonaws.com/sites/545bdd066e6f645bae000000/9a65c1b2b2f04b74bde6d0f057d70551/dotted.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 2px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom:31px;
+}
+.popup-header{
+       min-height: 16.4286px;
+
+}
+
+.padding-left-none{
+    padding-left:0px;
+}
+.popup-form{
+      background: none repeat scroll 0 0 #fff;
+    clear: left;
+    font: 14px Helvetica,Arial,sans-serif;
+}
+.popup-form form{
+    display: block;
+  
+    position: relative;
+    text-align: left;
+}
+.stMainServices, .stHBubble{
+    height:25px !important;
+ }
+       
+.title-gg, .footer-gg{    
+    font-size: 26px;     
+    font-family: ChronicleDisplay-Italic;    
+}
+
+.content-gg{    
+    font-family:Whitney-light;    
+    font-size:18px;    
+    margin-bottom:0px;    
+   line-height:23px;
+}
+.type-gg{
+    margin:0 auto;
+    
+}
+.description-gg{     
+    font-family: ChronicleDeck-Roman;    
+    font-size: 14px;    
+    margin-bottom:0px;    
+    text-align:left;      
+    line-height:22px;      
+   
+}
+.description-C .description-gg{
+    display:inline-block;
+    
+}
+.description-C .store-gg{
+   margin-right:15px;
+    
+}
+ .store-gg{
+    font-family: ChronicleDisplay-Italic-Bold;
+    
+    font-size:14px;
+}
+
+.style-A, .style-B, .style-C, .style-E, .style-F {    
+      
+    text-align:center;    
+    margin-left:11px; 
+    margin-right:11px;   
+    margin-bottom:0px;
+    margin-top:64px;
+    vertical-align:top;    
+    float:left;
+    position:relative;
+    max-width:288px;
+}
+  .style-D{
+      max-width:598px;
+          text-align:center;    
+    margin-left:11px; 
+    margin-right:11px;   
+    margin-bottom:0px;
+    margin-top:64px;
+    vertical-align:top;    
+    float:left;
+    position:relative;
+  }
+  
+  .style-E img{
+      margin-bottom: 12px;
+  }
+.image-C, .description-C{
+  margin:0 auto;
+  margin:11px;
+
+}
+
+.image-C img{
+    width:100%;
+    margin-bottom:11px;
+      margin-top:64px;
+}
+.style-D img{
+    width:100%;
+    margin:0 auto;
+    
+}
+
+.style-D{
+
+    height:auto;
+    float:left;
+    margin-right:11px;
+}
+
+.holiday-description{
+max-width:288px; 
+height:378px;
+margin: 11px;
+margin-top:64px;
+margin-bottom: 0px;
+float:left;
+text-align:center;
+padding-top:25px;
+
+}
+.holiday-description p {
+     display: block;
+}
+.description-D{   
+    text-align:center;    
+    margin-left:11px; 
+    margin-right:11px;    
+    vertical-align:top;    
+    float:left;
+}
+
+.description-F{
+    max-height:328px;
+    margin-bottom:53px;
+}    
+.margin-top-none{
+    margin-top:0px;
+}
+
+ .look-book, .holiday-gift-guide{
+      
+   max-width:930px;
+      margin:0 auto;
+  }
+  .holiday-gift-guide .gray_divider, .look-book .gray_divider{
+      float:left;
+      width:103%;
+  }
+  .social-btn{
+    bottom: 35px;
+    position: absolute;
+    right: 0; 
+  }
+  .gift-guide-subtitle{
+   font-family: ChronicleDisplay-Italic;
+    font-size: 50px;
+    text-align: center;
+    width: 100%;
+    padding-top:70px;
+    margin:0 auto;
+    }
+.gift-guide-title{
+    margin-bottom:80px;    
+}
+
+.him, .her, .kids, .holiday-link{
+    cursor:pointer;
+    
+}
+.holiday-italic{
+    font-family: ChronicleDisplay-Italic; 
+    font-size:1.2em;
+}
+.holiday-link-her, .holiday-link-him, .holiday-link-kids{
+   font-family: ChronicleDisplay-Italic; 
+   color:#00aeef;
+    font-size:1.2em;
+    cursor:pointer;
+
+}
+.holiday-footer, .footer-gg{
+    text-align:center;
+}
+
+.pinit {
+    position:relative;
+	display:inline-block;
+    max-width:100%;
+}
+
+.pinit .pinit-overlay {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	z-index:200;
+	display:none;
+	text-align:center;
+}
+
+.pinit .pinit-overlay a {
+	position:absolute;
+
+    bottom:15px;
+    right:15px;
+margin:-10px 0 0 -21px;
+	display:block;
+	width:43px;
+	height:20px;
+	background:transparent url('http://kodekloud.s3.amazonaws.com/sites/545bdd066e6f645bae000000/6057f533aec0a78fe2a92e20ed02d0cf/pinit-button.png') no-repeat 0 0;
+	text-indent:-9999em;
+}
+
+.pinit .pinit-overlay a:hover {
+    background-position: 0 -21px;
+}
+
+.pinit .pinit-overlay a:active {
+	background-position: 0 -42px;
+}
+.fb-like{
+    position:absolute !important;
+    right:70px;
+    bottom:15px;
+    width:80px;
+    display:none;
+}
+
+  .look-book h1{
+         color:black;
+         font-size:3.2em;
+         text-align:center;
+         margin-bottom:0px;
+         padding-top:70px;
+     }
+      .look-book h2{
+        margin-bottom:0px;
+        margin-top:0px !important;
+      padding-top:0px;
+     }
+     .look-book .image-C img{
+         padding-bottom:5px;
+     }
+     .look-book .footer{
+         float:left;
+     }
+     .look-book .gift-guide-subtitle{
+         max-width:100%;
+         font-size:1.8em;
+         margin-top:15px;
+     }
+    .look-book .holiday-style-F{
+         height:328px;
+         margin-bottom:0px;
+     }
+     .desktop-show{
+         
+         display: inline-block !important;
+     }
+   .mobile-show{
+            display:none !important;
+        }
+        .mobile-side{
+            margin-left:0px !important;
+            margin-right:0px !important;
+        }
+        
+  .container-G{
+      margin:0 auto;
+      vertical-align:middle;
+      margin-top:64px;
+      
+  }
+ .style-G{
+    display:inline-block;
+    max-width: 394px;
+    padding-left:11px; 
+ }
+ 
+ .description-G{
+    display:inline-block;
+    width:288px;    
+    text-align:center;    
+    margin:11px;    
+    padding-top:140px;
+    margin-left:105px;
+ }
+ 
+ .description-G p{
+     vertical-align:middle;
+ }
+ 
+ .style-H{
+     width:100%;
+     margin:0 auto;
+     margin-left:11px;
+     margin-right:11px;
+     margin-top:64px;
+     display:inline-block;
+ }
+.style-H img{
+    width:100%;
+}
+.flexslider{
+    width: 100%;
+}
+        .style-slider{
+            
+            
+            margin:0 auto;
+            margin-top:64px;
+        }
+.flex-direction-nav .flex-next {
+  top: 50%;
+  width: 50px;
+  height: 50px;
+  margin-right: 0px !important;
+}
+
+.flex-direction-nav .flex-prev {
+  top: 50%;
+  width: 50px;
+  height: 50px;
+  margin-left: 0px !important;
+}
+
+.flex-direction-nav a {
+  background: none !important;
+}
+
+.footer{
+    
+    margin-top:100px;
+}
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+        .mobile-side{
+            padding-left:17px !important;
+            padding-right:17px !important;
+        }
+}
+    @media only screen and (max-width: 40em) {
+        
+         .style-G{
+
+    padding-left:0px; 
+ }
+            .mobile-side{
+            margin-left:17px !important;
+            margin-right:17px !important;
+                 padding-left:0px !important;
+            padding-right:0px !important;
+        }
+        .mobile-show{
+            display:block !important;
+        }
+        .desktop-show{
+            display:none !important;
+        }
+            .look-book h1{
+            text-align:center;
+            font-size:2.0em;
+        }
+       .look-book h2{
+            font-size:1.5em;
+            display:block !important;
+        }
+          .gift-guide-subtitle{
+      display:none;
+    }
+    .holiday-footer{
+        font-size:18px;
+    }
+    .footer-gg{
+        font-size:20px;
+    }
+    .holiday-link-her, .holiday-link-him, .holiday-link-kids {
+
+    font-size: 20px;
+}
+.style-A, .style-B, .style-C, .style-E, .style-F {    
+              max-width:288px;
+           float:none;
+           margin: 0 auto;
+            padding-top:11px;
+        }
+    .style-H{
+        text-align: center;
+        display:block;
+    }
+    .container-G{
+        text-align: center;
+    }
+    .style-E img{
+        margin-top:22px;
+    }
+    .description-G{
+        padding-top: 0px;
+        margin-left: 0px;
+    }
+        .title-gg{
+            margin-top:15px;
+        }
+        .image-C, .description-C {
+            margin:0 auto;
+            text-align:center;
+          
+        }
+        .image-C img {
+    padding-bottom: 0px;
+    padding-top: 0px;
+ 
+}
+.description-C .description-gg {
+    display: block;
+}
+.gray-long{
+    margin-top:15px;
+    margin-bottom:22px;
+}
+
+    .image-C, .description-C{
+      max-width:288px;
+    }
+        .fr-fin{
+            margin-top:11px;
+            margin-bottom:11px;
+            max-width:288px;
+        }
+        .style-D{
+            margin: 0 auto;
+            text-align:center;
+            float:none !important;
+            margin-top:45px;
+            
+        }
+        .style-H{
+            width:100%;
+            margin-top:0px;
+            float: left;
+            margin:0 auto;
+        }
+        
+        .style-slider{
+            
+            width:288px;
+            margin:0 auto;
+        }
+
+        
+        .style-H img{
+            margin-top:45px;
+            margin-bottom:45px;
+        }
+        .container-G{
+            margin-top:45px;
+        }
+        .description-C{
+        text-align:center;
+        }
+        .description-gg{
+            text-align:center;    
+        }
+      
+        .holiday-description{
+            padding:10px;   
+            float:none;
+            margin:0 auto;
+            height:auto;
+            margin-bottom:11px;
+        }
+         .look-book h1{
+      
+         padding-top:0px;
+     }
+       .look-book h2{
+        line-height:1em;
+        margin-bottom:15px;
+     }
+     .look-book .holiday-style-F {
+    height: auto;
+    margin-bottom: 0;
+}
+     .title-gg{
+         margin-top:0px;
+     }
+        h1{
+            text-align:center;
+            font-size:1.3em;
+            margin-bottom:15px;
+            margin-top:25px;
+        }
+        h2{
+            font-size:1.5em;
+        }
+    }
+    
