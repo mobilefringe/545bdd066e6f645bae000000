@@ -511,7 +511,7 @@ margin:-10px 0 0 -21px;
 }
     @media only screen and (max-width: 40em) {
         .hidden-popup-form{
-            margin-top: 40px;
+            margin-top: 20px;
             height: 92%;
             overflow: scroll;
         }
