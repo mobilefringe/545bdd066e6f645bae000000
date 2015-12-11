@@ -499,7 +499,11 @@ margin:-10px 0 0 -21px;
     margin-top:100px;
 }
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-    
+    .hidden-popup-form{
+            margin-top: 40px;
+            height: 92%;
+            overflow: scroll;
+        }
         .mobile-side{
             padding-left:17px !important;
             padding-right:17px !important;
