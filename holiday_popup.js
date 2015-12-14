@@ -24,9 +24,9 @@
      
             if (visited <= 1) {
                 if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || winwidth <= 600) {
-                    $(".hidden-popup-bg").show();
+                    // $(".hidden-popup-bg").show();
                 }else{
-                     $(".hidden-popup-bg").show();
+                    //  $(".hidden-popup-bg").show();
                 }
                 visited++;
                 $.cookie('visited', visited, { expires: 1 });
