@@ -96,16 +96,16 @@
 </style>
 
 <main>
-    <form action="">
+    <form action="/newsletter/">
         <div class="form-container">
             <div calss = "row">
                 <div class="col-md-6">
-                    <input type="text" name="fname" placeholder="First Name">
-                    <input type="email" name="email" placeholder="Email*">
+                    <input type="text" name="contest[first_name]" placeholder="First Name">
+                    <input type="email" name="contest[email]" placeholder="Email*">
                 </div>
                 <div class="col-md-6">
-                    <input type="text" name="lname" placeholder="Last Name">
-                    <input type="text" name="postalCode" placeholder="Postal Code">    
+                    <input type="text" name="contest[last_name]" placeholder="Last Name">
+                    <input type="text" name="contest[postalCode]" placeholder="Postal Code">    
                 </div>
             </div>
             <div class="row col-md-12">
