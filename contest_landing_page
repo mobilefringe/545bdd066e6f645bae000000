@@ -15,7 +15,7 @@
 
 <main>
    <div class="button_container">
-       <a href"">Enter</a>
+       <button>Enter</button>
    </div> 
 </main>
 <script>
