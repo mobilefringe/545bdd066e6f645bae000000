@@ -58,8 +58,8 @@
         content: "\2612"; 
         
     } /* checked icon */
-    input[type=checkbox]:checked + label:before { 
-        letter-spacing: 5px; 
+    /*input[type=checkbox]:checked + label:before { */
+    /*    letter-spacing: 5px; */
         
     } /* allow space for check mark */
     
