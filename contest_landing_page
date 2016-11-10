@@ -25,6 +25,7 @@
         background: #060000;
         color: #fff;
         text-transform: uppercase;
+        font-family: "MillerBanner-SemiBold";
     }
     
 </style>
