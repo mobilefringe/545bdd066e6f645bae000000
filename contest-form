@@ -108,7 +108,7 @@
                 </div>
             </div>
             <div class="row col-md-12">
-                <input type="checkbox" id="cbox1" value="first_checkbox"><label for="cbox1"><span></span> I agree to receive newsletters from Southcentre Mall</label>
+                <input type="checkbox" id="cbox1" value="first_checkbox"><span><label for="cbox1"><span></span> I agree to receive newsletters from Southcentre Mall</label></span
             </div>
             <div class="row col-md-12">    
                 <input type="checkbox" id="cbox2" value="second_checkbox"><label for="cbox2"><span></span> I agree to receive communications from Southcentre Mall. You can unsubscribe at anytime. For more details about personal data privacy, please read our Privacy Policy or contact us at: 100 Anderson Road SE Calgary, Alberta, Canada T2J 3V1</label>
