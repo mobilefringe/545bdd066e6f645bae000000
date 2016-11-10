@@ -17,7 +17,7 @@
         font-family: "Whitney-light";
     } 
     .form-container {
-        margin: 309px 76px 0 76px;
+        margin: 309px 79px 0 79px;
     }
     input[type="text"], 
     input[type="email"] {
