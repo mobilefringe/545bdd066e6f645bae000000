@@ -40,8 +40,10 @@
     input[type="checkbox"] {
         display:none;
     }
+    input[type=checkbox] + label {
+        margin: 0;
+    }
     input[type=checkbox] + label:before {
-        font-family: FontAwesome;
         display: inline-block;
     }
     input[type=checkbox] + label:before { 
