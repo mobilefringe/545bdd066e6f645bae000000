@@ -9,7 +9,7 @@
     }
     main {
         width: 100vw;
-        /*height: 100vh;*/
+        height: 100vh;
         background: url("//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000/image/jpeg/1478725151000/contest_form.jpg");
         position: absolute;
         top: 0;
