@@ -18,8 +18,14 @@
    .button_container {
         position: absolute;
         bottom: 160px;
-        left: 230px;
+        left: 178px;
     }
+    a {
+        padding: 10px 86px;
+        background: #060000;
+        color: #fff;
+    }
+    
 </style>
 
 <main>
