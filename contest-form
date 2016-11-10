@@ -16,7 +16,8 @@
         left: 0;
         font-family: "Whitney-light";
     } 
-    .col-md-6 {
+    .col-md-6,
+    .col-md-12 {
         padding-right: 7.5px;
         padding-left: 7.5px;
     }
