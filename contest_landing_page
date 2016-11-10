@@ -13,6 +13,9 @@
 </main>
 <script>
     $(document).ready(function() {
-        
+        $(window).load(function(){  
+        //initialize after images are loaded  
+            $('img').pinit();
+        });     
     }
 </script>
