@@ -21,9 +21,6 @@
         padding-right: 7.5px;
         padding-left: 7.5px;
     }
-    .col-md-12 {
-        display: flex;
-    }
     .form-container {
         margin: 312px 87.5px 0 87.5px;
     }
@@ -53,6 +50,7 @@
     }
     input[type=checkbox] + span {
         margin-right: 20px;
+        float: left;
     }
     input[type=checkbox] + span:before {
         display: inline-block;
@@ -75,6 +73,7 @@
     
     label {
         margin-bottom: 15px;
+        float: left;
         font-size: 15px;
     }
 
