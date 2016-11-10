@@ -57,7 +57,7 @@
                 <p>*mandatory<span><a href="">Rules & Regulations</a></span></p>
             </div>
             <div class="row col-md-12">
-                <input class="btn btn-primary" name="commit" type="submit" value="Submit" style="width: 130px;float:right;height: 35px;">
+                <input class="btn btn-primary" name="commit" type="submit" value="Submit">
             </div>
         </div>
     </form>
