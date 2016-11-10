@@ -20,11 +20,11 @@
     }
     input[type="text"], 
     input[type="email"] {
-        font-size: 22px;
-        font-family: "Whitney-light";
+        padding: 15px;
         background: transparent;
         border: 1px solid #060000;
-        padding: 15px;
+        font-size: 22px;
+        font-family: "Whitney-light";
     }
     
 </style>
