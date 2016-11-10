@@ -46,7 +46,7 @@
                     <input type="text" name="postalCode" placeholder="Postal Code">    
                 </div>
             </div>
-            <div class="row">
+            <div class="row col-md-12">
                 <label><input type="checkbox" id="cbox1" value="first_checkbox">I agree to receive newsletters from Southcentre Mall</label>
                 <label><input type="checkbox" id="cbox2" value="second_checkbox"> This is the first checkbox</label><br>
                 <label><input type="checkbox" id="cbox3" value="third_checkbox"> This is the first checkbox</label><br>
