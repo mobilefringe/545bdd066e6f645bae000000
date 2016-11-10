@@ -25,6 +25,7 @@
         border: 1px solid #060000;
         font-size: 22px;
         font-family: "Whitney-light";
+        color: #060000;
     }
     
 </style>
