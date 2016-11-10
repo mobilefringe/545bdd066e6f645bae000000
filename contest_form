@@ -31,7 +31,7 @@
         color: #060000;    
     }
     input[type="submit"] {
-        padding: 12px 70px;
+        padding: 8px 60px;
         background: #060000;
         text-transform: uppercase;
         font-family: "Whitney-light";
