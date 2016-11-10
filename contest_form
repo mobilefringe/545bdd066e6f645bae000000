@@ -28,6 +28,12 @@
         font-family: "Whitney-light";
         color: #060000;
     }
+    input[type="text"]:hover, 
+    input[type="email"]:hover {
+        background: #fafafa;
+        border-color: #060000;
+        outline: none;
+    }
     ::-webkit-input-placeholder {
         color: #060000;    
     }
