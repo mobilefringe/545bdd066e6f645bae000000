@@ -1,4 +1,8 @@
 <style>
+    header {
+        display: none;
+    }
+    
    main {
        background: url("http://assets.codecloudapp.com/sites/545bdd066e6f645bae000000/image/jpeg/1478724872000/contest_landing.jpg");
    } 
@@ -7,3 +11,8 @@
 <main>
     
 </main>
+<script>
+    $(document).ready(function() {
+        
+    }
+</script>
