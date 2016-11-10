@@ -45,7 +45,7 @@
         display: inline-block;
     }
     input[type=checkbox] + label:before { 
-        content: "#9744"; 
+        content: "&9744"; 
         
     } /* unchecked icon */
     input[type=checkbox] + label:before { 
