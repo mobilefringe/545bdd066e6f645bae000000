@@ -14,9 +14,13 @@
 </style>
 
 <main>
-   <div class="button_container">
-       <button>Enter</button>
-   </div> 
+    <row>
+        <div class="md-col-6">
+            <div class="button_container">
+               <button>Enter</button>
+           </div> 
+        </div>
+    </row>
 </main>
 <script>
     $(document).ready(function() {
