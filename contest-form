@@ -40,10 +40,10 @@
     input[type="checkbox"] {
         display:none;
     }
-    input[type=checkbox] + label:before {
-        font-family: FontAwesome;
-        display: inline-block;
-    }
+    /*input[type=checkbox] + label:before {*/
+    /*    font-family: FontAwesome;*/
+    /*    display: inline-block;*/
+    /*}*/
     input[type=checkbox] + label:before { 
         content: "\2610"; 
         font-size: 16px;
