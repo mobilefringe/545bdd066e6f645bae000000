@@ -54,7 +54,7 @@
     } /* space between checkbox and label */
     
     input[type=checkbox]:checked + label:before { 
-        content: "#9746"; 
+        content: "\2612"; 
         
     } /* checked icon */
     input[type=checkbox]:checked + label:before { 
