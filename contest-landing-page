@@ -9,7 +9,7 @@
     }
     main {
         width: 100vw;
-        height: 100vh;
+        /*height: 100vh;*/
         background: url("//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000/image/jpeg/1478724872000/contest_landing.jpg");
         background-size: cover;
         position: absolute;
@@ -17,7 +17,7 @@
         left: 0;
    } 
    .button_container {
-        /*position: absolute;*/
+        position: absolute;
         bottom: 186px;
         left: 177px;
     }
