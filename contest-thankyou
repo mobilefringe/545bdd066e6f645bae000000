@@ -11,8 +11,6 @@
         width: 1024px;
         height: 768px;
         background: url("//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000/image/jpeg/1478725196000/contest_thankyou.jpg");
-        
-        http://assets.codecloudapp.com/
         position: absolute;
         top: 0;
         left: 0;
