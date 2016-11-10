@@ -20,14 +20,16 @@
 </style>
 
 <main>
-    <form>
+    <form action="">
         <div class="form-container">
             <div calss = "row">
                 <div class="sm-col-6">
-                    
+                    <input type="text" name="fname" placeholder="First Name">
+                    <input type="email" name="email" placeholder="Email">
                 </div>
                 <div class="sm-col-6">
-                    
+                    <input type="text" name="lname" placeholder="Last Name">
+                    <input type="text" name="postalCode" placeholder="Postal Code">    
                 </div>
             </div>
         </div>
