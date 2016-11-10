@@ -5,17 +5,12 @@
     .container {
         padding: 0;
         margin: 0;
+    }
+    main {
         width: 1024px;
         height: 768px;
         background: url("http://assets.codecloudapp.com/sites/545bdd066e6f645bae000000/image/jpeg/1478724872000/contest_landing.jpg");
-
-    }
-   /*main {*/
-   /*    width: 1024px;*/
-   /*    height: 768px;*/
-   /*    background: url("http://assets.codecloudapp.com/sites/545bdd066e6f645bae000000/image/jpeg/1478724872000/contest_landing.jpg");*/
-
-   /*} */
+   } 
 </style>
 
 <main>
