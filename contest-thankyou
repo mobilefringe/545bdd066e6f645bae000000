@@ -18,10 +18,10 @@
    .button_container {
         position: absolute;
         bottom: 186px;
-        left: 177px;
+        left: 403px;
     }
     a {
-        padding: 12px 70px;
+        padding: 12px 38px;
         background: #060000;
         text-transform: uppercase;
         font-family: "Whitney-light";
