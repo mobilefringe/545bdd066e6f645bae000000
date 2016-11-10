@@ -36,7 +36,8 @@
         outline: none;
     }
     ::-webkit-input-placeholder {
-        color: #060000;    
+        color: #060000; 
+        font-family: "Whitney-light";
     }
     input[type="checkbox"] {
         display:none;
