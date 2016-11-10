@@ -30,7 +30,15 @@
     ::-webkit-input-placeholder {
         color: #060000;    
     }
-    
+    input[type="submit"] {
+        padding: 12px 70px;
+        background: #060000;
+        text-transform: uppercase;
+        font-family: "Whitney-light";
+        font-size: 22px;
+        letter-spacing: 1.2px;
+        font-weight: bold;
+    }
 </style>
 
 <main>
