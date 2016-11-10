@@ -26,6 +26,9 @@
         font-size: 22px;
         font-family: "Whitney-light";
         color: #060000;
+        ::-webkit-input-placeholder {
+           color: #060000;
+        }
     }
     
 </style>
