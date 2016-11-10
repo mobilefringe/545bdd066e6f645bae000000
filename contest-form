@@ -22,7 +22,7 @@
     input[type="text"], 
     input[type="email"] {
         margin-bottom: 25px;
-        padding: 20px 15px;
+        padding: 18px 16px;
         background: transparent;
         border: 1px solid #060000;
         font-size: 22px;
