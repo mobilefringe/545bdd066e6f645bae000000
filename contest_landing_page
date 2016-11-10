@@ -23,12 +23,14 @@
     a {
         padding: 10px 75px;
         background: #060000;
-        color: #fff;
         text-transform: uppercase;
         font-family: "Whitney-light";
         font-size: 22px;
         letter-spacing: 1.2px;
         font-weight: bold;
+    }
+    a, a:link, a:visited {
+        color: #fff;    
     }
     
 </style>
