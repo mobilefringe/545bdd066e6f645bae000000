@@ -26,7 +26,7 @@
         height: 45px;
         background: transparent;
         border: 1px solid #060000;
-        font-size: 22px;
+        font-size: 21px;
         font-family: "Whitney-light";
         color: #060000;
     }
