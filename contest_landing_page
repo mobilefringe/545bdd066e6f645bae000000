@@ -25,7 +25,7 @@
         background: #060000;
         color: #fff;
         text-transform: uppercase;
-        font-family: "MinionPro-Regular";
+        font-family: "MillerBanner-SemiBold";
     }
     
 </style>
