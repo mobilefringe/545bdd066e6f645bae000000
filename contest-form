@@ -73,7 +73,6 @@
     
     label {
         margin-bottom: 15px;
-        float: left;
         font-size: 15px;
     }
 
