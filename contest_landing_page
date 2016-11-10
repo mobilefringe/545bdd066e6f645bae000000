@@ -11,7 +11,9 @@
 </style>
 
 <main>
-    
+   <div class="button_container">
+       <button>Enter</button>
+   </div> 
 </main>
 <script>
     $(document).ready(function() {
