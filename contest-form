@@ -50,7 +50,8 @@
         
     } /* unchecked icon */
     input[type=checkbox] + label:before { 
-        letter-spacing: 5px; 
+        letter-spacing: 5px;
+        font-size: 24px;
         
     } /* space between checkbox and label */
     
