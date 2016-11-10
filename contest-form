@@ -84,7 +84,7 @@
         font-weight: bold;
     }
     p {
-        margin-bottom: 30px;
+        margin-bottom: 25px;
         font-size: 16px;
     }
     span {
