@@ -37,6 +37,15 @@
     ::-webkit-input-placeholder {
         color: #060000;    
     }
+    input[type="checkbox"] {
+        display:none;
+    }
+    input[type="checkbox"] + label span {
+        display:inline-block;
+        width:19px;
+        height:19px;
+        background:url(check_radio_sheet.png) left top no-repeat;
+    }
     input[type="submit"] {
         padding: 8px 60px;
         background: #060000;
