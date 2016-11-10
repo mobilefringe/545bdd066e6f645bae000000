@@ -20,7 +20,18 @@
 </style>
 
 <main>
-    
+    <form>
+        <div class="form-container">
+            <div calss = "row">
+                <div class="sm-col-6">
+                    
+                </div>
+                <div class="sm-col-6">
+                    
+                </div>
+            </div>
+        </div>
+    </form>
 </main>
 <script>
     $(document).ready(function() {
