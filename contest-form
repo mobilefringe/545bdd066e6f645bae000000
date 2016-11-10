@@ -74,6 +74,7 @@
     } /* checked icon */
     
     label {
+        margin-bottom: 15px;
         font-size: 15px;
     }
 
@@ -88,7 +89,7 @@
     }
     p {
         margin-right: 20px;
-        margin-bottom: 15px;
+        margin-bottom: 25px;
         font-size: 16px;
     }
     a, a:link, a:visited {
