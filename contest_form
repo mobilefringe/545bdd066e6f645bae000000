@@ -39,6 +39,9 @@
         letter-spacing: 1.2px;
         font-weight: bold;
     }
+    p {
+        font-size: 12px;
+    }
 </style>
 
 <main>
