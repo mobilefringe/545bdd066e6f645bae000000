@@ -24,6 +24,7 @@
         padding: 10px 86px;
         background: #060000;
         color: #fff;
+        text-transform: uppercase;
     }
     
 </style>
