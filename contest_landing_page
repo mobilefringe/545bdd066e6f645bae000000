@@ -21,7 +21,7 @@
         left: 178px;
     }
     a {
-        padding: 10px 86px;
+        padding: 10px 75px;
         background: #060000;
         color: #fff;
         text-transform: uppercase;
