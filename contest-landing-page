@@ -1,0 +1,46 @@
+<style>
+    header {
+        display: none;
+    }
+    .container {
+        padding: 0;
+        margin: 0;
+        position: relative;
+    }
+    main {
+        width: 1024px;
+        height: 768px;
+        background: url("//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000/image/jpeg/1478724872000/contest_landing.jpg");
+        position: absolute;
+        top: 0;
+        left: 0;
+   } 
+   .button_container {
+        position: absolute;
+        bottom: 186px;
+        left: 177px;
+    }
+    a {
+        padding: 12px 70px;
+        background: #060000;
+        text-transform: uppercase;
+        font-family: "Whitney-light";
+        font-size: 22px;
+        letter-spacing: 1.2px;
+        font-weight: bold;
+    }
+    a, a:link, a:visited {
+        color: #fff;    
+    }
+</style>
+
+<main>
+    <div class="button_container">
+       <a href="/contest-form">Enter</a>
+    </div> 
+</main>
+<script>
+    $(document).ready(function() {
+          
+    });
+</script>
