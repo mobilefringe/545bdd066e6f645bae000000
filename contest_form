@@ -16,7 +16,7 @@
         left: 0;
     } 
     .form-container {
-        margin: 310px 96px 0 96px;
+        margin: 315px 96px 0 96px;
     }
     input[type="text"], 
     input[type="email"] {
