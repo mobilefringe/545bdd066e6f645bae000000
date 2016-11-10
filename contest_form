@@ -45,6 +45,9 @@
     span {
         margin-left: 20px;
     }
+    a, a:link, a:visited {
+        color: #060000;
+    }
 </style>
 
 <main>
