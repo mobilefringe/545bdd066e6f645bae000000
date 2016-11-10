@@ -37,7 +37,7 @@
 
 <main>
     <div class="button_container">
-       <a href="">Enter</a>
+       <a href="/contest_form">Enter</a>
     </div> 
 </main>
 <script>
