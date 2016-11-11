@@ -116,13 +116,13 @@
                     </div>
                 </div>
                 <div class="row col-md-12">
-                    <input type="checkbox" id="cbox1" value="first_checkbox"><span></span><label for="cbox1"> I agree to receive newsletters from Southcentre Mall</label>
+                    <input type="checkbox" id="cbox1" value="first_checkbox"><label for="cbox1"><span></span> I agree to receive newsletters from Southcentre Mall</label>
                 </div>
                 <div class="row col-md-12">    
-                    <input type="checkbox" id="cbox2" value="second_checkbox"><span></span><label for="cbox2"> I agree to receive communications from Southcentre Mall. You can unsubscribe at anytime. For more details about personal data privacy, please read our Privacy Policy or contact us at: 100 Anderson Road SE Calgary, Alberta, Canada T2J 3V1</label>
+                    <input type="checkbox" id="cbox2" value="second_checkbox"><label for="cbox2"><span></span> I agree to receive communications from Southcentre Mall. You can unsubscribe at anytime. For more details about personal data privacy, please read our Privacy Policy or contact us at: 100 Anderson Road SE Calgary, Alberta, Canada T2J 3V1</label>
                 </div>
                 <div class="row col-md-12">
-                    <input type="checkbox" id="cbox3" value="third_checkbox"><span></span><label for="cbox3"> I agree to receive communications from Fairmont Jasper Park Lodge</label>
+                    <input type="checkbox" id="cbox3" value="third_checkbox"><label for="cbox3"><span></span> I agree to receive communications from Fairmont Jasper Park Lodge</label>
                 </div>    
                 <div class="row col-md-12">    
                     <p style="margin-bottom: 10px;">*mandatory<span><a href="">Rules & Regulations</a></span></p>
