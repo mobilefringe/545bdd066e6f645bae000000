@@ -3,15 +3,23 @@
 
 <head>
     <title>Rocky Mountain Escape for 8!</title>
+    <!-- Bootstrap -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link href="http://preview-southcentre.codecloudapp.com/application.css" rel="stylesheet">
+    <!-- cookie jqeury -->
+
+
+
 <style>
-    body{
-        margin:0;
-    }
+
     main {
         width: 100vw;
         height: calc(100vh - 25px);
         background: url("http://codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000/image/jpeg/1478724872000/contest_landing.jpg");
-        background-size: 100% calc(100vh - 20px);   
+        background-size: 100% calc(100vh - 25px);   
     } 
     .button_container {
         position: absolute;
