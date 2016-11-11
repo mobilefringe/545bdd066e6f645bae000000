@@ -14,11 +14,9 @@
         }
         main {
             width: 100vw;
-            height: 100vh;
-            background: url("//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000/image/jpeg/1478725151000/contest_form.jpg");
-            position: absolute;
-            top: 0;
-            left: 0;
+            height: calc(100vh - 23px);
+            background: url("http://codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000/image/jpeg/1478724872000/contest_landing.jpg");
+            background-size: 100% calc(100vh - 23px);   
             font-family: "Whitney-light";
         } 
         .col-md-6,
