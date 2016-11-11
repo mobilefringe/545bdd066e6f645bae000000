@@ -147,7 +147,7 @@
             $('#contest_form').submit(function(e){
                 e.preventDefault();
                 $.post("https://southcentre.mallmaverick.com/newsletter_no_captcha", $(this).serialize(), function(data){
-                   console.log(data) 
+                   window.location= "/contest-thank-you"
                 });
             })
             
