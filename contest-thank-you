@@ -1,42 +1,49 @@
-<style>
-    header {
-        display: none;
-    }
-    .container {
-        padding: 0;
-        margin: 0;
-        position: relative;
-    }
-    main {
-        width: 100vw;
-        height: calc(100vh - 23px);
-        background: url("//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000/image/jpeg/1478725196000/contest_thankyou.jpg");
-        background-size: 100% calc(100vh - 23px);  
-   } 
-   .button_container {
-        position: absolute;
-        bottom: 284px;
-        left: 404px;
-    }
-    a {
-        padding: 12px 38px;
-        background: #060000;
-        text-transform: uppercase;
-        font-family: "Whitney-light";
-        font-size: 22px;
-        letter-spacing: 1.2px;
-        font-weight: bold;
-    }
-    a, a:link, a:visited {
-        color: #fff;    
-    }
-</style>
-
-<main>
-    <div class="button_container">
-       <a href="/contest-landing-page">Start Over</a>
-    </div> 
-</main>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Rocky Mountain Escape for 8!</title>
+    <link href="http://preview-southcentre.codecloudapp.com/application.css" rel="stylesheet">
+    <style>
+        header {
+            display: none;
+        }
+        .container {
+            padding: 0;
+            margin: 0;
+            position: relative;
+        }
+        main {
+            width: 100vw;
+            height: calc(100vh - 23px);
+            background: url("//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000/image/jpeg/1478725196000/contest_thankyou.jpg");
+            background-size: 100% calc(100vh - 23px);  
+       } 
+       .button_container {
+            position: absolute;
+            bottom: 284px;
+            left: 404px;
+        }
+        a {
+            padding: 12px 38px;
+            background: #060000;
+            text-transform: uppercase;
+            font-family: "Whitney-light";
+            font-size: 22px;
+            letter-spacing: 1.2px;
+            font-weight: bold;
+        }
+        a, a:link, a:visited {
+            color: #fff;    
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="button_container">
+           <a href="/contest-landing-page">Start Over</a>
+        </div> 
+    </main>
+</body>
 <script>
     $(document).ready(function() {
           
