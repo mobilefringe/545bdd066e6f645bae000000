@@ -154,7 +154,7 @@
                     $("#users_email").focus();
                     return false;
                 } else if ($("#cbox2").prop("checked") != true){
-                    alert("Please agree to receive communications from Southcentre Mall before submitting the contest form.");
+                    alert("Please agree to the Terms & Conditions and Privacy Policy before submitting the contest form.");
                     $("cbox2").focus();
                     return false;
                 }
