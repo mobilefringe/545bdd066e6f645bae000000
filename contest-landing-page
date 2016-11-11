@@ -36,7 +36,7 @@
 <body>
     <main>
         <div class="button_container">
-           <a href="/contest-landing-page">Start Over</a>
+           <a href="/contest-form">Start</a>
         </div> 
     </main>
 </body>
