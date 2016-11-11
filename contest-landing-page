@@ -45,9 +45,6 @@
 </head>
 <body>
     <main>
-        <div class="button_container">
-           <a href="/contest-form">Enter</a>
-        </div> 
     </main>
     <script>
         $(document).ready(function() {
