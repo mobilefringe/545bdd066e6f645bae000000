@@ -112,7 +112,7 @@
                     </div>
                     <div class="col-md-6">
                         <input type="text" name="contest[last_name]" placeholder="Last Name">
-                        <input type="text" name="contest[postalCode]" placeholder="Postal Code">    
+                        <input type="text" name="contest[postal_code]" placeholder="Postal Code">    
                     </div>
                 </div>
                 <div class="row col-md-12">
