@@ -104,7 +104,7 @@
 </head>
 <body>
     <main>
-        <form action="/newsletter/">
+        <form action="https://southcentre.mallmaverick.com/newsletter_no_captcha">
             <div class="form-container">
                 <div calss = "row">
                     <div class="col-md-6">
