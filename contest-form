@@ -148,14 +148,6 @@
             
             $('#contest_form').submit(function(e){
                 e.preventDefault();
-                validateForm();
-                
-                $.post("https://southcentre.mallmaverick.com/newsletter_no_captcha", $(this).serialize(), function(data){
-                   window.location= "/contest-thank-you"
-                });
-            })
-            
-            function validateForm() {
                 var email = $("#users_email").val();
                 
                 if ($("#users_email").val() == "") {
@@ -167,7 +159,26 @@
                     $("cbox2").focus();
                     return false;
                 }
-            }
+                else {
+                    $.post("https://southcentre.mallmaverick.com/newsletter_no_captcha", $(this).serialize(), function(data){
+                   window.location= "/contest-thank-you"    
+                    });
+                }
+            })
+            
+            // function validateForm() {
+            //     var email = $("#users_email").val();
+                
+            //     if ($("#users_email").val() == "") {
+            //         alert("Please enter your email address!");
+            //         $("#users_email").focus();
+            //         return false;
+            //     } else if ($("#cbox2").prop("checked") != true){
+            //         alert("Please agree to receive communications from Southcentre Mall before submitting the contest form.");
+            //         $("cbox2").focus();
+            //         return false;
+            //     }
+            // }
         });
     </script>
 </body>
