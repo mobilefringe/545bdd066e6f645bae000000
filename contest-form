@@ -137,7 +137,7 @@
                     <label for="cbox3"><input type="checkbox" id="cbox3" name="contest[get_vendor_info]" value="true"><span></span> I agree to receive communications from Fairmont Jasper Park Lodge</label>
                 </div>    
                 <div class="row col-md-12">    
-                    <p style="margin-bottom: 10px;">*mandatory<span class="space"></span><a href="http://mallmaverick.cdn.speedyrails.net/system/site_images/photos/000/013/701/original/Oxford_Privacy_Statement_(2014_11_06).pdf?1445627232">Rules & Regulations</a></p>
+                    <p style="margin-bottom: 10px;">*mandatory<span class="space"></span><a href="//mallmaverick.cdn.speedyrails.net/system/site_images/photos/000/013/701/original/Oxford_Privacy_Statement_(2014_11_06).pdf?1445627232">Rules & Regulations</a></p>
                 </div>
                 <div class="row col-md-12">
                     <input class="btn btn-primary" name="commit" type="submit" value="Submit">
