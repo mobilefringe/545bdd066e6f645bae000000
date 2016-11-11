@@ -30,11 +30,10 @@
 <style>
     
     main {
-        width: 100vw;
-        height: 100vh;
-        background: url("http://codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000/image/jpeg/1478724872000/contest_landing.jpg");
-        background-size: cover;
-        
+     width: 100vw;
+height: calc(100vh - 25px);
+background: url("http://codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000/image/jpeg/1478724872000/contest_landing.jpg");
+background-size: 100% calc(100vh - 25px);   
    } 
    
 </style>
