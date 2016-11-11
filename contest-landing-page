@@ -2,40 +2,32 @@
 <html lang="en">
 
 <head>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="{{meta_description}}">
-    <meta name="keywords" content="{{meta_keywords}}">
-    <meta name="author" content="">
-
-    <title>{{meta_title}}</title>
-
-    <!-- jQuery Version 1.11.0 -->
-    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.8.1/mustache.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.3/moment.min.js"></script>
-    
-    <!-- Bootstrap -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
-    
-    <!-- Custom CSS -->
-    <link href="http://preview-southcentre.codecloudapp.com/application.css" rel="stylesheet">
-    <!-- cookie jqeury -->
-
-
-
+    <title>Rocky Mountain Escape for 8!</title>
 <style>
-    
+
     main {
-     width: 100vw;
-height: calc(100vh - 25px);
-background: url("http://codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000/image/jpeg/1478724872000/contest_landing.jpg");
-background-size: 100% calc(100vh - 25px);   
-   } 
-   
+        width: 100vw;
+        height: calc(100vh - 25px);
+        background: url("http://codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000/image/jpeg/1478724872000/contest_landing.jpg");
+        background-size: 100% calc(100vh - 25px);   
+    } 
+    .button_container {
+        position: absolute;
+        bottom: 284px;
+        left: 404px;
+    }
+    a {
+        padding: 12px 38px;
+        background: #060000;
+        text-transform: uppercase;
+        font-family: "Whitney-light";
+        font-size: 22px;
+        letter-spacing: 1.2px;
+        font-weight: bold;
+    }
+    a, a:link, a:visited {
+        color: #fff;    
+    }
 </style>
 </head>
 <body>
