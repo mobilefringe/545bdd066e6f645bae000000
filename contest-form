@@ -144,12 +144,13 @@
     </main>
     <script>
         $(document).ready(function(e){
+            validateForm();
+            
             $('#contest_form').submit(function(e){
                 e.preventDefault();
                 $.post("https://southcentre.mallmaverick.com/newsletter_no_captcha", $(this).serialize(), function(data){
                    window.location= "/contest-thank-you"
                 });
-                validateForm();
             })
             
             function validateForm() {
