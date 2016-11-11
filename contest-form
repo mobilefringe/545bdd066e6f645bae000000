@@ -145,7 +145,6 @@
     <script>
         $(document).ready(function(e){
             
-            
             $('#contest_form').submit(function(e){
                 e.preventDefault();
                 var email = $("#users_email").val();
@@ -165,20 +164,6 @@
                     });
                 }
             })
-            
-            // function validateForm() {
-            //     var email = $("#users_email").val();
-                
-            //     if ($("#users_email").val() == "") {
-            //         alert("Please enter your email address!");
-            //         $("#users_email").focus();
-            //         return false;
-            //     } else if ($("#cbox2").prop("checked") != true){
-            //         alert("Please agree to receive communications from Southcentre Mall before submitting the contest form.");
-            //         $("cbox2").focus();
-            //         return false;
-            //     }
-            // }
         });
     </script>
 </body>
