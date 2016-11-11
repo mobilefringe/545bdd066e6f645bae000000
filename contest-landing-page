@@ -35,11 +35,9 @@
 </head>
 <body>
     <main>
+        <div class="button_container">
+           <a href="/contest-landing-page">Start Over</a>
+        </div> 
     </main>
-    <script>
-        $(document).ready(function() {
-              
-        });
-    </script>
 </body>
 </html>
