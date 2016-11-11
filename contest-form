@@ -1,138 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
     <title>Rocky Mountain Escape for 8!</title>
     <link href="http://preview-southcentre.codecloudapp.com/application.css" rel="stylesheet">
-
-<style>
-    header {
-        display: none;
-    }
-    .container {
-        padding: 0;
-        margin: 0;
-        position: relative;
-    }
-    main {
-        width: 100vw;
-        height: 100vh;
-        background: url("//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000/image/jpeg/1478725151000/contest_form.jpg");
-        position: absolute;
-        top: 0;
-        left: 0;
-        font-family: "Whitney-light";
-    } 
-    .col-md-6,
-    .col-md-12 {
-        padding-right: 7.5px;
-        padding-left: 7.5px;
-    }
-    .form-container {
-        margin: 312px 87.5px 0 87.5px;
-    }
-    input[type="text"], 
-    input[type="email"] {
-        margin-bottom: 25px;
-        padding: 0 20px;
-        height: 45px;
-        background: transparent;
-        border: 1px solid #060000;
-        font-size: 21px;
-        font-family: "Whitney-light";
-        color: #060000;
-    }
-    input[type="text"]:hover, 
-    input[type="email"]:hover {
-        background: #fafafa;
-        border-color: #060000;
-        outline: none;
-    }
-    ::-webkit-input-placeholder {
-        color: #060000; 
-        font-family: "Whitney-light";
-    }
-    input[type="checkbox"] {
-        display:none;
-    }
-    input[type=checkbox] + span {
-        margin-right: 20px;
-        float: left;
-    }
-    input[type=checkbox] + span:before {
-        display: inline-block;
-    }
-    input[type=checkbox] + span:before { 
-        content: "\2610"; 
-        font-size: 15px;
+    <style>
+        header {
+            display: none;
+        }
+        .container {
+            padding: 0;
+            margin: 0;
+            position: relative;
+        }
+        main {
+            width: 100vw;
+            height: 100vh;
+            background: url("//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000/image/jpeg/1478725151000/contest_form.jpg");
+            position: absolute;
+            top: 0;
+            left: 0;
+            font-family: "Whitney-light";
+        } 
+        .col-md-6,
+        .col-md-12 {
+            padding-right: 7.5px;
+            padding-left: 7.5px;
+        }
+        .form-container {
+            margin: 312px 87.5px 0 87.5px;
+        }
+        input[type="text"], 
+        input[type="email"] {
+            margin-bottom: 25px;
+            padding: 0 20px;
+            height: 45px;
+            background: transparent;
+            border: 1px solid #060000;
+            font-size: 21px;
+            font-family: "Whitney-light";
+            color: #060000;
+        }
+        input[type="text"]:hover, 
+        input[type="email"]:hover {
+            background: #fafafa;
+            border-color: #060000;
+            outline: none;
+        }
+        ::-webkit-input-placeholder {
+            color: #060000; 
+            font-family: "Whitney-light";
+        }
+        input[type="checkbox"] {
+            display:none;
+        }
+        input[type=checkbox] + span {
+            margin-right: 20px;
+            float: left;
+        }
+        input[type=checkbox] + span:before {
+            display: inline-block;
+        }
+        input[type=checkbox] + span:before { 
+            content: "\2610"; 
+            font-size: 15px;
+            
+        } /* unchecked icon */
+        input[type=checkbox] + span:before { 
+            letter-spacing: 5px;
+            font-size: 24px;
+            
+        } /* space between checkbox and label */
         
-    } /* unchecked icon */
-    input[type=checkbox] + span:before { 
-        letter-spacing: 5px;
-        font-size: 24px;
+        input[type=checkbox]:checked + span:before { 
+            content: "\2612"; 
+            
+        } /* checked icon */
         
-    } /* space between checkbox and label */
+        label {
+            margin-bottom: 15px;
+            font-size: 15px;
+        }
     
-    input[type=checkbox]:checked + span:before { 
-        content: "\2612"; 
-        
-    } /* checked icon */
-    
-    label {
-        margin-bottom: 15px;
-        font-size: 15px;
-    }
-
-    input[type="submit"] {
-        padding: 8px 60px;
-        background: #060000;
-        text-transform: uppercase;
-        font-family: "Whitney-light";
-        font-size: 22px;
-        letter-spacing: 1.2px;
-        font-weight: bold;
-    }
-    p {
-        margin-right: 20px;
-        margin-bottom: 25px;
-        font-size: 16px;
-    }
-    a, a:link, a:visited {
-        color: #060000;
-    }
-</style>
-
-<main>
-    <form action="/newsletter/">
-        <div class="form-container">
-            <div calss = "row">
-                <div class="col-md-6">
-                    <input type="text" name="contest[first_name]" placeholder="First Name">
-                    <input type="email" name="contest[email]" placeholder="Email*">
+        input[type="submit"] {
+            padding: 8px 60px;
+            background: #060000;
+            text-transform: uppercase;
+            font-family: "Whitney-light";
+            font-size: 22px;
+            letter-spacing: 1.2px;
+            font-weight: bold;
+        }
+        p {
+            margin-right: 20px;
+            margin-bottom: 25px;
+            font-size: 16px;
+        }
+        a, a:link, a:visited {
+            color: #060000;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <form action="/newsletter/">
+            <div class="form-container">
+                <div calss = "row">
+                    <div class="col-md-6">
+                        <input type="text" name="contest[first_name]" placeholder="First Name">
+                        <input type="email" name="contest[email]" placeholder="Email*">
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text" name="contest[last_name]" placeholder="Last Name">
+                        <input type="text" name="contest[postalCode]" placeholder="Postal Code">    
+                    </div>
                 </div>
-                <div class="col-md-6">
-                    <input type="text" name="contest[last_name]" placeholder="Last Name">
-                    <input type="text" name="contest[postalCode]" placeholder="Postal Code">    
+                <div class="row col-md-12">
+                    <input type="checkbox" id="cbox1" value="first_checkbox"><span></span><label for="cbox1"> I agree to receive newsletters from Southcentre Mall</label>
+                </div>
+                <div class="row col-md-12">    
+                    <input type="checkbox" id="cbox2" value="second_checkbox"><span></span><label for="cbox2"> I agree to receive communications from Southcentre Mall. You can unsubscribe at anytime. For more details about personal data privacy, please read our Privacy Policy or contact us at: 100 Anderson Road SE Calgary, Alberta, Canada T2J 3V1</label>
+                </div>
+                <div class="row col-md-12">
+                    <input type="checkbox" id="cbox3" value="third_checkbox"><span></span><label for="cbox3"> I agree to receive communications from Fairmont Jasper Park Lodge</label>
+                </div>    
+                <div class="row col-md-12">    
+                    <p>*mandatory<span><a href="">Rules & Regulations</a></span></p>
+                </div>
+                <div class="row col-md-12">
+                    <input class="btn btn-primary" name="commit" type="submit" value="Submit">
                 </div>
             </div>
-            <div class="row col-md-12">
-                <input type="checkbox" id="cbox1" value="first_checkbox"><span></span><label for="cbox1"> I agree to receive newsletters from Southcentre Mall</label>
-            </div>
-            <div class="row col-md-12">    
-                <input type="checkbox" id="cbox2" value="second_checkbox"><span></span><label for="cbox2"> I agree to receive communications from Southcentre Mall. You can unsubscribe at anytime. For more details about personal data privacy, please read our Privacy Policy or contact us at: 100 Anderson Road SE Calgary, Alberta, Canada T2J 3V1</label>
-            </div>
-            <div class="row col-md-12">
-                <input type="checkbox" id="cbox3" value="third_checkbox"><span></span><label for="cbox3"> I agree to receive communications from Fairmont Jasper Park Lodge</label>
-            </div>    
-            <div class="row col-md-12">    
-                <p>*mandatory<span><a href="">Rules & Regulations</a></span></p>
-            </div>
-            <div class="row col-md-12">
-                <input class="btn btn-primary" name="commit" type="submit" value="Submit">
-            </div>
-        </div>
-    </form>
-</main>
+        </form>
+    </main>
 </body>
 </html>
