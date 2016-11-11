@@ -1,3 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{meta_description}}">
+    <meta name="keywords" content="{{meta_keywords}}">
+    <meta name="author" content="">
+
+    <title>{{meta_title}}</title>
+
+    <!-- jQuery Version 1.11.0 -->
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.8.1/mustache.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.3/moment.min.js"></script>
+    
+    <!-- Bootstrap -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link href="/application.css" rel="stylesheet">
+    <!-- cookie jqeury -->
+    <script src="http://kodekloud.s3.amazonaws.com/sites/5438407c6e6f64462d020000/601617fe9ab691b1b62a66ac3ca3e8b7/jquery.cookie.js"></script>
+    <script src="/holiday_popup.js"></script>
+    <script src="/pinit.js"></script>
+    <link href="/holiday.css" rel="stylesheet">
+
+
+
 <style>
     header {
         display: none;
@@ -32,14 +65,16 @@
         color: #fff;    
     }
 </style>
-
-<main>
-    <div class="button_container">
-       <a href="/contest-form">Enter</a>
-    </div> 
-</main>
-<script>
-    $(document).ready(function() {
-          
-    });
-</script>
+</head>
+<body>
+    <main>
+        <div class="button_container">
+           <a href="/contest-form">Enter</a>
+        </div> 
+    </main>
+    <script>
+        $(document).ready(function() {
+              
+        });
+    </script>
+</body>
