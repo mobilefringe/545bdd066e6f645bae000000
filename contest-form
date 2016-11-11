@@ -118,7 +118,7 @@
                 </div>
                 <div calss = "row">
                     <div class="col-md-6">
-                        <input type="email" name="contest[email]" placeholder="Email*">
+                        <input type="email" name="contest[email]" placeholder="Email*" id="users_email">
                     </div>
                     <div class="col-md-6">
                         <input type="text" name="contest[postal_code]" placeholder="Postal Code">  
@@ -149,9 +149,23 @@
                 $.post("https://southcentre.mallmaverick.com/newsletter_no_captcha", $(this).serialize(), function(data){
                    window.location= "/contest-thank-you"
                 });
+                validateForm();
             })
             
-        })
+            function validateForm() {
+                var email = $("#users_email").val();
+                
+                if ($("#users_email").val() == "") {
+                    alert("Please enter your email address!");
+                    $("#users_email").focus();
+                    return false;
+                } else if ($("#cbox2").prop("checked") != true){
+                    alert("Please agree to receive communications from Southcentre Mall before submitting the contest form.");
+                    $("cbox2").focus();
+                    return false;
+                }
+            }
+        });
     </script>
 </body>
 </html>
