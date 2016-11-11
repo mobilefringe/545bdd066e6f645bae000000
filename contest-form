@@ -28,7 +28,7 @@
             padding-left: 7.5px;
         }
         .form-container {
-            margin: 312px 87.5px 0 87.5px;
+            margin: 290px 87.5px 0 87.5px;
         }
         input[type="text"], 
         input[type="email"] {
