@@ -17,6 +17,9 @@
             height: calc(100vh - 23px);
             background: url("http://codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000/image/jpeg/1478724872000/contest_landing.jpg");
             background-size: 100% calc(100vh - 23px);   
+            position: absolute;
+            top: 0;
+            left: 0;
             font-family: "Whitney-light";
         } 
         .col-md-6,
