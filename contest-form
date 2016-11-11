@@ -50,9 +50,7 @@
         ::-webkit-input-placeholder {
             color: #060000; 
             font-family: "Whitney-light";
-        }
-        input[type="checkbox"] {
-            display:none;
+        
         }
         input[type=checkbox] + span {
             margin-right: 20px;
