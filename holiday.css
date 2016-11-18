@@ -50,7 +50,7 @@ h1 .current_item {
     float:left;
 }
   .gray-long{
-   background-image: url("http://kodekloud.s3.amazonaws.com/sites/545bdd066e6f645bae000000/6fa234292be32f532b2821a784dc4c8b/dottedgrayLong.png");
+   background-image: url("//kodekloud.s3.amazonaws.com/sites/545bdd066e6f645bae000000/6fa234292be32f532b2821a784dc4c8b/dottedgrayLong.png");
     background-position: center center;
     background-repeat: no-repeat;
     height: 3px;
