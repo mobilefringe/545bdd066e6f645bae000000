@@ -20,7 +20,12 @@
     .form_container {
         width: 75%;
     }
-    .col-md-6
+    .name_inputs .col-md-6:first-child {
+        padding-right: 11px;
+    }
+    .name_inputs .col-md-6:last-child {
+        padding-left: 11px;
+    }
     #email, #fname, #lname, #postal_code {
         padding: 10px 0 10px 10px;
         height: 50px;
