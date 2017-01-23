@@ -23,7 +23,7 @@
     #email, #fname, #lname, #postal_code {
         padding: 10px 0 10px 10px;
         height: 50px;
-        font-family: "Whitney-Medium";
+        /*font-family: "Whitney-Medium";*/
         font-size: 18px;
     }
     label {
