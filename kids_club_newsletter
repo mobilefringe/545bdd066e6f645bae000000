@@ -78,7 +78,7 @@
             </div>
             <div class="row-fluid">
                 <div class="col-md-4">
-                    <input type="Text" id="postal_code" name="postalcode" placeholder="Postal Code*" value=""required data-msg="Please enter your postal code">
+                    <input type="Text" id="postal_code" name="postalcode" placeholder="Postal Code*" value="" required data-msg="Please enter your postal code">
                 </div>
                 <div class="col-md-8">
                     <button type="submit" class="submit pull-left">Subscribe</button>
