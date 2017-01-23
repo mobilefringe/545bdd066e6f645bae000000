@@ -16,9 +16,9 @@
         width: 75%;
     }
     #email, #fname, #lname, #postal_code {
-        font-size: 18px;
         padding: 10px 0 10px 10px;
         height: 50px;
+        font-size: 18px;
     }
     label {
         text-align: left;
