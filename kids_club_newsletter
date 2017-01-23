@@ -8,7 +8,9 @@
     .newsletter_logo {
         margin: 0 auto;
         text-align: center;
-        
+    }
+    .newsletter_logo img {
+        max-width: 200px;
     }
 </style>
 <section class="body">
