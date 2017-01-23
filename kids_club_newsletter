@@ -10,6 +10,9 @@
         background-size: contain;
         /*font-family: "Whitney-Medium";*/
     }
+    .error {
+        color:#F00
+    }
     .newsletter_logo {
         margin: 50px 0;
         text-align: center;
@@ -132,7 +135,8 @@
             </div>
         </div>
     </form>
-
+<!-- End eFlyerMaker form -->
+</section>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.min.js"></script>
 
@@ -141,8 +145,5 @@ $("#sub_form").validate();
 </script>
 
 <style>
-.error{color:#F00}
-</style>
 
-<!-- End eFlyerMaker form -->
-</section>
+</style>
