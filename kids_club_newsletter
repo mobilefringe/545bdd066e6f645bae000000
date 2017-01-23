@@ -51,6 +51,7 @@
     label {
         margin-right: 200px;
         text-align: left;
+        font-family: "Whitney-Medium";
         
     }
 </style>
