@@ -36,11 +36,7 @@
                 <input type="email" id="email" name="email" placeholder="Enter your email address*" value="" size="40" required data-msg="Please enter your email" data-rule-email="true" data-msg-email="Please enter a valid email address">
             </div>
         </div>
-        <!--<tr>-->
-        <!--    <td colspan="1">First Name*</td>-->
-        <!--    <td colspan="1">Last Name*</td>-->
-        <!--</tr>-->
-        <div>
+        <div class="row_fluid">
             <div class="col-md-6">
                 <input type="Text" id="fname" name="firstname" placeholder="First Name" value="" required data-msg="Please enter your first name">
             </div>
