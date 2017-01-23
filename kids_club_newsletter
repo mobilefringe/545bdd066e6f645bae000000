@@ -47,14 +47,13 @@
             </td>
         </tr>
         <tr>
-                <td>
-                    Postal Code*
-                </td>
-            </tr>
+            <td>Postal Code*</td>
+        </tr>
         <tr>
             <td>
                 <input type="Text" id="postal_code" name="postalcode" placeholder="Postal code" value=""required data-msg="Please enter your postal code">
             </td>
+            <td colspan="2"><button type="submit">Subscribe</button></td>
         </tr>
         <tr>
             <td colspan="2"> </td>
