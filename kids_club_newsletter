@@ -80,10 +80,10 @@
             </div>
     
             <div class="row">
-                <div class="col-md-1">
+                <div class="col-md-2">
                     <input type="checkbox" name="publication_agreement" id="publication_agreement" value="1" required data-msg="Please agree to received newsletters from us">
                 </div>
-                <div class="col-md-11">
+                <div class="col-md-10">
                     <label for="publication_agreement">I agree to receive Kids Club newsletters from Southcentre Mall.</label>
                 </div>
             </div>
