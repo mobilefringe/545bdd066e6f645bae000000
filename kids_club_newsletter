@@ -69,7 +69,7 @@
                 </div>
             </div>
             <div class=line_break>&nbsp;</div>
-            <div class="row-fluid name_inputs">
+            <div class="row name_inputs">
                 <div class="col-md-6">
                     <input type="Text" id="fname" name="firstname" placeholder="First Name*" value="" required data-msg="Please enter your first name">
                 </div>
@@ -77,7 +77,8 @@
                     <input type="Text" id="lname" name="lastname" placeholder="Last Name*" value="" required data-msg="Please enter your last name">
                 </div>
             </div>
-            <div class="row-fluid">
+            <div class=line_break>&nbsp;</div>
+            <div class="row">
                 <div class="col-md-4">
                     <input type="Text" id="postal_code" name="postalcode" placeholder="Postal Code*" value="" required data-msg="Please enter your postal code">
                 </div>
