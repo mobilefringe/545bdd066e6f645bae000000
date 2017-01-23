@@ -30,7 +30,7 @@
     <form id="sub_form" method="post" action="https://campaign.eflyermaker.com">
         <input type="hidden" name="action" value="Campaigns_subscribe" />
         <input type="hidden" name="p" value="53616c7465645f5f5baab24a14e961d02d3711cb9e48743b" />
-    <div align="center">
+    <div class="form_container" align="center">
         <!--<tr>-->
         <!--    <td colspan="2"><b>Email*</b></td>-->
         <!--</tr>-->
@@ -62,12 +62,7 @@
                 <button type="submit">Subscribe</button>
             </div>
         </div>
-        <!--<tr>-->
-        <!--    <td colspan="2"> </td>-->
-        <!--</tr>-->
-        <!--<tr>-->
-        <!--    <td colspan="2"> </td>-->
-        <!--</tr>-->
+
         <div class="row-fluid">
             <div width="20">
                 <input type="checkbox" name="publication_agreement" id="publication_agreement" value="1" required data-msg="Please agree to received newsletters from us">
