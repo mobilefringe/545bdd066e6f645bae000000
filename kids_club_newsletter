@@ -1,3 +1,8 @@
+<style>
+    .body {
+        background: url('//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000/image/jpeg/1484941524000/kc_bg.jpg');
+    }
+</style>
 <section class="body">
     <!-- Begin eFlyerMaker Signup form -->
 
