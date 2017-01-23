@@ -72,7 +72,7 @@
                     <input type="checkbox" name="publication_agreement" id="publication_agreement" value="1" required data-msg="Please agree to received newsletters from us">
                 </div>
                 <div class="col-md-11">
-                    <label for="publication_agreement">I agree to receive newsletters from Southcentre Mall.</label>
+                    <label for="publication_agreement">I agree to receive Kids Club newsletters from Southcentre Mall.</label>
                 </div>
             </div>
             <div class="row-fluid">
