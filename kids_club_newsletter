@@ -46,7 +46,7 @@
         font-weight: bold;
     }
     label {
-        /*margin-right: 290px;*/
+        margin-right: 200px;
         text-align: left;
         
     }
