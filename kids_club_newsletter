@@ -66,7 +66,7 @@
                     <input type="Text" id="postal_code" name="postalcode" placeholder="Postal Code*" value=""required data-msg="Please enter your postal code">
                 </div>
                 <div class="col-md-8">
-                    <button type="submit" class="pull-left">Subscribe</button>
+                    <button type="submit" class="submit pull-left">Subscribe</button>
                 </div>
             </div>
     
