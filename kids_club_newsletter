@@ -35,7 +35,7 @@
         height: 57px;
         font-size: 18px;
     }
-    ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    #email::-webkit-input-placeholder { /* Chrome/Opera/Safari */
       font-family: "Whitney-Medium";
       color: #bada55;
     }
