@@ -47,6 +47,9 @@
         font-size: 18px;
         font-weight: bold;
     }
+    .submit:focus, .submit:hover, .submit:focus {
+        background-color: #60bfd8;
+    }
     label {
         text-align: left;    
         font-family: "Whitney-Medium";
