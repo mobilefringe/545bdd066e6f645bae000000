@@ -15,7 +15,7 @@
     #sub_form {
         margin-top: 100px;
     }
-    #sub_form table {
+    .form_container {
         width: 75%;
     }
     #email, #fname, #lname, #postalcode {
@@ -31,9 +31,6 @@
         <input type="hidden" name="action" value="Campaigns_subscribe" />
         <input type="hidden" name="p" value="53616c7465645f5f5baab24a14e961d02d3711cb9e48743b" />
     <div class="form_container" align="center">
-        <!--<tr>-->
-        <!--    <td colspan="2"><b>Email*</b></td>-->
-        <!--</tr>-->
         <div class="row-fluid">
             <div class="col-md-12">
                 <input type="email" id="email" name="email" placeholder="Enter your email address*" value="" size="40" required data-msg="Please enter your email" data-rule-email="true" data-msg-email="Please enter a valid email address">
