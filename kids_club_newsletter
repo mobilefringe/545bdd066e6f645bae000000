@@ -21,6 +21,9 @@
     #email, #fname, #lname, #postalcode {
         
     }
+    label {
+        text-align: left;
+    }
 </style>
 <section class="body">
     <div class="newsletter_logo">
