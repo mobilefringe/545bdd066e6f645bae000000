@@ -34,6 +34,10 @@
         font-size: 18px;
     }
     .submit {
+        height: 57px;
+        background: #fff;
+        border: 1px solid #333;
+        color: #000;
         text-transform: uppercase;
     }
     label {
