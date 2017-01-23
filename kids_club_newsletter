@@ -6,7 +6,7 @@
         background-size: contain;
     }
     .newsletter_logo {
-        margin: 0 auto;
+        margin: 50px 0;
         text-align: center;
     }
     .newsletter_logo img {
