@@ -97,7 +97,7 @@
                 </div>
             </div>
             
-            <div class="row-fluid">
+            <div class="row">
                 <div class="col-md-1">
                     <input type="checkbox" name="publication_agreement" id="publication_agreement" value="1" required data-msg="Please agree to received newsletters from us">
                 </div>
