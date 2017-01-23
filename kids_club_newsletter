@@ -47,9 +47,12 @@
         font-size: 18px;
         font-weight: bold;
     }
+    label {
+        text-align: left;    
+    }
     .agree {
         margin-right: 200px;
-        text-align: left;
+        
         font-family: "Whitney-Medium";
         
     }
