@@ -1,6 +1,9 @@
 <style>
     .body {
-        background: url('//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000/image/jpeg/1484941524000/kc_bg.jpg');
+        background: url('//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000/image/jpeg/1484941524000/kc_bg.jpg') center center no-repeat;
+        height: 768px;
+        width: 1024px ;
+        
     }
 </style>
 <section class="body">
