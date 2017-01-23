@@ -27,7 +27,7 @@
         padding-left: 11px;
     }
     #email, #fname, #lname, #postal_code {
-        margin-bottom: 30px;
+        margin-bottom: 33px;
         padding: 10px 0 10px 10px;
         height: 50px;
         /*font-family: "Whitney-Medium";*/
