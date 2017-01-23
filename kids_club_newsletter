@@ -85,9 +85,6 @@
                 <input type="hidden" name="subscriber_source" value="eFlyerMaker Subscription Form">
             </td>
         </tr>
-        <tr>
-            <td colspan="2"><button type="submit">Subscribe</button></td>
-        </tr>
     </table>
     </form>
 
