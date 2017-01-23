@@ -80,7 +80,7 @@
                     <label id="error_publication_agreement" for="publication_agreement" generated="true" class="text-danger error"></label>
                 </div>
             </div>
-            <div class="row_fluid">
+            <div class="row-fluid">
                 <div class="col-md-1">
                     <input type="checkbox" name="consent_policy" id="consent_policy" value="1" required data-msg="Please confirm your consent to receive electronic communications from us"> 
                 </div>
