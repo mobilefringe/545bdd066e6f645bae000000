@@ -5,6 +5,11 @@
         background: url('//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000/image/jpeg/1484941524000/kc_bg.jpg') center center no-repeat;
         background-size: contain;
     }
+    .newsletter_logo {
+        margin: 0 auto;
+        text-align: center;
+        
+    }
 </style>
 <section class="body">
     <div class="newsletter_logo">
