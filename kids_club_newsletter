@@ -33,6 +33,9 @@
         /*font-family: "Whitney-Medium";*/
         font-size: 18px;
     }
+    .submit {
+        text-transform: uppercase;
+    }
     label {
         /*margin-right: 290px;*/
         text-align: left;
