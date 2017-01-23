@@ -8,7 +8,7 @@
         height: 768px;
         background: url('//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000/image/jpeg/1484941524000/kc_bg.jpg') center center no-repeat;
         background-size: contain;
-        /*font-family: "Whitney-Medium";*/
+        font-family: "Whitney-Medium";
     }
     .error {
         color:#F00
