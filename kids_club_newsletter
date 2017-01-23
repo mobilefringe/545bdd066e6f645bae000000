@@ -33,7 +33,9 @@
         font-size: 18px;
     }
     label {
+        margin-right: 200px;
         text-align: left;
+        
     }
 </style>
 <section class="body">
