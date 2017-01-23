@@ -33,8 +33,11 @@
         margin-bottom: 33px;
         padding: 10px 0 10px 10px;
         height: 57px;
-        /*font-family: "Whitney-Medium";*/
         font-size: 18px;
+    }
+    ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+      font-family: "Whitney-Medium";
+      color: pink;
     }
     .submit {
         height: 57px;
