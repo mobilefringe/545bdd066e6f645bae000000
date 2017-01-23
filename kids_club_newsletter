@@ -108,7 +108,7 @@
                 <div colspan="2">
                     <input type="hidden" name="subscriber_source" value="eFlyerMaker Subscription Form">
                 </div>
-            </tr>
+            </div>
         </div>
     </form>
 
