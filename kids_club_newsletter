@@ -37,7 +37,7 @@
     }
     ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
       font-family: "Whitney-Medium";
-      color: pink;
+      color: #bada55;
     }
     .submit {
         height: 57px;
