@@ -33,7 +33,7 @@
         padding-left: 11px;
     }
     #email, #fname, #lname, #postal_code {
-        
+        margin-bottom: 5px;
         padding: 10px 0 10px 10px;
         height: 57px;
         font-size: 18px;
