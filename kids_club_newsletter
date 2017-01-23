@@ -51,24 +51,28 @@
                 <input type="Text" id="lname" name="lastname" placeholder="Last Name" value="" required data-msg="Please enter your last name">
             </div>
         </div>
-        <tr>
-            <td>Postal Code*</td>
-        </tr>
-        <tr>
-            <td>
+        <!--<tr>-->
+        <!--    <td>Postal Code*</td>-->
+        <!--</tr>-->
+        <div class="row_fluid">
+            <div class="col-md-6">
                 <input type="Text" id="postal_code" name="postalcode" placeholder="Postal code" value=""required data-msg="Please enter your postal code">
-            </td>
-            <td colspan="2"><button type="submit">Subscribe</button></td>
-        </tr>
-        <tr>
-            <td colspan="2"> </td>
-        </tr>
-        <tr>
-            <td colspan="2"> </td>
-        </tr>
-        <tr>
-            <td width="20"><input type="checkbox" name="publication_agreement" id="publication_agreement" value="1" required data-msg="Please agree to received newsletters from us"></td>
-            <td><label for="publication_agreement">I agree to receive newsletters from Southcentre Mall.</label></td>
+            </div>
+            <div class="col-md-6">
+                <button type="submit">Subscribe</button>
+            </div>
+        </div>
+        <!--<tr>-->
+        <!--    <td colspan="2"> </td>-->
+        <!--</tr>-->
+        <!--<tr>-->
+        <!--    <td colspan="2"> </td>-->
+        <!--</tr>-->
+        <div class="row-fluid">
+            <div width="20">
+                <input type="checkbox" name="publication_agreement" id="publication_agreement" value="1" required data-msg="Please agree to received newsletters from us">
+            </div>
+            <div><label for="publication_agreement">I agree to receive newsletters from Southcentre Mall.</label></td>
         </tr>
         <tr><td colspan="2"><label id="error_publication_agreement" for="publication_agreement" generated="true" class="text-danger error"></label></td></tr>
         <tr>
