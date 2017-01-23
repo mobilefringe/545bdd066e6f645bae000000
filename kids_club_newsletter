@@ -33,7 +33,7 @@
         font-size: 18px;
     }
     label {
-        margin-right: 200px;
+        margin-right: 290px;
         text-align: left;
         
     }
