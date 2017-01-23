@@ -77,6 +77,7 @@
                     <label for="publication_agreement">I agree to receive Kids Club newsletters from Southcentre Mall.</label>
                 </div>
             </div>
+            
             <div class="row-fluid">
                 <div class="col-md-1">
                     <input type="checkbox" name="publication_agreement" id="publication_agreement" value="1" required data-msg="Please agree to received newsletters from us">
@@ -85,6 +86,7 @@
                     <label for="publication_agreement">I agree to receive general interest newsletters from Southcentre Mall.</label>
                 </div>
             </div>
+            
             <div class="row-fluid">
                 <div class="col-md-12">
                     <label id="error_publication_agreement" for="publication_agreement" generated="true" class="text-danger error"></label>
