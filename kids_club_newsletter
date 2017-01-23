@@ -50,7 +50,7 @@
                     <input type="email" id="email" name="email" placeholder="Enter your email address*" value="" size="40" required data-msg="Please enter your email" data-rule-email="true" data-msg-email="Please enter a valid email address">
                 </div>
             </div>
-            <div class="row_fluid name_inputs">
+            <div class="row-fluid name_inputs">
                 <div class="col-md-6">
                     <input type="Text" id="fname" name="firstname" placeholder="First Name*" value="" required data-msg="Please enter your first name">
                 </div>
@@ -58,7 +58,7 @@
                     <input type="Text" id="lname" name="lastname" placeholder="Last Name*" value="" required data-msg="Please enter your last name">
                 </div>
             </div>
-            <div class="row_fluid">
+            <div class="row-fluid">
                 <div class="col-md-4">
                     <input type="Text" id="postal_code" name="postalcode" placeholder="Postal Code*" value=""required data-msg="Please enter your postal code">
                 </div>
