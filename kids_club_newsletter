@@ -36,7 +36,7 @@
         font-size: 18px;
     }
     input[type="email"]::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-      font-family: "Whitney-Medium";
+      font-family: Whitney-Medium;
       color: #bada55;
     }
     .submit {
