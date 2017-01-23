@@ -1,8 +1,10 @@
 <style>
     .body {
-        background: url('//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000/image/jpeg/1484941524000/kc_bg.jpg') center center no-repeat;
         width: 1024px;
         height: 768px;
+        background: url('//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000/image/jpeg/1484941524000/kc_bg.jpg') center center no-repeat;
+        background-size: contain;
+        
         
         
     }
