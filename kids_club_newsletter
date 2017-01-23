@@ -24,7 +24,7 @@
         width: 75%;
     }
     .line_break {
-        margin-bottom: 33px;     
+        height: 33px;     
     }
     .name_inputs .col-md-6:first-child {
         padding-right: 11px;
