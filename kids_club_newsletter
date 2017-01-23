@@ -65,7 +65,7 @@
             </div>
         </div>
         <div class="row_fluid">
-            <div width="20">
+            <div>
                 <input type="checkbox" name="consent_policy" id="consent_policy" value="1" required data-msg="Please confirm your consent to receive electronic communications from us"> 
             </div>
             <div>
