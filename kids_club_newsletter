@@ -79,7 +79,7 @@
                 </div>
             </div>
     
-            <div class="row">
+            <div class="row-fluid">
                 <div class="col-md-1">
                     <input type="checkbox" name="publication_agreement" id="publication_agreement" value="1" required data-msg="Please agree to received newsletters from us">
                 </div>
@@ -88,7 +88,7 @@
                 </div>
             </div>
             
-            <div class="row">
+            <div class="row-fluid">
                 <div class="col-md-1">
                     <input type="checkbox" name="publication_agreement" id="publication_agreement" value="1" required data-msg="Please agree to received newsletters from us">
                 </div>
@@ -97,12 +97,12 @@
                 </div>
             </div>
             
-            <div class="row">
+            <div class="row-fluid">
                 <div class="col-md-12">
                     <label id="error_publication_agreement" for="publication_agreement" generated="true" class="text-danger error"></label>
                 </div>
             </div>
-            <div class="row">
+            <div class="row-fluid">
                 <div class="col-md-1">
                     <input type="checkbox" name="consent_policy" id="consent_policy" value="1" required data-msg="Please confirm your consent to receive electronic communications from us"> 
                 </div>
@@ -112,20 +112,20 @@
                     or contact us: 100 Anderson Road SE Calgary, Alberta, Canada T2J 3V1</label>
                 </div>
             </div>
-            <div class="row">
+            <div class="row-fluid">
                 <div class="col-md-12">
                     <label id="error_policy" for="consent_policy" generated="true" class="text-danger error"></label>
                 </div>
             </div>
-            <div class="row">
+            <div class="row-fluid">
                 <div></div>
             </div>
-            <div class="row">
+            <div class="row-fluid">
                 <div colspan="2">
                     <input type="hidden" name="simple" value="1">
                 </div>
             </div>
-            <div class="row">
+            <div class="row-fluid">
                 <div colspan="2">
                     <input type="hidden" name="subscriber_source" value="eFlyerMaker Subscription Form">
                 </div>
