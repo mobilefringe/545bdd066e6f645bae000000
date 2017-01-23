@@ -44,66 +44,72 @@
     <form id="sub_form" method="post" action="https://campaign.eflyermaker.com">
         <input type="hidden" name="action" value="Campaigns_subscribe" />
         <input type="hidden" name="p" value="53616c7465645f5f5baab24a14e961d02d3711cb9e48743b" />
-    <div class="form_container" align="center">
-        <div class="row-fluid">
-            <div class="col-md-12">
-                <input type="email" id="email" name="email" placeholder="Enter your email address*" value="" size="40" required data-msg="Please enter your email" data-rule-email="true" data-msg-email="Please enter a valid email address">
+        <div class="form_container" align="center">
+            <div class="row-fluid">
+                <div class="col-md-12">
+                    <input type="email" id="email" name="email" placeholder="Enter your email address*" value="" size="40" required data-msg="Please enter your email" data-rule-email="true" data-msg-email="Please enter a valid email address">
+                </div>
             </div>
+            <div class="row_fluid name_inputs">
+                <div class="col-md-6">
+                    <input type="Text" id="fname" name="firstname" placeholder="First Name*" value="" required data-msg="Please enter your first name">
+                </div>
+                <div class="col-md-6">
+                    <input type="Text" id="lname" name="lastname" placeholder="Last Name*" value="" required data-msg="Please enter your last name">
+                </div>
+            </div>
+            <div class="row_fluid">
+                <div class="col-md-4">
+                    <input type="Text" id="postal_code" name="postalcode" placeholder="Postal Code*" value=""required data-msg="Please enter your postal code">
+                </div>
+                <div class="col-md-8">
+                    <button type="submit" class="pull-left">Subscribe</button>
+                </div>
+            </div>
+    
+            <div class="row-fluid">
+                <div class="col-md-1">
+                    <input type="checkbox" name="publication_agreement" id="publication_agreement" value="1" required data-msg="Please agree to received newsletters from us">
+                </div>
+                <div class="col-md-11">
+                    <label for="publication_agreement">I agree to receive newsletters from Southcentre Mall.</label>
+                </div>
+            </div>
+            <div class="row-fluid">
+                <div>
+                    <label id="error_publication_agreement" for="publication_agreement" generated="true" class="text-danger error"></label>
+                </div>
+            </div>
+            <div class="row_fluid">
+                <div class="col-md-1">
+                    <input type="checkbox" name="consent_policy" id="consent_policy" value="1" required data-msg="Please confirm your consent to receive electronic communications from us"> 
+                </div>
+                <div class="col-md-11">
+                    <label for="consent_policy">I agree to receive communications from Southcentre Mall.<br />
+                    You can unsubscribe at anytime.<br />
+                    For more details about personal data privacy, please read or <a href="http://cdn.mallmaverick.com/system/site_images/photos/000/013/701/original/Oxford_Privacy_Statement_(2014_11_06).pdf?1445627232" target="_blank">Privacy Policy</a><br />
+                    or contact us: 100 Anderson Road SE Calgary, Alberta, Canada T2J 3V1</label>
+                </div>
+            </div>
+            <div class="row-fluid">
+                <div class="">
+                    <label id="error_policy" for="consent_policy" generated="true" class="text-danger error"></label>
+                </div>
+            </div>
+            <div class="row-fluid">
+                <div></div>
+            </div>
+            <div class="row-fluid">
+                <div colspan="2">
+                    <input type="hidden" name="simple" value="1">
+                </div>
+            </div>
+            <div class="row-fluid">
+                <div colspan="2">
+                    <input type="hidden" name="subscriber_source" value="eFlyerMaker Subscription Form">
+                </div>
+            </tr>
         </div>
-        <div class="row_fluid name_inputs">
-            <div class="col-md-6">
-                <input type="Text" id="fname" name="firstname" placeholder="First Name*" value="" required data-msg="Please enter your first name">
-            </div>
-            <div class="col-md-6">
-                <input type="Text" id="lname" name="lastname" placeholder="Last Name*" value="" required data-msg="Please enter your last name">
-            </div>
-        </div>
-        <div class="row_fluid">
-            <div class="col-md-4">
-                <input type="Text" id="postal_code" name="postalcode" placeholder="Postal Code*" value=""required data-msg="Please enter your postal code">
-            </div>
-            <div class="col-md-8">
-                <button type="submit" class="pull-left">Subscribe</button>
-            </div>
-        </div>
-
-        <div class="row-fluid">
-            <div class="col-md-1">
-                <input type="checkbox" name="publication_agreement" id="publication_agreement" value="1" required data-msg="Please agree to received newsletters from us">
-            </div>
-            <div class="col-md-11">
-                <label for="publication_agreement">I agree to receive newsletters from Southcentre Mall.</label>
-            </div>
-        </div>
-        <div class="row-fluid">
-            <div>
-                <label id="error_publication_agreement" for="publication_agreement" generated="true" class="text-danger error"></label>
-            </div>
-        </div>
-        <div class="row_fluid">
-            <div class="col-md-1">
-                <input type="checkbox" name="consent_policy" id="consent_policy" value="1" required data-msg="Please confirm your consent to receive electronic communications from us"> 
-            </div>
-            <div class="col-md-11">
-                <label for="consent_policy">I agree to receive communications from Southcentre Mall.<br />
-                You can unsubscribe at anytime.<br />
-                For more details about personal data privacy, please read or <a href="http://cdn.mallmaverick.com/system/site_images/photos/000/013/701/original/Oxford_Privacy_Statement_(2014_11_06).pdf?1445627232" target="_blank">Privacy Policy</a><br />
-                or contact us: 100 Anderson Road SE Calgary, Alberta, Canada T2J 3V1</label>
-            </div>
-        </div>
-        <tr><td colspan="2"><label id="error_policy" for="consent_policy" generated="true" class="text-danger error"></label></td></tr>
-        <tr>
-            <td colspan="2"> </td>
-        </tr>
-        <tr>
-            <td colspan="2"><input type="hidden" name="simple" value="1"></td>
-        </tr>
-        <tr>
-            <td colspan="2">
-                <input type="hidden" name="subscriber_source" value="eFlyerMaker Subscription Form">
-            </td>
-        </tr>
-    </div>
     </form>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
