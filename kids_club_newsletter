@@ -34,7 +34,7 @@
         font-size: 18px;
     }
     label {
-        margin-right: 290px;
+        /*margin-right: 290px;*/
         text-align: left;
         
     }
