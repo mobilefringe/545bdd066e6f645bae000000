@@ -49,12 +49,10 @@
     }
     label {
         text-align: left;    
+        font-family: "Whitney-Medium";
     }
     .agree {
         margin-right: 200px;
-        
-        font-family: "Whitney-Medium";
-        
     }
 </style>
 <section class="body">
