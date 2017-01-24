@@ -53,6 +53,7 @@
         .submit {
             padding: 1px 17px 0 17px;
             height: 59px;
+            width: 149px;
             background: #fff;
             border: 1px solid #999;
             color: #000;
