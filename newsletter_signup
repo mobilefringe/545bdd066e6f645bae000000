@@ -180,10 +180,9 @@
     <script>
     // $("#sub_form").validate();
     
-    $('.submit').click(function(e) {
-        // e.preventDefault();
+    $('#sub_form').submit(function(e) {
         $("#sub_form").validate();
-        // location.reload();
+        location.reload();
     });
     </script>
 </body>
