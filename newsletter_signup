@@ -57,7 +57,7 @@
     .col-md-8 {
         padding-left: 12px;
     }
-    ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    ::placeholder, ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
         font-family: "Whitney Medium", sans-serif;
         /*font-family: 'Open Sans Condensed', sans-serif;*/
     }
