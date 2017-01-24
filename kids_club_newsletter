@@ -31,7 +31,7 @@
         height: 28px;     
     }
     ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-      font-family: Whitney-Medium;
+    
     }
     .name_inputs .col-md-6:first-child {
         padding-right: 11px;
