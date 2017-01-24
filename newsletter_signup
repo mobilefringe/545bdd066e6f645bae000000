@@ -28,6 +28,7 @@
     }
     .newsletter_logo h1 {
         font-family: "KnockOut";
+        text-transform: uppercase;
     }
     .form_container {
         width: 75%;
