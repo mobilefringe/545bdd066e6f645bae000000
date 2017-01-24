@@ -59,7 +59,7 @@
     }
     #kids_club_agreement, #publication_agreement, #consent_policy {
         margin-bottom: 24px;
-         -webkit-transform: scale(1); /* Safari and Chrome */
+         -webkit-transform: scale(1.5); /* Safari and Chrome */
         /*width: 24px;*/
         /*height: 24px;*/
     }
