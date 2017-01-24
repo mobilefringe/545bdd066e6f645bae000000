@@ -188,7 +188,7 @@
             console.log("Made it this far!");
             
             $("input[type=email], input[type=text]").val('');
-            $("input[type=checkbox").prop('unchecked');
+            $("input[type=checkbox").removeProp();
         };
     });
     
