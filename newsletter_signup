@@ -69,7 +69,7 @@
         height: 57px;
         font-size: 22px;
         font-weight: lighter;
-        color: rgb(204,204,204);
+        /*color: rgb(204,204,204);*/
     }
     .submit {
         padding: 14px 17px 0 17px;
