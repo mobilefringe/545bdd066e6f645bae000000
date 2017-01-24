@@ -61,8 +61,8 @@
         }
         #email, #fname, #lname, #postal_code {
             margin-bottom: 5px;
-            padding: 10px 0 10px 10px;
-            height: 57px;
+            padding: 14px 0 16px 10px;
+            height: 61px;
             font-size: 22px;
         }
         .submit {
