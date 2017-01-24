@@ -126,7 +126,7 @@
             <h1>Email Newsletter Sign Up</h1>
         </div>
         <!-- Begin eFlyerMaker Signup form -->
-        <form id="sub_form" method="post" action="https://campaign.eflyermaker.com">
+        <form id="sub_form" method="post" action="https://campaign.eflyermaker.com" target="_blank">
             <input type="hidden" name="action" value="Campaigns_subscribe" />
             <input type="hidden" name="p" value="53616c7465645f5f5baab24a14e961d02d3711cb9e48743b" />
             <div class="form_container" align="center">
