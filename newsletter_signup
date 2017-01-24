@@ -39,7 +39,7 @@
         height: 28px;     
     }
     .small_line_break {
-        height: 18px;
+        height: 14px;
     }
     ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
         font-family: 'Open Sans Condensed', sans-serif;
