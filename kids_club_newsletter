@@ -92,7 +92,7 @@
             </div>
             <div class=line_break>&nbsp;</div>
             <div class="row">
-                <div class="col-md-2">
+                <div class="col-md-12">
                     <input type="checkbox" name="publication_agreement" id="publication_agreement" value="1" required data-msg="Please agree to received newsletters from us">
                     <label class="agree" for="publication_agreement">I agree to receive Kids Club newsletters from Southcentre Mall.</label>
                 </div>
