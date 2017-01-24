@@ -1,174 +1,182 @@
-<style>
-    /*@font-face {*/
-    /*    font-family: "Whitney-Medium";*/
-    /*    src: url('//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000//1419713276000/Whitney Medium.ttf') format('truetype');*/
-    /*}*/
-    /*@font-face {*/
-    /*    font-family: "Whitney-Bold";*/
-    /*    src: url('//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000//1419713276000/Whitney Bold.ttf') format('truetype');*/
-    /*}*/
-    @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
-    .body {
-        width: 1024px;
-        height: 768px;
-        background: url('//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000/image/jpeg/1484941524000/kc_bg.jpg') center center no-repeat;
-        background-size: contain;
-        font-family: 'Open Sans Condensed', sans-serif;
-    }
-    .error {
-        color:#F00
-    }
-    .newsletter_logo {
-        margin: 50px 0;
-        text-align: center;
-    }
-    .newsletter_logo img {
-        max-width: 200px;
-    }
-    .form_container {
-        width: 75%;
-    }
-    .line_break {
-        height: 28px;     
-    }
-    ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-        font-family: 'Open Sans Condensed', sans-serif;
-    }
-    .name_inputs .col-md-6:first-child {
-        padding-right: 11px;
-    }
-    .name_inputs .col-md-6:last-child {
-        padding-left: 11px;
-    }
-    .col-md-4 {
-        padding-right: 12px;
-    }
-    .col-md-8 {
-        padding-left: 12px;
-    }
-    #email, #fname, #lname, #postal_code {
-        margin-bottom: 5px;
-        padding: 10px 0 10px 10px;
-        height: 57px;
-        font-size: 18px;
-    }
-    .submit {
-        padding: 14px 17px 0 17px;
-        height: 57px;
-        background: #fff;
-        border: 1px solid #333;
-        color: #000;
-        text-transform: uppercase;
-        font-size: 24px;
-        font-weight: bold;
-    }
-    .submit:focus, .submit:hover, .submit:focus {
-        background-color: #60bfd8;
-    }
-    label {
-        text-align: left;    
-    }
-    .col-md-1, .col-md-11 {
-        margin-left: -10px;
-    }
-    #kids_club_agreement, #publication_agreement, #consent_policy {
-        margin-bottom: 24px;
-    }
-    .agree {
-        margin-right: 180px;
-        padding-top: 5px;
-    }
-</style>
-<section class="body">
-    <div class="newsletter_logo">
-        <img src="//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000/image/png/1484941687000/kc_logo.png" class="" alt="">
-    </div>
-    <!-- Begin eFlyerMaker Signup form -->
-    <form id="sub_form" method="post" action="https://campaign.eflyermaker.com">
-        <input type="hidden" name="action" value="Campaigns_subscribe" />
-        <input type="hidden" name="p" value="53616c7465645f5f5baab24a14e961d02d3711cb9e48743b" />
-        <div class="form_container" align="center">
-            <div class="row">
-                <div class="col-md-12">
-                    <input type="email" id="email" name="email" placeholder="Enter your email address*" value="" size="40" required data-msg="Please enter your email" data-rule-email="true" data-msg-email="Please enter a valid email address">
-                </div>
-            </div>
-            <div class=line_break>&nbsp;</div>
-            <div class="row name_inputs">
-                <div class="col-md-6">
-                    <input type="Text" id="fname" name="firstname" placeholder="First Name*" value="" required data-msg="Please enter your first name">
-                </div>
-                <div class="col-md-6">
-                    <input type="Text" id="lname" name="lastname" placeholder="Last Name*" value="" required data-msg="Please enter your last name">
-                </div>
-            </div>
-            <div class=line_break>&nbsp;</div>
-            <div class="row">
-                <div class="col-md-4">
-                    <input type="Text" id="postal_code" name="postalcode" placeholder="Postal Code*" value="" required data-msg="Please enter your postal code">
-                </div>
-                <div class="col-md-8">
-                    <button type="submit" class="submit pull-left">Subscribe</button>
-                </div>
-            </div>
-            <div class=line_break>&nbsp;</div>
-            <div class="row">
-                <div class="col-md-1">
-                    <input type="checkbox" name="publication_agreement" id="kids_club_agreement" value="1" required data-msg="Please agree to received newsletters from us">
-                </div>
-                <div class="col-md-11">
-                    <label class="agree" for="publication_agreement">I agree to receive Kids Club newsletters from Southcentre Mall.</label>
-                </div>
-            </div>
-            
-            <div class="row">
-                <div class="col-md-1">
-                    <input type="checkbox" name="publication_agreement" id="publication_agreement" value="1" required data-msg="Please agree to received newsletters from us">
-                </div>
-                <div class="col-md-11">
-                    <label class="agree" for="publication_agreement">I agree to receive general interest newsletters from Southcentre Mall.</label>
-                </div>
-            </div>
-            
-            <div class="row">
-                <div class="col-md-12">
-                    <label id="error_publication_agreement" for="publication_agreement" generated="true" class="text-danger error"></label>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-1">
-                    <input type="checkbox" name="consent_policy" id="consent_policy" value="1" required data-msg="Please confirm your consent to receive electronic communications from us"> 
-                </div>
-                <div class="col-md-11">
-                    <label class="agree" for="consent_policy">I agree to receive communications from Southcentre Mall. You can unsubscribe at anytime.
-                    For more details about personal data privacy, please read our <a href="http://cdn.mallmaverick.com/system/site_images/photos/000/013/701/original/Oxford_Privacy_Statement_(2014_11_06).pdf?1445627232" target="_blank">Privacy Policy</a>
-                    or contact us: 100 Anderson Road SE Calgary, Alberta, Canada T2J 3V1</label>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <label id="error_policy" for="consent_policy" generated="true" class="text-danger error"></label>
-                </div>
-            </div>
-            <div class="row">
-                <div></div>
-            </div>
-            <div class="row">
-                <div>
-                    <input type="hidden" name="simple" value="1">
-                </div>
-            </div>
-            <div class="row">
-                <div>
-                    <input type="hidden" name="subscriber_source" value="eFlyerMaker Subscription Form">
-                </div>
-            </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Email Newsletter Sign Up</title>
+    <style>
+        /*@font-face {*/
+        /*    font-family: "Whitney-Medium";*/
+        /*    src: url('//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000//1419713276000/Whitney Medium.ttf') format('truetype');*/
+        /*}*/
+        /*@font-face {*/
+        /*    font-family: "Whitney-Bold";*/
+        /*    src: url('//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000//1419713276000/Whitney Bold.ttf') format('truetype');*/
+        /*}*/
+        @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+        .body {
+            width: 1024px;
+            height: 768px;
+            background: url('//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000/image/jpeg/1484941524000/kc_bg.jpg') center center no-repeat;
+            background-size: contain;
+            font-family: 'Open Sans Condensed', sans-serif;
+        }
+        .error {
+            color:#F00
+        }
+        .newsletter_logo {
+            margin: 50px 0;
+            text-align: center;
+        }
+        .newsletter_logo img {
+            max-width: 200px;
+        }
+        .form_container {
+            width: 75%;
+        }
+        .line_break {
+            height: 28px;     
+        }
+        ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+            font-family: 'Open Sans Condensed', sans-serif;
+        }
+        .name_inputs .col-md-6:first-child {
+            padding-right: 11px;
+        }
+        .name_inputs .col-md-6:last-child {
+            padding-left: 11px;
+        }
+        .col-md-4 {
+            padding-right: 12px;
+        }
+        .col-md-8 {
+            padding-left: 12px;
+        }
+        #email, #fname, #lname, #postal_code {
+            margin-bottom: 5px;
+            padding: 10px 0 10px 10px;
+            height: 57px;
+            font-size: 18px;
+        }
+        .submit {
+            padding: 14px 17px 0 17px;
+            height: 57px;
+            background: #fff;
+            border: 1px solid #333;
+            color: #000;
+            text-transform: uppercase;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .submit:focus, .submit:hover, .submit:focus {
+            background-color: #60bfd8;
+        }
+        label {
+            text-align: left;    
+        }
+        .col-md-1, .col-md-11 {
+            margin-left: -10px;
+        }
+        #kids_club_agreement, #publication_agreement, #consent_policy {
+            margin-bottom: 24px;
+        }
+        .agree {
+            margin-right: 180px;
+            padding-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <section class="body">
+        <div class="newsletter_logo">
+            <img src="//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000/image/png/1484941687000/kc_logo.png" class="" alt="">
         </div>
-        <!-- End eFlyerMaker form -->
-    </form>
-</section>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.min.js"></script>
-<script>
-$("#sub_form").validate();
-</script>
+        <!-- Begin eFlyerMaker Signup form -->
+        <form id="sub_form" method="post" action="https://campaign.eflyermaker.com">
+            <input type="hidden" name="action" value="Campaigns_subscribe" />
+            <input type="hidden" name="p" value="53616c7465645f5f5baab24a14e961d02d3711cb9e48743b" />
+            <div class="form_container" align="center">
+                <div class="row">
+                    <div class="col-md-12">
+                        <input type="email" id="email" name="email" placeholder="Enter your email address*" value="" size="40" required data-msg="Please enter your email" data-rule-email="true" data-msg-email="Please enter a valid email address">
+                    </div>
+                </div>
+                <div class=line_break>&nbsp;</div>
+                <div class="row name_inputs">
+                    <div class="col-md-6">
+                        <input type="Text" id="fname" name="firstname" placeholder="First Name*" value="" required data-msg="Please enter your first name">
+                    </div>
+                    <div class="col-md-6">
+                        <input type="Text" id="lname" name="lastname" placeholder="Last Name*" value="" required data-msg="Please enter your last name">
+                    </div>
+                </div>
+                <div class=line_break>&nbsp;</div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <input type="Text" id="postal_code" name="postalcode" placeholder="Postal Code*" value="" required data-msg="Please enter your postal code">
+                    </div>
+                    <div class="col-md-8">
+                        <button type="submit" class="submit pull-left">Subscribe</button>
+                    </div>
+                </div>
+                <div class=line_break>&nbsp;</div>
+                <div class="row">
+                    <div class="col-md-1">
+                        <input type="checkbox" name="publication_agreement" id="kids_club_agreement" value="1" required data-msg="Please agree to received newsletters from us">
+                    </div>
+                    <div class="col-md-11">
+                        <label class="agree" for="publication_agreement">I agree to receive Kids Club newsletters from Southcentre Mall.</label>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-md-1">
+                        <input type="checkbox" name="publication_agreement" id="publication_agreement" value="1" required data-msg="Please agree to received newsletters from us">
+                    </div>
+                    <div class="col-md-11">
+                        <label class="agree" for="publication_agreement">I agree to receive general interest newsletters from Southcentre Mall.</label>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-md-12">
+                        <label id="error_publication_agreement" for="publication_agreement" generated="true" class="text-danger error"></label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-1">
+                        <input type="checkbox" name="consent_policy" id="consent_policy" value="1" required data-msg="Please confirm your consent to receive electronic communications from us"> 
+                    </div>
+                    <div class="col-md-11">
+                        <label class="agree" for="consent_policy">I agree to receive communications from Southcentre Mall. You can unsubscribe at anytime.
+                        For more details about personal data privacy, please read our <a href="http://cdn.mallmaverick.com/system/site_images/photos/000/013/701/original/Oxford_Privacy_Statement_(2014_11_06).pdf?1445627232" target="_blank">Privacy Policy</a>
+                        or contact us: 100 Anderson Road SE Calgary, Alberta, Canada T2J 3V1</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <label id="error_policy" for="consent_policy" generated="true" class="text-danger error"></label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div></div>
+                </div>
+                <div class="row">
+                    <div>
+                        <input type="hidden" name="simple" value="1">
+                    </div>
+                </div>
+                <div class="row">
+                    <div>
+                        <input type="hidden" name="subscriber_source" value="eFlyerMaker Subscription Form">
+                    </div>
+                </div>
+            </div>
+            <!-- End eFlyerMaker form -->
+        </form>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.min.js"></script>
+    <script>
+    $("#sub_form").validate();
+    </script>
+</body>
+</html>
