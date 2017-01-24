@@ -63,10 +63,7 @@
             margin-bottom: 5px;
             padding: 10px 0 10px 10px;
             height: 57px;
-            /*font-family: 'Open Sans Condensed', sans-serif;*/
             font-size: 22px;
-            font-weight: lighter;
-            color: rgb(0, 0, 0, 0.75);
         }
         .submit {
             padding: 1px 17px 0 17px;
