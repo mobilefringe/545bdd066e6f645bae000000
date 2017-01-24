@@ -32,6 +32,7 @@
     }
     ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
       color: pink;
+      font-family: "Whitney-Medium";
     }
     .name_inputs .col-md-6:first-child {
         padding-right: 11px;
