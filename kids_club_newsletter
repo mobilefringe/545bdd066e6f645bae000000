@@ -143,11 +143,11 @@
                     </div>
                 </div>
                 
-                <div class="row">
-                    <div class="col-md-12">
-                        <label id="error_publication_agreement" for="publication_agreement" generated="true" class="text-danger error"></label>
-                    </div>
-                </div>
+                <!--<div class="row">-->
+                <!--    <div class="col-md-12">-->
+                <!--        <label id="error_publication_agreement" for="publication_agreement" generated="true" class="text-danger error"></label>-->
+                <!--    </div>-->
+                <!--</div>-->
                 <div class="row">
                     <div class="col-md-1">
                         <input type="checkbox" name="consent_policy" id="consent_policy" value="1" required data-msg="Please confirm your consent to receive electronic communications from us" tabindex="7"> 
@@ -156,11 +156,12 @@
                         <label class="agree" for="consent_policy">I agree to receive communications from Southcentre Mall. You can unsubscribe at anytime.
                         For more details about personal data privacy, please read our <a href="http://cdn.mallmaverick.com/system/site_images/photos/000/013/701/original/Oxford_Privacy_Statement_(2014_11_06).pdf?1445627232" target="_blank">Privacy Policy</a>
                         or contact us: 100 Anderson Road SE Calgary, Alberta, Canada T2J 3V1</label>
+                        <label id="error_policy" for="consent_policy" generated="true" class="text-danger error"></label>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-12">
-                        <label id="error_policy" for="consent_policy" generated="true" class="text-danger error"></label>
+                        
                     </div>
                 </div>
                 <div class="row">
