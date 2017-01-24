@@ -16,14 +16,6 @@
   font-family: "MinionPro-Regular";
   src: url(codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000//1478214195000/MinionPro-Regular.otf) format("opentype");
 }
-@font-face {
-        font-family: "Whitney-Medium";
-        src: url('//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000//1419713276000/Whitney Medium.ttf') format('truetype');
-    }
-    @font-face {
-        font-family: "Whitney-Bold";
-        src: url('//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000//1419713276000/Whitney Bold.ttf') format('truetype');
-    }
 section:target {
     margin-top: -5.63em;
     padding-top: 5.63em;
