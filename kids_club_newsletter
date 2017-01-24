@@ -54,6 +54,9 @@
         text-align: left;    
         font-family: "Whitney-Medium";
     }
+    .col-md-1, .col-md-11 {
+        margin-left: -10px;
+    }
     .agree {
         margin-right: 200px;
         padding-top: 5px;
