@@ -48,7 +48,7 @@
             margin-bottom: 5px;
             padding: 10px 0 10px 10px;
             height: 57px;
-            font-size: 18px;
+            font-size: 22px;
         }
         .submit {
             padding: 14px 17px 0 17px;
