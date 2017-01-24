@@ -67,7 +67,6 @@
         margin-bottom: 5px;
         padding: 10px 0 10px 10px;
         height: 57px;
-        font-family: "Whitney Medium", sans-serif;
         font-size: 24px;
     }
     .submit {
