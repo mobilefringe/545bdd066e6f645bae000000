@@ -186,7 +186,7 @@
         if($(this).validate().form()){
             this.submit();
             console.log("Made it this far!");
-            location.reload();
+            window.location.href=window.location.href;
         };
     });
     
