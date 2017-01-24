@@ -181,7 +181,7 @@
     // $("#sub_form").validate();
     
     $('.submit').click(function(e) {
-        e.preventDefault();
+        // e.preventDefault();
         $("#sub_form").validate();
         // location.reload();
     });
