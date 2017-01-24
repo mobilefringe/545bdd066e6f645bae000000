@@ -82,7 +82,8 @@
         /*font-weight: bold;*/
     }
     .submit:focus, .submit:hover, .submit:focus {
-        background-color: #60bfd8;
+        background-color: #d2d2d2;
+        color: #000;
     }
     label {
         text-align: left;    
