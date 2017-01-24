@@ -101,31 +101,31 @@
             <div class="form_container" align="center">
                 <div class="row">
                     <div class="col-md-12">
-                        <input type="email" id="email" name="email" placeholder="Enter your email address*" value="" size="40" required data-msg="Please enter your email" data-rule-email="true" data-msg-email="Please enter a valid email address">
+                        <input type="email" id="email" name="email" placeholder="Enter your email address*" value="" size="40" required data-msg="Please enter your email" data-rule-email="true" data-msg-email="Please enter a valid email address" tabindex="1">
                     </div>
                 </div>
                 <div class=line_break>&nbsp;</div>
                 <div class="row name_inputs">
                     <div class="col-md-6">
-                        <input type="Text" id="fname" name="firstname" placeholder="First Name*" value="" required data-msg="Please enter your first name">
+                        <input type="Text" id="fname" name="firstname" placeholder="First Name*" value="" required data-msg="Please enter your first name" tabindex="2">
                     </div>
                     <div class="col-md-6">
-                        <input type="Text" id="lname" name="lastname" placeholder="Last Name*" value="" required data-msg="Please enter your last name">
+                        <input type="Text" id="lname" name="lastname" placeholder="Last Name*" value="" required data-msg="Please enter your last name" tabindex="3">
                     </div>
                 </div>
                 <div class=line_break>&nbsp;</div>
                 <div class="row">
                     <div class="col-md-4">
-                        <input type="Text" id="postal_code" name="postalcode" placeholder="Postal Code*" value="" required data-msg="Please enter your postal code">
+                        <input type="Text" id="postal_code" name="postalcode" placeholder="Postal Code*" value="" required data-msg="Please enter your postal code" tabindex="4">
                     </div>
                     <div class="col-md-8">
-                        <button type="submit" class="submit pull-left">Subscribe</button>
+                        <button type="submit" class="submit pull-left" tabindex="8">Subscribe</button>
                     </div>
                 </div>
                 <div class=small_line_break>&nbsp;</div>
                 <div class="row">
                     <div class="col-md-1">
-                        <input type="checkbox" name="kids_club_agreement" id="kids_club_agreement" value="1" required data-msg="Please agree to received newsletters from us">
+                        <input type="checkbox" name="kids_club_agreement" id="kids_club_agreement" value="1" required data-msg="Please agree to received newsletters from us" tabindex="5">
                     </div>
                     <div class="col-md-11">
                         <label class="agree" for="kids_club_agreement">I agree to receive Kids Club newsletters from Southcentre Mall.</label>
@@ -134,7 +134,7 @@
                 
                 <div class="row">
                     <div class="col-md-1">
-                        <input type="checkbox" name="publication_agreement" id="publication_agreement" value="1" required data-msg="Please agree to received newsletters from us">
+                        <input type="checkbox" name="publication_agreement" id="publication_agreement" value="1" required data-msg="Please agree to received newsletters from us" tabindex="6">
                     </div>
                     <div class="col-md-11">
                         <label class="agree" for="publication_agreement">I agree to receive general interest newsletters from Southcentre Mall.</label>
@@ -148,7 +148,7 @@
                 </div>
                 <div class="row">
                     <div class="col-md-1">
-                        <input type="checkbox" name="consent_policy" id="consent_policy" value="1" required data-msg="Please confirm your consent to receive electronic communications from us"> 
+                        <input type="checkbox" name="consent_policy" id="consent_policy" value="1" required data-msg="Please confirm your consent to receive electronic communications from us" tabindex="7"> 
                     </div>
                     <div class="col-md-11">
                         <label class="agree" for="consent_policy">I agree to receive communications from Southcentre Mall. You can unsubscribe at anytime.
