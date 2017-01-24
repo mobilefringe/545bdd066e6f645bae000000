@@ -93,6 +93,7 @@
             margin-right: 180px;
             padding-top: 5px;
             line-height: 18px;
+            letter-spacing: 0.5px;
         }
         .logo_container {
             padding-bottom: 20px;
