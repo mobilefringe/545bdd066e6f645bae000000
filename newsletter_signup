@@ -46,7 +46,7 @@
     }
     ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
         font-family: "KnockOut", sans-serif;
-        font-family: 'Open Sans Condensed', sans-serif;
+        /*font-family: 'Open Sans Condensed', sans-serif;*/
     }
     .name_inputs .col-md-6:first-child {
         padding-right: 11px;
