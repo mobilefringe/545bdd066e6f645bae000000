@@ -186,7 +186,7 @@
         if($(this).validate().form()){
             this.submit();
             console.log("Made it this far!");
-            window.location.href=window.location.href;
+            $("input[type=text]").val('');
         };
     });
     
