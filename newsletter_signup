@@ -1,6 +1,6 @@
 <style>
     @font-face {
-        font-family: "Whitney-Medium";
+        font-family: "Whitney Medium";
         src: url('//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000//1419713276000/Whitney Medium.ttf') format('truetype');
     }
     /*@font-face {*/
@@ -58,19 +58,7 @@
         padding-left: 12px;
     }
     ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-        /*font-family: "Whitney-Medium", sans-serif;*/
-        font-family: 'Open Sans Condensed', sans-serif;
-    }
-    ::-moz-placeholder { /* Firefox 19+ */
-      font-family: "Whitney-Medium", sans-serif;
-        /*font-family: 'Open Sans Condensed', sans-serif;*/
-    }
-    :-ms-input-placeholder { /* IE 10+ */
-      font-family: "Whitney-Medium", sans-serif;
-        /*font-family: 'Open Sans Condensed', sans-serif;*/
-    }
-    :-moz-placeholder { /* Firefox 18- */
-      font-family: "Whitney-Medium", sans-serif;
+        font-family: "Whitney Medium", sans-serif;
         /*font-family: 'Open Sans Condensed', sans-serif;*/
     }
     #email, #fname, #lname, #postal_code {
