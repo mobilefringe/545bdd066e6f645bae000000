@@ -180,7 +180,8 @@
     <script>
     $("#sub_form").validate( {
         onsubmit: false
-    }).bind('submit', function() {
+    });
+    $("#sub_form").bind('submit', function() {
         if($(this).validate().form()){
             window.reload();
         }
