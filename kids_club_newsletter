@@ -32,6 +32,12 @@
     .name_inputs .col-md-6:last-child {
         padding-left: 11px;
     }
+    .col-md-4 {
+        padding-right: 12px;
+    }
+    .col-md-8 {
+        padding-left: 12px;
+    }
     #email, #fname, #lname, #postal_code {
         margin-bottom: 5px;
         padding: 10px 0 10px 10px;
