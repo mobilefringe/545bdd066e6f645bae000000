@@ -17,7 +17,7 @@
         height: 768px;
         background: url('//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000/image/jpeg/1484941841000/newletter_bg2.jpg') center center no-repeat;
         background-size: contain;
-        font-family: 'Open Sans Condensed', sans-serif;
+        /*font-family: 'Open Sans Condensed', sans-serif;*/
         font-family: 'Whitney Medium', sans-serif;
     }
     .error {
