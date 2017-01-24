@@ -121,7 +121,7 @@
                     <button type="submit" class="submit pull-left">Subscribe</button>
                 </div>
             </div>
-            <div class=line_break>&nbsp;</div>
+            <div class=small_line_break>&nbsp;</div>
             <div class="row">
                 <div class="col-md-1">
                     <input type="checkbox" name="publication_agreement" id="publication_agreement" value="1" required data-msg="Please agree to received newsletters from us">
