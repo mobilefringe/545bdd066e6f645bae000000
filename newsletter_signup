@@ -28,6 +28,8 @@
     }
     .newsletter_logo h1 {
         font-family: "KnockOut";
+        font-size: 86px;
+        letter-spacing: 5px;
         text-transform: uppercase;
     }
     .form_container {
