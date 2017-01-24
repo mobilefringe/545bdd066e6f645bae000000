@@ -167,7 +167,7 @@
         <!-- End eFlyerMaker form -->
     </form>
     <div>
-        <img src="//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000/image/png/1484941875000/logo_sc.png" class="" alt="">
+        <img src="//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000/image/png/1484941875000/logo_sc.png" class="centre_logo" alt="">
     </div>
 </section>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
