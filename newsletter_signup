@@ -23,7 +23,7 @@
         color:#F00
     }
     .newsletter_logo {
-        margin: 50px 0;
+        margin: 90px 0 34px 0;
         text-align: center;
     }
     .newsletter_logo h1 {
