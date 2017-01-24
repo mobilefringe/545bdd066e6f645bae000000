@@ -3,15 +3,8 @@
 <head>
     <title>Email Newsletter Sign Up</title>
     <style>
-        /*@font-face {*/
-        /*    font-family: "Whitney-Medium";*/
-        /*    src: url('//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000//1419713276000/Whitney Medium.ttf') format('truetype');*/
-        /*}*/
-        /*@font-face {*/
-        /*    font-family: "Whitney-Bold";*/
-        /*    src: url('//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000//1419713276000/Whitney Bold.ttf') format('truetype');*/
-        /*}*/
         @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+        
         .body {
             width: 1024px;
             height: 768px;
