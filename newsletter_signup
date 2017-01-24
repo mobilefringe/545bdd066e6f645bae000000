@@ -7,6 +7,10 @@
     /*    font-family: "Whitney-Bold";*/
     /*    src: url('//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000//1419713276000/Whitney Bold.ttf') format('truetype');*/
     /*}*/
+    @font-face {
+        font-family: "KnockOut";
+        src: url('//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000//1419691642000/Knockout HTF26JuniorFlyweight Regular.otf') format('OpenType');
+    }
     @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
     .body {
         width: 1024px;
