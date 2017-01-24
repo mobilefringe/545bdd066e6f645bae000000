@@ -13,7 +13,7 @@
     
     @font-face {
     	font-family: 'Whitney-Medium';
-    	src: url('//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000/application/font-woff/1485305654000/Whitney-Book.woff') format('woff'),
+    	src: url('//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000/application/font-woff/1485305654000/Whitney-Book.woff') format('woff');
     	font-weight: 500;
     	font-style: normal;
     }
