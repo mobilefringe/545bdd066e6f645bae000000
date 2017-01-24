@@ -57,6 +57,11 @@
     .col-md-1, .col-md-11 {
         margin-left: -10px;
     }
+    #kids_club_agreement, #publication_agreement, #consent_policy {
+        margin-bottom: 24px;
+        width: 24px;
+        height: 24px;
+    }
     .agree {
         margin-right: 200px;
         padding-top: 5px;
@@ -97,7 +102,7 @@
             <div class=line_break>&nbsp;</div>
             <div class="row">
                 <div class="col-md-1">
-                    <input type="checkbox" name="publication_agreement" id="publication_agreement" value="1" required data-msg="Please agree to received newsletters from us">
+                    <input type="checkbox" name="publication_agreement" id="kids_club_agreement" value="1" required data-msg="Please agree to received newsletters from us">
                 </div>
                 <div class="col-md-11">
                     <label class="agree" for="publication_agreement">I agree to receive Kids Club newsletters from Southcentre Mall.</label>
