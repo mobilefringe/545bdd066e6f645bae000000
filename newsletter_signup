@@ -89,6 +89,12 @@
         padding-top: 5px;
         line-height: 18px;
     }
+    .logo_container {
+        text-align: center;
+    }
+    .centre_logo {
+        max-width:;
+    }
 </style>
 <section class="body">
     <div class="newsletter_logo">
