@@ -60,7 +60,7 @@
     ::placeholder, 
     ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
         font-family: 'Open Sans Condensed', sans-serif;
-        color: rgb(204,204,204);
+        /*color: rgb(204,204,204);*/
         opacity: 1;
     }
     #email, #fname, #lname, #postal_code {
