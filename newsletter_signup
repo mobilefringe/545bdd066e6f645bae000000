@@ -186,6 +186,7 @@
         if($(this).validate().form()){
             window.reload();
         }
+        return false;
     });
     
     </script>
