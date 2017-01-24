@@ -181,7 +181,8 @@
     $("#sub_form").validate( {
         onsubmit: false
     });
-    $("#sub_form").bind('submit', function() {
+    $("#sub_form").bind('submit', function(e) {
+        e.preventDefault();
         if($(this).validate().form()){
             window.reload();
         }
