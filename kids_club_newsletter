@@ -56,7 +56,7 @@
         text-transform: uppercase;
         font-size: 18px;
         font-weight: bold;
-        font-family: "Whitney-Medium";
+        font-family: "Whitney-Bold";
     }
     .submit:focus, .submit:hover, .submit:focus {
         background-color: #60bfd8;
