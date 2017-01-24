@@ -186,7 +186,8 @@
         if($(this).validate().form()){
             this.submit();
             console.log("Made it this far!");
-            $("input[type=text]").val('');
+            
+            $("input[type=text], input[type=email]").val('');
         };
     });
     
