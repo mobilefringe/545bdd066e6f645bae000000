@@ -22,9 +22,6 @@
         margin: 50px 0;
         text-align: center;
     }
-    .newsletter_logo img {
-        max-width: 200px;
-    }
     .form_container {
         width: 75%;
     }
