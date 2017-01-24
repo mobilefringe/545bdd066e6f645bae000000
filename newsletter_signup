@@ -93,7 +93,7 @@
         text-align: center;
     }
     .centre_logo {
-        max-width:;
+        max-width:315px;
     }
 </style>
 <section class="body">
