@@ -38,7 +38,7 @@
     .line_break {
         height: 28px;     
     }
-    .line_break:last-of-type {
+    .small_line_break {
         height: 18px;
     }
     ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
