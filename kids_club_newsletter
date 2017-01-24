@@ -84,9 +84,9 @@
 </head>
 <body>
     <section class="body">
-        <div class="newsletter_logo">
+        <!--<div class="newsletter_logo">-->
             <!--<img src="//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000/image/png/1484941687000/kc_logo.png" class="" alt="">-->
-        </div>
+        <!--</div>-->
         <!-- Begin eFlyerMaker Signup form -->
         <form id="sub_form" method="post" action="https://campaign.eflyermaker.com" target>
             <input type="hidden" name="action" value="Campaigns_subscribe" />
