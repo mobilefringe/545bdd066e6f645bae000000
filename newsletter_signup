@@ -136,10 +136,11 @@
             <div class="row">
                 <div class="col-md-1">
                     <input type="checkbox" name="publication_agreement" id="publication_agreement" value="1" required data-msg="Please agree to receive newsletters from us">
+                    <label id="error_publication_agreement" for="publication_agreement" generated="true" class="text-danger error"></label>
                 </div>
                 <div class="col-md-11">
                     <label class="agree" for="publication_agreement">I agree to receive newsletters from Southcentre Mall.</label>
-                    <label id="error_publication_agreement" for="publication_agreement" generated="true" class="text-danger error"></label>
+                    
                 </div>
             </div>
             <div class="row">
