@@ -1,8 +1,8 @@
 <style>
-    /*@font-face {*/
-    /*    font-family: "Whitney-Medium";*/
-    /*    src: url('//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000//1419713276000/Whitney Medium.ttf') format('truetype');*/
-    /*}*/
+    @font-face {
+        font-family: "Whitney-Medium";
+        src: url('//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000//1419713276000/Whitney Medium.ttf') format('truetype');
+    }
     /*@font-face {*/
     /*    font-family: "Whitney-Bold";*/
     /*    src: url('//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000//1419713276000/Whitney Bold.ttf') format('truetype');*/
@@ -44,10 +44,7 @@
     .small_line_break {
         height: 14px;
     }
-    ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-        font-family: "KnockOut", sans-serif;
-        /*font-family: 'Open Sans Condensed', sans-serif;*/
-    }
+   
     .name_inputs .col-md-6:first-child {
         padding-right: 11px;
     }
@@ -59,6 +56,10 @@
     }
     .col-md-8 {
         padding-left: 12px;
+    }
+    ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+        font-family: "Whitney-Medium", sans-serif;
+        /*font-family: 'Open Sans Condensed', sans-serif;*/
     }
     #email, #fname, #lname, #postal_code {
         margin-bottom: 5px;
