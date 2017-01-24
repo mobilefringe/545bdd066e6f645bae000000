@@ -194,7 +194,8 @@
     <script>
     // $("#sub_form").validate();
     
-    $('.submit').click(function() {
+    $('.submit').click(function(e) {
+        e.preventDefault();
         $("#sub_form").validate();
         location.reload();
     });
