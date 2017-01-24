@@ -9,7 +9,7 @@
             width: 1024px;
             height: 728px;
             background: url('//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000/image/jpeg/1484941524000/kc_bg.jpg') center center no-repeat;
-            background-size: contain;
+            background-size: cover;
             font-family: 'Open Sans Condensed', sans-serif;
         }
         .error {
