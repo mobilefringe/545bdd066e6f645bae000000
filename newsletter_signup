@@ -67,14 +67,14 @@
     }
     ::placeholder, 
     ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-        font-family: 'Open Sans Condensed', sans-serif;
+        /*font-family: 'Open Sans Condensed', sans-serif;*/
         opacity: 1;
     }
     #email, #fname, #lname, #postal_code {
         margin-bottom: 5px;
         padding: 10px 0 10px 10px;
         height: 57px;
-        font-family: 'Open Sans Condensed', sans-serif;
+        /*font-family: 'Open Sans Condensed', sans-serif;*/
         font-size: 22px;
         font-weight: lighter;
         color: rgb(0, 0, 0, 0.75);
