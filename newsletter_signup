@@ -185,8 +185,7 @@
         e.preventDefault();
         if($(this).validate().form()){
             location.reload();
-        }
-        return false;
+        };
     });
     
     </script>
