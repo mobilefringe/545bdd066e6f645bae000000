@@ -32,6 +32,9 @@
         letter-spacing: 5px;
         text-transform: uppercase;
     }
+    #sub_form {
+        margin-bottom: 52px;
+    }
     .form_container {
         width: 75%;
     }
