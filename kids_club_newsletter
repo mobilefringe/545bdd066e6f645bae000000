@@ -61,14 +61,12 @@
         text-transform: uppercase;
         font-size: 24px;
         font-weight: bold;
-        font-family: "Whitney-Medium";
     }
     .submit:focus, .submit:hover, .submit:focus {
         background-color: #60bfd8;
     }
     label {
         text-align: left;    
-        font-family: "Whitney-Medium";
     }
     .col-md-1, .col-md-11 {
         margin-left: -10px;
