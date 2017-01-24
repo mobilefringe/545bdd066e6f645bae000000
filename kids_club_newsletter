@@ -59,8 +59,8 @@
     }
     #kids_club_agreement, #publication_agreement, #consent_policy {
         margin-bottom: 24px;
-        width: 24px;
-        height: 24px;
+        /*width: 24px;*/
+        /*height: 24px;*/
     }
     .agree {
         margin-right: 200px;
