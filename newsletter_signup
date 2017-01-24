@@ -166,6 +166,9 @@
         </div>
         <!-- End eFlyerMaker form -->
     </form>
+    <div>
+        <img src="//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000/image/png/1484941875000/logo_sc.png" class="" alt="">
+    </div>
 </section>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.min.js"></script>
