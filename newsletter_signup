@@ -67,14 +67,16 @@
         }
         .submit {
             padding: 1px 17px 0 17px;
-            height: 61px;
+            height: 59px;
+            width: 149px;
             background: #fff;
             border: 1px solid #999;
             color: #000;
-            text-transform: uppercase;
+            font-family: 'Open Sans Condensed', sans-serif;
+            font-weight: bold;
             font-size: 24px;
             letter-spacing: 1px;
-            /*font-weight: bold;*/
+            text-transform: uppercase;
         }
         .submit:focus, .submit:hover, .submit:focus {
             background-color: #d2d2d2;
