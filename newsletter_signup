@@ -184,7 +184,7 @@
         if($(this).validate().form()){
             window.reload();
         }
-    })
+    });
     
     </script>
 </body>
