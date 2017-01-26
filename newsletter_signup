@@ -183,10 +183,10 @@
     });
     $("#sub_form").bind('submit', function(e) {
         e.preventDefault();
-        if($("#sub_form").validate().form()){
-            $("#sub_form").submit();
+        if($(this).validate().form()){
+            this.submit();
             $("input[type=email], input[type=text]").val('');
-            // $("input[type=checkbox").attr("checked", false);
+            $("input[type=checkbox").attr("checked", false);
         };
     });
     
