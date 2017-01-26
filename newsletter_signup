@@ -9,6 +9,10 @@
             font-family: "KnockOut";
             src: url('//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000//1419691642000/Knockout HTF26JuniorFlyweight Regular.otf') format('OpenType');
         }
+        @font-face {
+            font-family: "Whitney-Medium";
+            src: url('//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000//1419713276000/Whitney Medium.ttf') format('truetype');
+        }
 
         .body {
             width: 100vw;
