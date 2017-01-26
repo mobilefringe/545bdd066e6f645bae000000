@@ -160,6 +160,9 @@
                     </div>
                 </div>
                 <div class="row">
+                    <div class="col-md-12">
+                        <p id="reload">Refresh</p>    
+                    </div>
                     <div>
                         <input type="hidden" name="simple" value="1">
                     </div>
@@ -177,6 +180,10 @@
     <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.min.js"></script>
     <script>
     $("#sub_form").validate();
+    
+    $("#reload").click(function() {
+        location.reload();
+    });
     // $("#sub_form").validate( {
     //     onsubmit: false
     // });
