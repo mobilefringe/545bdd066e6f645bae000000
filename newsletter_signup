@@ -75,7 +75,7 @@
             font-size: 22px;
         }
         .submit {
-            padding: 1px 17px 0 17px;
+            padding: 0;
             height: 59px;
             width: 151px;
             background: #fff;
