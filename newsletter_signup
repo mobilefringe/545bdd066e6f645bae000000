@@ -10,7 +10,7 @@
             src: url('//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000//1419691642000/Knockout HTF26JuniorFlyweight Regular.otf') format('OpenType');
         }
         @font-face {
-            font-family: "Whitney-Medium";
+            font-family: "Whitney";
             src: url('//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000//1485459046000/WhitneySansMediumOSF Regular.ttf') format('TrueType');
         }
 
@@ -20,7 +20,7 @@
             background: url('//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000/image/jpeg/1484941841000/newletter_bg2.jpg');
             background-size: 100% calc(100vh - 23px);
             /*font-family: 'Open Sans Condensed', sans-serif;*/
-            font-family: 'Whitney-Medium', sans-serif;
+            font-family: 'Whitney', sans-serif;
         }
         .error {
             color:#F00
