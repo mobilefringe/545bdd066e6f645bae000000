@@ -15,7 +15,7 @@
         }
         @font-face {
             font-family: "Whitney-Bold";
-            src: url('//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000//1485460002000/Whitney-Bold.otf') format('OpenType');
+            src: url('//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000//1485460111000/Whitney-Semibold.otf') format('OpenType');
         }
 
         .body {
