@@ -91,9 +91,6 @@
 </head>
 <body>
     <section class="body">
-        <!--<div class="newsletter_logo">-->
-            <!--<img src="//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000/image/png/1484941687000/kc_logo.png" class="" alt="">-->
-        <!--</div>-->
         <!-- Begin eFlyerMaker Signup form -->
         <form id="sub_form" method="post" action="https://campaign.eflyermaker.com" target="_blank">
             <input type="hidden" name="action" value="Campaigns_subscribe" />
@@ -132,7 +129,6 @@
                         <label id="error_kids_club_agreement" for="kids_club_agreement" generated="true" class="text-danger error"></label>
                     </div>
                 </div>
-                
                 <div class="row">
                     <div class="col-md-1">
                         <input type="checkbox" name="publication_agreement" id="publication_agreement" value="1" required data-msg="Please agree to receive newsletters from us" tabindex="6">
@@ -142,12 +138,6 @@
                         <label id="error_publication_agreement" for="publication_agreement" generated="true" class="text-danger error"></label>
                     </div>
                 </div>
-                
-                <!--<div class="row">-->
-                <!--    <div class="col-md-12">-->
-                <!--        <label id="error_publication_agreement" for="publication_agreement" generated="true" class="text-danger error"></label>-->
-                <!--    </div>-->
-                <!--</div>-->
                 <div class="row">
                     <div class="col-md-1">
                         <input type="checkbox" name="consent_policy" id="consent_policy" value="1" required data-msg="Please confirm your consent to receive electronic communications from us" tabindex="7"> 
@@ -160,10 +150,11 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-md-2">
                         <p id="reload">Refresh</p>    
                     </div>
-                    <div>
+                    
+                    <div class="col-md-10">
                         <input type="hidden" name="simple" value="1">
                     </div>
                 </div>
