@@ -184,7 +184,7 @@
     $("#sub_form").bind('submit', function(e) {
         e.preventDefault();
         if($(this).validate().form()){
-            this.submit();
+            $("#sub_form").submit();
             $("input[type=email], input[type=text]").val('');
             $("input[type=checkbox").attr("checked", false);
         };
