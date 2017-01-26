@@ -11,7 +11,7 @@
         }
         @font-face {
             font-family: "Whitney";
-            src: url('//assets.codecloudapp.com/sites/545bdd066e6f645bae000000//1485459046000/WhitneySansMediumOSF Regular.ttf') format('TrueType');
+            src: url('//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000//1485459802000/Whitney-Book.otf') format('OpenType');
         }
 
         .body {
