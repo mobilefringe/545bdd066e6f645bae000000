@@ -11,7 +11,7 @@
         }
         @font-face {
             font-family: "Whitney-Medium";
-            src: url('//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000//1419713276000/Whitney Medium.ttf') format('truetype');
+            src: url('//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000//1419713276000/Whitney Medium.ttf') format('TrueType');
         }
 
         .body {
