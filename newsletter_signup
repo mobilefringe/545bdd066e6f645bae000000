@@ -61,7 +61,7 @@
             padding-left: 12px;
         }
         ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-            font-family: 'Whitney-Medium', sans-serif;
+            /*font-family: 'Whitney-Medium', sans-serif;*/
             letter-spacing: 1px;
         }
         #email, #fname, #lname, #postal_code {
@@ -77,7 +77,7 @@
             background: #fff;
             border: 1px solid #999;
             color: #000;
-            font-family: 'Whitney-Medium', sans-serif;
+            /*font-family: 'Whitney-Medium', sans-serif;*/
             font-weight: bold;
             font-size: 24px;
             letter-spacing: 1px;
