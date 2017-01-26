@@ -156,7 +156,7 @@
                 </div>
                 <div class="row">
                     <div class="col-md-2">
-                        <p id="reload">Refresh</p>    
+                        <!--<p id="reload">Refresh</p>    -->
                     </div>
                     
                     <div class="col-md-10">
