@@ -81,7 +81,7 @@
             background: #fff;
             border: 1px solid #999;
             color: #000;
-            font-family: 'Whitney', sans-serif;
+            font-family: 'Whitney-Bold', sans-serif;
             font-weight: bold;
             font-size: 24px;
             letter-spacing: 1px;
