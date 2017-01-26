@@ -42,7 +42,6 @@
             height: 14px;
         }
         ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-            /*font-family: 'Open Sans Condensed', sans-serif;*/
             letter-spacing: 1px;
         }
         .name_inputs .col-md-6:first-child {
