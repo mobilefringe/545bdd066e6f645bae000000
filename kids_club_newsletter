@@ -96,7 +96,7 @@
         }
         #error_publication_agreement,
         #error_policy {
-            margin-left: -15px;    
+            margin-left: -20px;    
         }
     </style>
 </head>
