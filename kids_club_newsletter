@@ -160,19 +160,9 @@
                         <label id="error_policy" for="consent_policy" generated="true" class="text-danger error"></label>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-2">
-                        <!--<p id="reload">Refresh</p>    -->
-                    </div>
-                    
-                    <div class="col-md-10">
-                        <input type="hidden" name="simple" value="1">
-                    </div>
-                </div>
-                <div class="row">
-                    <div>
-                        <input type="hidden" name="subscriber_source" value="Website_Kidsclub_form">
-                    </div>
+                <div>
+                    <input type="hidden" name="simple" value="1">
+                    <input type="hidden" name="subscriber_source" value="Website_Kidsclub_form">
                 </div>
             </div>
             <!-- End eFlyerMaker form -->
@@ -185,40 +175,35 @@
     <script>
         $("#sub_form").validate();
         
-        $("#reload").click(function() {
-            location.reload();
-        });
-        
-    
-    
-    
         $('#sub_form').on('submit', function(e){
             var data =  {
-            'email' : $('#email').val(),
-            'firstname' : $('#fname').val(),
-            'lastname' : $('#lname').val(),
-            'postalcode' : $('#postal_code').val(),
-            'publication_agreement' : $('#publication_agreement').prop('checked') ? 1 : 0,
-            'general_agreement' : $('#general_agreement').prop('checked') ? 1 : 0,
-            'consent_policy' : $('#consent_policy').prop('checked') ? 1 : 0,
-        };
-    
-        if (data.email && data.firstname && data.lastname && data.postalcode && data.publication_agreement && data.general_agreement && data.consent_policy) {
-            var ajax_data = 'email='+data.email+'&firstname='+data.firstname+'&lastname='+data.lastname+'&postalcode='+data.postalcode+'&publication_agreement=1&general_agreement=1&consent_policy=1';
+                'email' : $('#email').val(),
+                'firstname' : $('#fname').val(),
+                'lastname' : $('#lname').val(),
+                'postalcode' : $('#postal_code').val(),
+                'publication_agreement' : $('#publication_agreement').prop('checked') ? 1 : 0,
+                'general_agreement' : $('#general_agreement').prop('checked') ? 1 : 0,
+                'consent_policy' : $('#consent_policy').prop('checked') ? 1 : 0,
+            };
+
+        if( data.email && data.firstname && data.lastname && data.postalcode && data.publication_agreement && data.general_agreement && data.consent_policy)
+        {
+                var ajax_data = 'email='+data.email+'&firstname='+data.firstname+'&lastname='+data.lastname+'&postalcode='+data.postalcode+'&publication_agreement=1&general_agreement=1&consent_policy=1';
             ajax_data += '&json=1&simple=1&action=Campaigns_subscribe&p=53616c7465645f5f5baab24a14e961d02d3711cb9e48743b&subscriber_source=Website_Kidsclub_form';
 
-            var ajax_url = "https://campaign.eflyermaker.com?"+ajax_data;
+                var ajax_url = "https://campaign.eflyermaker.com?"+ajax_data;
 
-            jQuery.ajax({ 
-                url:ajax_url+'&callback=?', 
-                jsonp: "jsonp", 
-                dataType: "JSONP",
-                jsonpCallback: "callback",
-                type:'GET'
-            });                
-        }    
-    });
+                jQuery.ajax({ 
+                    url:ajax_url+'&callback=?', 
+                    jsonp: "jsonp", 
+                    dataType: "JSONP",
+                    jsonpCallback: "callback",
+                    type:'GET'
+                });                
+            }    
+
+        });
     </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/i18next/1.6.3/i18next-1.6.3.min.js"></script>
+
 </body>
 </html>
