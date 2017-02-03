@@ -5,21 +5,21 @@
     <style>
         @font-face {
             font-family: "KnockOut";
-            src: url('//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000//1419691642000/Knockout HTF26JuniorFlyweight Regular.otf') format('OpenType');
+            src: url('http://codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000//1419691642000/Knockout HTF26JuniorFlyweight Regular.otf') format('OpenType');
         }
         @font-face {
             font-family: "Whitney";
-            src: url('//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000//1485459802000/Whitney-Book.otf') format('OpenType');
+            src: url('http://codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000//1485459802000/Whitney-Book.otf') format('OpenType');
         }
         @font-face {
             font-family: "Whitney-Bold";
-            src: url('//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000//1485460111000/Whitney-Semibold.otf') format('OpenType');
+            src: url('http://codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000//1485460111000/Whitney-Semibold.otf') format('OpenType');
         }
 
         .body {
             width: 100vw;
             height: calc(100vh - 23px);
-            background: url('//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000/image/jpeg/1484941841000/newletter_bg2.jpg');
+            background: url('http://codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000/image/jpeg/1484941841000/newletter_bg2.jpg');
             background-size: 100% calc(100vh - 23px);
             font-family: 'Whitney', sans-serif;
         }
@@ -171,32 +171,32 @@
                 </div>
                 <div class="row">
                     <div>
-                        <input type="hidden" name="subscriber_source" value="eFlyerMaker Subscription Form">
+                        <input type="hidden" name="subscriber_source" value="Website_newsletter_form">
                     </div>
                 </div>
             </div>
             <!-- End eFlyerMaker form -->
         </form>
         <div class="logo_container">
-            <img src="//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000/image/png/1484941875000/logo_sc.png" class="centre_logo" alt="">
+            <img src="http://codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000/image/png/1484941875000/logo_sc.png" class="centre_logo" alt="">
         </div>
     </section>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
     <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.min.js"></script>
     <script>
-    $("#sub_form").validate();
+        $("#sub_form").validate();
     
-    // $("#sub_form").validate( {
-    //     onsubmit: false
-    // });
-    // $("#sub_form").bind('submit', function(e) {
-    //     e.preventDefault();
-    //     if($(this).validate().form()){
-    //         this.submit();
-    //         $("input[type=email], input[type=text]").val('');
-    //         $("input[type=checkbox").attr("checked", false);
-    //     };
-    // });
+        // $("#sub_form").validate( {
+        //     onsubmit: false
+        // });
+        // $("#sub_form").bind('submit', function(e) {
+        //     e.preventDefault();
+        //     if($(this).validate().form()){
+        //         this.submit();
+        //         $("input[type=email], input[type=text]").val('');
+        //         $("input[type=checkbox").attr("checked", false);
+        //     };
+        // });
     </script>
 </body>
 </html>
