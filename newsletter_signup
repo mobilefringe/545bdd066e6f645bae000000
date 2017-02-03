@@ -103,6 +103,10 @@
             line-height: 18px;
             letter-spacing: 0.5px;
         }
+        #error_publication_agreement,
+        #error_policy {
+            margin-left: -15px;    
+        }
         .logo_container {
             padding-bottom: 20px;
             text-align: center;
