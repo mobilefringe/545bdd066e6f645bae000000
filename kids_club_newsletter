@@ -5,17 +5,17 @@
     <style>
         @font-face {
             font-family: "Whitney";
-            src: url('//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000//1485459802000/Whitney-Book.otf') format('OpenType');
+            src: url('http://codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000//1485459802000/Whitney-Book.otf') format('OpenType');
         }
         @font-face {
             font-family: "Whitney-Bold";
-            src: url('//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000//1485460111000/Whitney-Semibold.otf') format('OpenType');
+            src: url('http://codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000//1485460111000/Whitney-Semibold.otf') format('OpenType');
         }
         
         .body {
             width: 100vw;
             height: calc(100vh - 23px);
-            background: url('//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000/image/jpeg/1484941513000/kc_full_bg.jpg');
+            background: url('http://codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000/image/jpeg/1484941513000/kc_full_bg.jpg');
             background-size: 100% calc(100vh - 23px);
             font-family: 'Whitney', sans-serif;
         }
@@ -106,7 +106,7 @@
         <!-- Begin eFlyerMaker Signup form -->
         <form id="sub_form" method="post" action="https://campaign.eflyermaker.com" target="_blank">
             <input type="hidden" name="action" value="Campaigns_subscribe" />
-            <input type="hidden" name="p" value="53616c7465645f5f5baab24a14e961d02d3711cb9e48743b" />
+            <input type="hidden" name="p" value="53616c7465645f5f992d74254d00959052538d10f1d79dc9" />
             <div class="form_container" align="center">
                 <div class="row">
                     <div class="col-md-12">
@@ -171,32 +171,54 @@
                 </div>
                 <div class="row">
                     <div>
-                        <input type="hidden" name="subscriber_source" value="eFlyerMaker Subscription Form">
+                        <input type="hidden" name="subscriber_source" value="Website_Kidsclub_form">
                     </div>
                 </div>
             </div>
             <!-- End eFlyerMaker form -->
         </form>
     </section>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    
+    <div id="eFlyerMaker_form_response" style="padding:100px; text-align: center;"></div>
+
     <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.min.js"></script>
     <script>
-    $("#sub_form").validate();
+        $("#sub_form").validate();
+        
+        $("#reload").click(function() {
+            location.reload();
+        });
+        
     
-    $("#reload").click(function() {
-        location.reload();
+    
+    
+        $('#sub_form').on('submit', function(e){
+            var data =  {
+            'email' : $('#email').val(),
+            'firstname' : $('#fname').val(),
+            'lastname' : $('#lname').val(),
+            'postalcode' : $('#postal_code').val(),
+            'publication_agreement' : $('#publication_agreement').prop('checked') ? 1 : 0,
+            'general_agreement' : $('#general_agreement').prop('checked') ? 1 : 0,
+            'consent_policy' : $('#consent_policy').prop('checked') ? 1 : 0,
+        };
+    
+        if (data.email && data.firstname && data.lastname && data.postalcode && data.publication_agreement && data.general_agreement && data.consent_policy) {
+            var ajax_data = 'email='+data.email+'&firstname='+data.firstname+'&lastname='+data.lastname+'&postalcode='+data.postalcode+'&publication_agreement=1&general_agreement=1&consent_policy=1';
+            ajax_data += '&json=1&simple=1&action=Campaigns_subscribe&p=53616c7465645f5f5baab24a14e961d02d3711cb9e48743b&subscriber_source=Website_Kidsclub_form';
+
+            var ajax_url = "https://campaign.eflyermaker.com?"+ajax_data;
+
+            jQuery.ajax({ 
+                url:ajax_url+'&callback=?', 
+                jsonp: "jsonp", 
+                dataType: "JSONP",
+                jsonpCallback: "callback",
+                type:'GET'
+            });                
+        }    
     });
-    // $("#sub_form").validate( {
-    //     onsubmit: false
-    // });
-    // $("#sub_form").bind('submit', function(e) {
-    //     e.preventDefault();
-    //     if($(this).validate().form()){
-    //         this.submit();
-    //         $("input[type=email], input[type=text]").val('');
-    //         $("input[type=checkbox").attr("checked", false);
-    //     };
-    // });
     </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/i18next/1.6.3/i18next-1.6.3.min.js"></script>
 </body>
 </html>
