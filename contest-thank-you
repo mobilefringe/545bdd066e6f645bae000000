@@ -23,9 +23,6 @@
             /*bottom: 284px;*/
             /*left: 404px;*/
             bottom: 37%;
-            /*left: 56%;*/
-            
-            position: absolute;
             left: 0;
             right: 0;
             margin: auto;
