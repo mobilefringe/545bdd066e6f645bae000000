@@ -19,8 +19,10 @@
        } 
        .button_container {
             position: absolute;
-            bottom: 284px;
-            left: 404px;
+            /*bottom: 284px;*/
+            /*left: 404px;*/
+            bottom: 37%;
+            left: 56%;
         }
         a {
             padding: 12px 38px;
