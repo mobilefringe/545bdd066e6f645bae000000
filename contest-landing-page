@@ -16,6 +16,8 @@
     } 
     .button_container {
         position: absolute;
+        /*top: 480px;*/
+        /*left: 204px;*/
         top: 70%;
         left: 22%;
     }
