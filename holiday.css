@@ -346,7 +346,9 @@ padding-top:25px;
 .holiday-footer, .footer-gg{
     text-align:center;
 }
-
+.holiday-footer-link {
+    font-family: ChronicleDisplay;
+}
 .pinit {
     position:relative;
 	display:inline-block;
