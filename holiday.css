@@ -271,7 +271,10 @@ margin-top:0px;
     float:left;
     margin-right:11px;
 }
-
+.holiday-block-green {
+    background: green;
+    color: #FFF;
+}
 .holiday-description{
 max-width:288px; 
 height:378px;
