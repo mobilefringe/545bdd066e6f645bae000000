@@ -286,6 +286,9 @@ padding-top:25px;
 .holiday-description p {
      display: block;
 }
+.holiday-center {
+    text-align: center;
+}
 .description-D{   
     text-align:center;    
     margin-left:11px; 
