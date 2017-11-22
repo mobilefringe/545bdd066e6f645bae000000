@@ -107,15 +107,15 @@ margin-top:0px;
     margin-bottom: 0px;
 }
 
- .holiday-btn{
-     font-family: ChronicleDeck-Roman;
-     font-size:13px;
-     background-color:#e70033 !important;
-     width:109px;
-     height:23px;
-     border:none;
-     padding-top:3px;
-     margin-bottom:15px;
+ .holiday-btn {
+    margin-bottom: 15px;
+    padding-top:3px;
+    width: 109px;
+    height: 23px;
+    border: none;
+    background-color: #FFF;
+    /*font-family: ChronicleDeck-Roman;*/
+    font-size: 13px;
  }      
 .popup-close{
     background-image:url("//kodekloud.s3.amazonaws.com/sites/545bdd066e6f645bae000000/49986ff249df53ba1e26eb3c6fefc753/close.png");
