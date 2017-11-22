@@ -22,8 +22,8 @@ a:hover {
     letter-spacing: 1px;
 }
 .holiday-gift-guide h2{
-    max-width:850px;   
-    margin-bottom:0px;
+    max-width: 850px;   
+    margin-bottom: 0px;
 }
 .holiday-popup-footer{
     font-family: ChronicleDisplay-Italic;
@@ -339,13 +339,21 @@ padding-top:25px;
     right: 0; 
   }
   .gift-guide-subtitle{
-   font-family: ChronicleDisplay-Italic;
+    font-family: ChronicleDisplay-Italic;
     font-size: 50px;
     text-align: center;
     width: 100%;
     padding-top:70px;
     margin:0 auto;
-    }
+}
+.gift-guide-subtext{
+   font-family: ChronicleDisplay-Italic;
+    font-size: 50px;
+    text-align: center;
+    width: 100%;
+    padding-top: 70px;
+    margin:0 auto;
+}
 .gift-guide-title{
     margin-bottom:80px;    
 }
