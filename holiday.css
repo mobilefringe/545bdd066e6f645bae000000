@@ -38,8 +38,8 @@ h1 .current_item {
     width:95px;
 }
 .agree-label {
-    width: auto;
-    float: none;
+    width: auto !important;
+    float: none !important;
 }
 .holiday-typebox{
     width:183px !important;
