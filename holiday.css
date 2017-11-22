@@ -133,14 +133,15 @@ margin-top:0px;
 }
 .holiday-popup-header {
     margin-bottom: 0px;
-    font-family: 'MillerBanner';
+    
+    font-family: 'MillerBannerItalic';
     font-size: 50px;
     line-height: 72;
     color: #000;
     text-align: center;
 }
 .holiday-popup-header span {
-    font-family: ChronicleDisplay;
+    font-family: 'MillerBanner';
 }
 .holiday-popup-tagline {
     font-size: 14px;
