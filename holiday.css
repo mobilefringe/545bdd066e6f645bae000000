@@ -67,12 +67,11 @@ a:hover {
     max-width: 850px;   
     margin-bottom: 0px;
 }
-.holiday-popup-footer{
-    font-family: ChronicleDisplay-Italic;
-    font-size:12px;
-    margin-top:34px;
-    margin-bottom:0px;
-    letter-spacing: 1px; 
+.holiday-popup-footer {
+    margin-top: 34px;
+    margin-bottom: 0px;
+    font-family: 'MillerBannerItalic';
+    font-size: 9px;
 }
 .popup-form-div label{
     font-size:13px;
