@@ -37,9 +37,10 @@ h1 .current_item {
     float:left;
     width:95px;
 }
-.agree-label {
-    width: auto !important;
-    float: none !important;
+.popup-form-div label.agree-label {
+    margin-right: 36px;
+    width: auto;
+    float: none;
 }
 .holiday-typebox{
     width:183px !important;
