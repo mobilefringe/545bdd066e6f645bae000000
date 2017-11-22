@@ -24,11 +24,12 @@
 }
 
 .holiday-gift-guide h1 {
-    margin-bottom:20px;     
-    color:#9b9b9b;
-    margin-top:0px;
+    margin-top: 0;
+    margin-bottom: 20px;     
+    font-size: 53px;
+    color: #9B9B9B;
 }
-h1 .current_item {
+h1.current_item {
     color: #000;
 }
 a {
