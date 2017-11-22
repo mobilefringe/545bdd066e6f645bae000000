@@ -347,12 +347,13 @@ padding-top:25px;
     margin:0 auto;
 }
 .gift-guide-subtext{
-   font-family: ChronicleDisplay-Italic;
-    font-size: 50px;
-    text-align: center;
-    width: 100%;
-    padding-top: 70px;
     margin:0 auto;
+    margin-bottom: 32px;
+    font-family: ChronicleDisplay-Italic;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
 }
 .gift-guide-title{
     margin-bottom:80px;    
