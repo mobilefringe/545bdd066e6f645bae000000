@@ -84,6 +84,7 @@ a:hover {
     margin-right: 36px;
     width: auto;
     float: none;
+    font-size: 9px !important;
 }
 .holiday-typebox {
     margin-bottom: 6px !important;
