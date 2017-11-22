@@ -13,6 +13,16 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Chronicle Deck Semi Italic';
+    src: url('//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000//1511407370000/ChronicleDeck-SemiItalic.eot');
+    src: url('//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000//1511407370000/ChronicleDeck-SemiItalic.eot?#iefix') format('embedded-opentype'),
+        url('//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000//1511407370000/ChronicleDeck-SemiItalic.woff') format('woff'),
+        url('//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000//1511407370000/ChronicleDeck-SemiItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
 .holiday-gift-guide h1 {
     margin-bottom:20px;     
     color:#9b9b9b;
