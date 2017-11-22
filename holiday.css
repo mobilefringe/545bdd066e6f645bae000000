@@ -86,14 +86,15 @@ a:hover {
     width: auto;
     float: none;
 }
-.holiday-typebox{
-    width:183px !important;
-    height:23px !important;
+.holiday-typebox {
+    margin-bottom: 6px !important;
+    margin-right: 20px !important;
+    padding: 3px !important;
+    width: 183px !important;
+    height: 23px !important;
     float:left;
-   margin-bottom:6px !important;
-   margin-right:20px !important;
-   font-size:12px;
-   padding:3px !important;
+    border: 1px solid #000 !important;
+    font-size: 12px;
 }
 .floater-left{
     float:left;
@@ -143,7 +144,8 @@ margin-top:0px;
     font-family: 'MillerBanner';
 }
 .holiday-popup-tagline {
-    font-size: 14px;
+    font-size: 17.5px;
+    line-height: 22px;
     text-align: center;
 }
 .holiday-money{
