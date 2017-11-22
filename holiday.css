@@ -378,6 +378,9 @@ padding-top:25px;
 .holiday-footer, .footer-gg{
     text-align:center;
 }
+#holiday-footer-links {
+    max-width: 850px;
+}
 .holiday-footer-link {
     font-family: ChronicleDisplay;
 }
