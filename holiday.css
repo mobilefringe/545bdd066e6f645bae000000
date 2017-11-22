@@ -94,6 +94,13 @@ margin-top:0px;
     font-family: ChronicleDisplay-Italic;
     margin-bottom:0px;
 }
+.holiday-popup-header span {
+    font-family: ChronicleDisplay;
+}
+.holiday-popup-tagline {
+    font-size: 14px;
+    text-align: center;
+}
 .holiday-money{
     font-family: ChronicleDeck-bold; 
     font-size:80px;
