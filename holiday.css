@@ -2,6 +2,17 @@
     font-family: "ChronicleDisplay-Italic-Bold";
     src: url("//kodekloud.s3.amazonaws.com/sites/545bdd066e6f645bae000000/6fa234292be32f532b2821a784dc4c8b/ChronicleDeck-BoldItalic.ttf");
 }
+
+@font-face {
+    font-family: 'Chronicle Deck Semi';
+    src: url('//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000//1511407090000/ChronicleDeck-Semi.eot');
+    src: url('//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000//1511407090000/ChronicleDeck-Semi.eot?#iefix') format('embedded-opentype'),
+        url('//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000//1511407090000/ChronicleDeck-Semi.woff') format('woff'),
+        url('//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000//1511407090000/ChronicleDeck-Semi.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
 .holiday-gift-guide h1 {
     margin-bottom:20px;     
     color:#9b9b9b;
