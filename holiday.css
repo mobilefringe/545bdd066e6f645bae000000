@@ -225,7 +225,8 @@ margin-top:0px;
 }
 .footer-gg {
     margin: 0 auto;
-    max-width: 440px;
+    width: 100%;
+    float: left;
     font-family: 'Chronicle Deck Semi Italic';
     font-size: 26px;
     line-height: 26px;
