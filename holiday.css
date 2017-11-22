@@ -33,6 +33,16 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'MillerBannerItalic';
+    src: url('//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000//1511411608000/MillerBanner-Italic.eot');
+    src: url('//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000//1511411608000/MillerBanner-Italic.eot#iefix') format('embedded-opentype'),
+        url('//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000//1511411608000/MillerBanner-Italic.woff') format('woff'),
+        url('//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000//1511411608000/MillerBanner-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
 .holiday-gift-guide h1 {
     margin-top: 0;
     margin-bottom: 20px;     
