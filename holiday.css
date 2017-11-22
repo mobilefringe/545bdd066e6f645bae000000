@@ -57,6 +57,7 @@ a {
 }
 a:hover {
     cursor: pointer;
+    text-decoration: underline;
 }
 .look-book-head{
     font-family: ChronicleDisplay-Italic;
