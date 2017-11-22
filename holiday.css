@@ -218,16 +218,17 @@ margin-top:0px;
 }
 .stMainServices, .stHBubble{
     height:25px !important;
- }
-       
-.title-gg, .footer-gg{    
+}
+.title-gg {    
     font-size: 26px;     
     font-family: ChronicleDisplay-Italic;    
 }
 .footer-gg {
     margin: 0 auto;
     max-width: 440px;
-    font-weight: bold;
+    font-family: 'Chronicle Deck Semi Bold';
+    font-size: 26px;
+    line-height: 26px;
 }
 .content-gg{    
     font-family:Whitney-light;    
@@ -311,17 +312,15 @@ margin-top:0px;
     float:left;
     margin-right:11px;
 }
-
 .holiday-description{
-max-width:288px; 
-height:378px;
-margin: 11px;
-margin-top:64px;
-margin-bottom: 0px;
-float:left;
-text-align:center;
-padding-top:25px;
-
+    margin: 64px 11px 0 11px;
+    /*margin-top:64px;*/
+    /*margin-bottom: 0px;*/
+    padding-top: 25px;
+    max-width: 288px; 
+    height: 378px;
+    float:left;
+    text-align:center;
 }
 .holiday-description p {
     display: block;
