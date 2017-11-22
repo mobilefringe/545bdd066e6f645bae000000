@@ -405,9 +405,13 @@ margin-top:0px;
 #holiday-footer-links {
     max-width: 930px;
 }
+#holiday-section-link {
+    
+}
 .holiday-footer-link {
-    font-family: ChronicleDisplay;
-    font-weight: bold;
+    font-family: 'Chronicle Deck Semi Bold';
+    font-size: 24px;
+    line-height: 34px;
 }
 .pinit {
     position:relative;
