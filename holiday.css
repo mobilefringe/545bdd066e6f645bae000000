@@ -33,7 +33,7 @@ h1 span.current_item {
     color: #000;
 }
 a {
-    color: #222;
+    color: #222 !important;
 }
 a:hover {
     cursor: pointer;
