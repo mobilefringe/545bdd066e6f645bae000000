@@ -112,10 +112,11 @@ margin-top:0px;
     padding-top:3px;
     width: 109px;
     height: 23px;
-    border: none;
+    border: 1px solid #000;
     background-color: #FFF;
     /*font-family: ChronicleDeck-Roman;*/
     font-size: 13px;
+    color: #000;
  }      
 .popup-close{
     background-image:url("//kodekloud.s3.amazonaws.com/sites/545bdd066e6f645bae000000/49986ff249df53ba1e26eb3c6fefc753/close.png");
