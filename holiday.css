@@ -17,23 +17,21 @@ a:hover {
     cursor: pointer;
 }
 .look-book-head{
-      font-family: ChronicleDisplay-Italic;
-  font-size: 3.0em;
-  letter-spacing: 1px;
+    font-family: ChronicleDisplay-Italic;
+    font-size: 3.0em;
+    letter-spacing: 1px;
 }
-
 .holiday-gift-guide h2{
- max-width:850px;   
- margin-bottom:0px;
+    max-width:850px;   
+    margin-bottom:0px;
 }
 .holiday-popup-footer{
-     font-family: ChronicleDisplay-Italic;
+    font-family: ChronicleDisplay-Italic;
     font-size:12px;
     margin-top:34px;
     margin-bottom:0px;
     letter-spacing: 1px; 
 }
-
 .popup-form-div label{
     font-size:13px;
     color:black;
