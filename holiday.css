@@ -37,6 +37,10 @@ h1 .current_item {
     float:left;
     width:95px;
 }
+.agree-label {
+    width: auto;
+    float: none;
+}
 .holiday-typebox{
     width:183px !important;
     height:23px !important;
