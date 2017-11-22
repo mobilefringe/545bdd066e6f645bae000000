@@ -202,7 +202,9 @@ margin-top:0px;
     font-size: 26px;     
     font-family: ChronicleDisplay-Italic;    
 }
-
+.footer-gg {
+    max-width: 500px;
+}
 .content-gg{    
     font-family:Whitney-light;    
     font-size:18px;    
