@@ -113,8 +113,8 @@ margin-top:0px;
 }
 
  .holiday-btn {
-    margin-bottom: 15px;
-    padding-top:3px;
+    margin-top: 50px;
+    padding-top: 3px;
     width: 109px;
     height: 23px;
     border: 1px solid #000;
@@ -124,13 +124,12 @@ margin-top:0px;
     color: #000;
  }      
 .popup-close{
-    background-image:url("//kodekloud.s3.amazonaws.com/sites/545bdd066e6f645bae000000/49986ff249df53ba1e26eb3c6fefc753/close.png");
-    cursor:pointer;
-    margin-bottom:0px;
-    height:24px;
-    width:24px;
+    margin-bottom: 0px;
+    width: 24px;
+    height: 24px;
+    background-image: url("//kodekloud.s3.amazonaws.com/sites/545bdd066e6f645bae000000/49986ff249df53ba1e26eb3c6fefc753/close.png");
+    cursor: pointer;
 }
-
 .hidden-popup-bg {
    background-color:rgba(0, 0, 0, 0.65);
    height:100%;
