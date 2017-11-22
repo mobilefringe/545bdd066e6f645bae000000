@@ -403,8 +403,9 @@ margin-top:0px;
 .holiday-footer, .footer-gg{
     text-align:center;
 }
-#holiday-footer-links {
-    max-width: 930px;
+.holiday-footer {
+    width: 100%;
+    float: left;
 }
 #holiday-section-link {
     
