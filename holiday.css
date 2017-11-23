@@ -356,6 +356,9 @@ margin-top:0px;
     float:left;
     text-align:center;
 }
+.height {
+    height: 452px;
+}
 .holiday-desc_container {
     position: absolute;
     top: 50%;
