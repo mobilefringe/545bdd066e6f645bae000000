@@ -768,5 +768,8 @@ margin:-10px 0 0 -21px;
     h2{
         font-size:1.5em;
     }
+    .holiday-mobile-break { 
+        display: block;
+    }
 }
     
