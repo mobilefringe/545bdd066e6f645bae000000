@@ -752,7 +752,7 @@ margin:-10px 0 0 -21px;
         margin-top:0px;
     }
     .holiday-gift-guide h1 {
-        font-size: 24px;
+        font-size: 24px !important;
     }
     h1 {
         text-align:center;
