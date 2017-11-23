@@ -350,6 +350,9 @@ margin-top:0px;
     float:left;
     margin-right:11px;
 }
+.style-D img {
+    margin-bottom: 12px;
+}
 .holiday-description{
     margin: 64px 11px 0 11px;
     /*margin-top:64px;*/
