@@ -265,8 +265,17 @@ margin-top:0px;
    line-height:23px;
 }
 .type-gg{
-    margin:0 auto;
-    
+    margin: 0 auto;
+}
+.influencer {
+    margin-bottom: 0px; 
+    font-family: 'Chronicle Deck Semi Bold';   
+    font-size: 14px;    
+    line-height: 19px;      
+}
+.influencer span {
+    font-family: ChronicleDisplay-Italic; 
+    font-size: 14px;
 }
 .description-gg{     
     font-family: ChronicleDeck-Roman;    
