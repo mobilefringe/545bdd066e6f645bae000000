@@ -759,6 +759,13 @@ margin:-10px 0 0 -21px;
         height:auto;
         margin-bottom:11px;
     }
+    .holiday-desc_container {
+        position: initial;
+        top: 0;
+        -webkit-transform: none;
+        -ms-transform: none;
+        transform: none;
+    }
     .holiday-description{
         padding:10px;   
         float:none;
