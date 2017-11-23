@@ -349,11 +349,11 @@ margin-top:0px;
 }
 .holiday-desc-center{
     margin: 64px 11px 0 11px;
-    /*margin-top:64px;*/
-    /*margin-bottom: 0px;*/
     padding-top: 25px;
+    width: 100%;
     max-width: 288px; 
     height: 378px;
+    position: relative;
     float:left;
     text-align:center;
 }
