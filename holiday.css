@@ -347,6 +347,23 @@ margin-top:0px;
 .style-D img {
     margin-bottom: 12px;
 }
+.holiday-desc_center{
+    margin: 64px 11px 0 11px;
+    /*margin-top:64px;*/
+    /*margin-bottom: 0px;*/
+    padding-top: 25px;
+    max-width: 288px; 
+    height: 378px;
+    float:left;
+    text-align:center;
+}
+.holiday-desc_container {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(-50%, 0%);
+    -ms-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%);
+}
 .holiday-description{
     margin: 64px 11px 0 11px;
     /*margin-top:64px;*/
