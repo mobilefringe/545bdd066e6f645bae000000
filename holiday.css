@@ -324,28 +324,22 @@ margin-top:0px;
     position:relative;
   }
   
-  .style-E img{
-      margin-bottom: 12px;
-  }
-.image-C, .description-C{
-  margin:0 auto;
-  margin:11px;
-
+.style-E img{
+    margin-bottom: 12px;
 }
-
+.image-C, .description-C{
+    margin:0 auto;
+    margin:11px;
+}
 .image-C img{
+    margin-top:64px;
     width:100%;
-    margin-bottom:11px;
-      margin-top:64px;
 }
 .style-D img{
     width:100%;
     margin:0 auto;
-    
 }
-
 .style-D{
-
     height:auto;
     float:left;
     margin-right:11px;
