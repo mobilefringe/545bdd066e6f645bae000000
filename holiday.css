@@ -752,6 +752,13 @@ margin:-10px 0 0 -21px;
     .description-gg{
         text-align:center;    
     }
+    .holiday-desc-center{
+        padding:10px;   
+        float:none;
+        margin:0 auto;
+        height:auto;
+        margin-bottom:11px;
+    }
     .holiday-description{
         padding:10px;   
         float:none;
