@@ -603,48 +603,48 @@ margin:-10px 0 0 -21px;
 }
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
     .hidden-popup-form{
-            margin-top: 15px;
-            height: 92%;
-            overflow: scroll;
-        }
-        .mobile-side{
-            padding-left:17px !important;
-            padding-right:17px !important;
-        }
+        margin-top: 15px;
+        height: 92%;
+        overflow: scroll;
+    }
+    .mobile-side{
+        padding-left:17px !important;
+        padding-right:17px !important;
+    }
 }
-    @media only screen and (max-width: 40em) {
-        .hidden-popup-form{
-            margin-top: 20px;
-            height: 92%;
-            overflow: scroll;
-        }
-        
-         .style-G{
 
-    padding-left:0px; 
- }
-            .mobile-side{
-            margin-left:17px !important;
-            margin-right:17px !important;
-                 padding-left:0px !important;
-            padding-right:0px !important;
-        }
-        .mobile-show{
-            display:block !important;
-        }
-        .desktop-show{
-            display:none !important;
-        }
-            .look-book h1{
-            text-align:center;
-            font-size:2.0em;
-        }
-       .look-book h2{
-            font-size:1.5em;
-            display:block !important;
-        }
-          .gift-guide-subtitle{
-      display:none;
+@media only screen and (max-width: 40em) {
+    .hidden-popup-form{
+        margin-top: 20px;
+        height: 92%;
+        overflow: scroll;
+    }
+    .style-G{
+        padding-left:0px; 
+    }
+    .mobile-side{
+        margin-left:17px !important;
+        margin-right:17px !important;
+        padding-left:0px !important;
+        padding-right:0px !important;
+    }
+    .mobile-show{
+        display:block !important;
+    }
+    .desktop-show{
+        display:none !important;
+    }
+    .look-book h1{
+        text-align:center;
+        font-size:2.0em;
+    }
+    .look-book h2{
+        font-size:1.5em;
+        display:block !important;
+    }
+    .gift-guide-subtitle{
+        padding-top: 30px;
+        font-size: 24px;
     }
     .holiday-footer{
         font-size:18px;
@@ -653,15 +653,14 @@ margin:-10px 0 0 -21px;
         font-size:20px;
     }
     .holiday-link-her, .holiday-link-him, .holiday-link-kids {
-
-    font-size: 20px;
-}
-.style-A, .style-B, .style-C, .style-E, .style-F {    
-              max-width:288px;
-           float:none;
-           margin: 0 auto;
-            padding-top:11px;
-        }
+        font-size: 20px;
+    }
+    .style-A, .style-B, .style-C, .style-E, .style-F {    
+        max-width:288px;
+        float:none;
+        margin: 0 auto;
+        padding-top:11px;
+    }
     .style-H{
         text-align: center;
         display:block;
