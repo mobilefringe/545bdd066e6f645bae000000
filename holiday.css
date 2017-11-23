@@ -675,100 +675,93 @@ margin:-10px 0 0 -21px;
         padding-top: 0px;
         margin-left: 0px;
     }
-        .title-gg{
-            margin-top:15px;
-        }
-        .image-C, .description-C {
-            margin:0 auto;
-            text-align:center;
-          
-        }
-        .image-C img {
-    padding-bottom: 0px;
-    padding-top: 0px;
- 
-}
-.description-C .description-gg {
-    display: block;
-}
-.gray-long{
-    margin-top:15px;
-    margin-bottom:22px;
-}
-
-    .image-C, .description-C{
-      max-width:288px;
+    .title-gg{
+        margin-top:15px;
     }
-        .fr-fin{
-            margin-top:11px;
-            margin-bottom:11px;
-            max-width:288px;
-        }
-        .style-D{
-            margin: 0 auto;
-            text-align:center;
-            float:none !important;
-            margin-top:45px;
-            
-        }
-        .style-H{
-            width:100%;
-            margin-top:0px;
-            float: left;
-            margin:0 auto;
-        }
-        
-        .style-slider{
-            
-            width:288px;
-            margin:0 auto;
-        }
-
-        
-        .style-H img{
-            margin-top:45px;
-            margin-bottom:45px;
-        }
-        .container-G{
-            margin-top:45px;
-        }
-        .description-C{
+    .image-C, .description-C {
+        margin:0 auto;
         text-align:center;
-        }
-        .description-gg{
-            text-align:center;    
-        }
-      
-        .holiday-description{
-            padding:10px;   
-            float:none;
-            margin:0 auto;
-            height:auto;
-            margin-bottom:11px;
-        }
-         .look-book h1{
-      
-         padding-top:0px;
-     }
-       .look-book h2{
+    }
+    .image-C img {
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
+    .description-C .description-gg {
+        display: block;
+    }
+    .gray-long{
+        margin-top:15px;
+        margin-bottom:22px;
+    }
+    .image-C, .description-C{
+        max-width:288px;
+    }
+    .fr-fin{
+        margin-top:11px;
+        margin-bottom:11px;
+        max-width:288px;
+    }
+    .style-D{
+        margin: 0 auto;
+        text-align:center;
+        float:none !important;
+        margin-top:45px;
+    }
+    .style-H{
+        width:100%;
+        margin-top:0px;
+        float: left;
+        margin:0 auto;
+    }
+    .style-slider{
+        width:288px;
+        margin:0 auto;
+    }
+    .style-H img{
+        margin-top:45px;
+        margin-bottom:45px;
+    }
+    .container-G{
+        margin-top:45px;
+    }
+    .description-C{
+    text-align:center;
+    }
+    .description-gg{
+        text-align:center;    
+    }
+    .holiday-description{
+        padding:10px;   
+        float:none;
+        margin:0 auto;
+        height:auto;
+        margin-bottom:11px;
+    }
+    .look-book h1{
+        padding-top:0px;
+    }
+    .look-book h2{
         line-height:1em;
         margin-bottom:15px;
-     }
-     .look-book .holiday-style-F {
-    height: auto;
-    margin-bottom: 0;
-}
-     .title-gg{
-         margin-top:0px;
-     }
-        h1{
-            text-align:center;
-            font-size:1.3em;
-            margin-bottom:15px;
-            margin-top:25px;
-        }
-        h2{
-            font-size:1.5em;
-        }
     }
+    .look-book .holiday-style-F {
+        height: auto;
+        margin-bottom: 0;
+    }
+    .title-gg{
+        margin-top:0px;
+    }
+    .holiday-gift-guide h1 {
+        font-size: 24px;
+    }
+    h1 {
+        text-align:center;
+        font-size:1.3em;
+        margin-bottom:15px;
+        margin-top:25px;
+    }
+    h2{
+        font-size:1.5em;
+    }
+}
     
