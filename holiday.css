@@ -360,9 +360,9 @@ margin-top:0px;
 .holiday-desc_container {
     position: absolute;
     top: 50%;
-    -webkit-transform: translate(-50%, 0%);
-    -ms-transform: translate(-50%, 0%);
-    transform: translate(-50%, 0%);
+    -webkit-transform: translate(0%, -50%);
+    -ms-transform: translate(0%, -50%);
+    transform: translate(0%, -50%);
 }
 .holiday-description{
     margin: 64px 11px 0 11px;
