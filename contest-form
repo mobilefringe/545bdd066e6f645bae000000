@@ -112,7 +112,7 @@
         .underline {
             text-decoration: underline;
         }
-        ."main-container {
+        .center {
             text-align: center;
         }
     </style>
