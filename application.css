@@ -4,17 +4,17 @@
 
 @font-face {
   font-family: "MillerBanner-SemiBold";
-  src: url(https://assets.codecloudapp.com/sites/545bdd066e6f645bae000000//1478550907000/MillerBanner-Semibold.otf) format("opentype");
+  src: url(https://codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000//1478550907000/MillerBanner-Semibold.otf) format("opentype");
 }
 
 @font-face {
   font-family: "MillerBanner-SemiBoldItalic";
-  src: url(//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000//1478550907000/MillerBanner-SemiboldItalic.otf) format("opentype");
+  src: url(https://codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000//1478550907000/MillerBanner-SemiboldItalic.otf) format("opentype");
 }
 
 @font-face {
   font-family: "MinionPro-Regular";
-  src: url(codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000//1478214195000/MinionPro-Regular.otf) format("opentype");
+  src: url(https://codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000//1478214195000/MinionPro-Regular.otf) format("opentype");
 }
 section:target {
     margin-top: -5.63em;
