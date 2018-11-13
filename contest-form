@@ -152,8 +152,7 @@
                         <input class="btn btn-primary" name="commit" type="submit" value="Submit">
                     </div>
                     <div class="row col-md-12">
-                        <p class="center">Oxford Properties Group, 100 Adelaide Street W.,<br>Suite 900 Toronto, ON M5H 0E2</p>
-                        <p>privacy@oxfordproperties.com</p>
+                        <p class="center">Oxford Properties Group, 100 Adelaide Street W.,<br>Suite 900 Toronto, ON M5H 0E2<br>privacy@oxfordproperties.com</p>
                     </div>
                 </div>
             </form>
