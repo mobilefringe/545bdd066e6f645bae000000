@@ -132,7 +132,7 @@
                     <label for="cbox1"><input type="checkbox" id="cbox1" name="contest[newsletter]" value="true"><span></span> I agree to receive newsletters from Southcentre Mall</label>
                 </div>
                 <div class="row col-md-12">    
-                    <label for="cbox2"><input type="checkbox" id="cbox2" name="contest[checkbox1]" value="true"><span></span> I understand and agree that by providing my email address I am consenting to receive news,announcements and promotions from Oxford Properties and businesses operating therein. You can unsubscribe at any time. See Oxford Properties Group’s Privacy Statement</label>
+                    <label for="cbox2"><input type="checkbox" id="cbox2" name="contest[checkbox1]" value="true"><span></span> I understand and agree that by providing my email address I am consenting to receive news, announcements and promotions from Oxford Properties and businesses operating therein. You can unsubscribe at any time. See Oxford Properties Group’s <a href="https://www.oxfordproperties.com/corp/en/oxford-properties/privacy-policy/" target="_blank">Privacy Statement</a></label>
                 </div>
                 <!--<div class="row col-md-12">-->
                 <!--    <label for="cbox3"><input type="checkbox" id="cbox3" name="contest[get_vendor_info]" value="true"><span></span> I agree to receive communications from Fairmont Jasper Park Lodge</label>-->
