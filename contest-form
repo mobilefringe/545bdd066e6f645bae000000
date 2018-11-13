@@ -15,7 +15,7 @@
             width: 100vw;
             height: calc(100vh - 23px);
             /*background: url("//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000/image/jpeg/1478725151000/contest_form.jpg");*/
-            background-size: 100% calc(100vh - 23px);   
+            /*background-size: 100% calc(100vh - 23px);   */
             position: absolute;
             top: 0;
             left: 0;
@@ -27,8 +27,8 @@
             padding-left: 7.5px;
         }
         .form-container {
-            /*margin: 290px 87.5px 0 87.5px;*/
-            margin: 420px 7% 0 7%;
+            /*margin: 420px 7% 0 7%;*/
+            padding: 0 30px;
         }
         input[type="text"], 
         input[type="email"] {
