@@ -168,7 +168,7 @@
                     $("#users_email").focus();
                     return false;
                 } else if ($("#cbox2").prop("checked") != true){
-                    alert("Please agree to the Rules & Regulations and Privacy Policy before submitting the contest form.");
+                    alert("Please agree to the Privacy Statement before submitting the contest form.");
                     $("cbox2").focus();
                     return false;
                 } else {
