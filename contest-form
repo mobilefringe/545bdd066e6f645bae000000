@@ -61,7 +61,7 @@
             display:none;
         }
         input[type=checkbox] + span {
-            margin-top: -8px;
+            margin: -8px 0 30px 0;
             display: block;
             float: left;
         }
@@ -143,7 +143,7 @@
                         <label for="cbox2"><input type="checkbox" id="cbox2" name="contest[checkbox1]" value="true"><span></span> I understand and agree that by providing my email address I am consenting to receive news, announcements and promotions from Oxford Properties and businesses operating therein. You can unsubscribe at any time. See Oxford Properties Group’s <a class="underline" href="https://www.oxfordproperties.com/corp/en/oxford-properties/privacy-policy/" target="_blank">Privacy Statement</a></label>
                     </div>
                     <div class="row col-md-12">    
-                        <p style="margin-bottom: 10px;">*mandatory<span class="space"></span><a href="">Rules & Regulations</a></p>
+                        <p style="margin-bottom: 10px;">*mandatory<span class="space"></span><a classhref="">Rules & Regulations</a></p>
                     </div>
                     <div class="row col-md-12">
                         <input class="btn btn-primary" name="commit" type="submit" value="Submit">
