@@ -31,7 +31,7 @@ h1 {
     line-height: 1.2;
 }
 .slick-loading .slick-list {
-    background: url("http://cdn.mallmaverick.com/system/site_images/photos/000/004/025/original/ajax-loader.gif?1410970804") no-repeat scroll center center white;
+    background: url("https://cdn.mallmaverick.com/system/site_images/photos/000/004/025/original/ajax-loader.gif?1410970804") no-repeat scroll center center white;
 }
 .slick-loading .slick-slide {
     display: none;
