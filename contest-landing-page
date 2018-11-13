@@ -11,7 +11,7 @@
     main {
         width: 100vw;
         height: calc(100vh - 23px);
-        background: url("http://codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000/image/jpeg/1478724872000/contest_landing.jpg");
+        background: url("//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000/image/jpeg/1542149733490/snowman.jpg");
         background-size: 100% calc(100vh - 23px);   
     } 
     .button_container {
