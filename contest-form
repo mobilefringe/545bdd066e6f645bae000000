@@ -15,13 +15,17 @@
         main {
             width: 100vw;
             height: calc(100vh - 23px);
-            /*background: url("//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000/image/jpeg/1478725151000/contest_form.jpg");*/
-            /*background-size: 100% calc(100vh - 23px);   */
             position: relative;
             top: 0;
             left: 0;
             font-family: "Whitney-light";
         } 
+        section {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
         .col-md-6,
         .col-md-12 {
             padding-right: 7.5px;
