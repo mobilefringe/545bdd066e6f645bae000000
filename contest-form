@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Win a $500 Southcentre Gift Card + A Family Membership for the Calgary Zoo</title>
+    <title>Win a $500 Southcentre Gift Card + A Family Membership for the Calgary Zoo!</title>
     <style>
         header {
             display: none;
@@ -134,9 +134,9 @@
                 <div class="row col-md-12">    
                     <label for="cbox2"><input type="checkbox" id="cbox2" name="contest[checkbox1]" value="true"><span></span> I agree to the Rules and Regulations & Privacy Policy. You can unsubscribe at anytime. For more details about personal data privacy, please read our Privacy Policy or contact us at: 100 Anderson Road SE Calgary, Alberta, Canada T2J 3V1</label>
                 </div>
-                <div class="row col-md-12">
-                    <label for="cbox3"><input type="checkbox" id="cbox3" name="contest[get_vendor_info]" value="true"><span></span> I agree to receive communications from Fairmont Jasper Park Lodge</label>
-                </div>    
+                <!--<div class="row col-md-12">-->
+                <!--    <label for="cbox3"><input type="checkbox" id="cbox3" name="contest[get_vendor_info]" value="true"><span></span> I agree to receive communications from Fairmont Jasper Park Lodge</label>-->
+                <!--</div>    -->
                 <div class="row col-md-12">    
                     <p style="margin-bottom: 10px;">*mandatory<span class="space"></span><a href="http://mallmaverick.cdn.speedyrails.net/system/site_images/photos/000/013/701/original/Oxford_Privacy_Statement_(2014_11_06).pdf?1445627232">Privacy Policy</a><span class="space"></span><a href="">Rules & Regulations</a></p>
                 </div>
