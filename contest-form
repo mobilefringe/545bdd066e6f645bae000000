@@ -18,7 +18,7 @@
             position: relative;
             font-family: "Whitney-light";
         } 
-        section {
+        #main-container {
             position: absolute;
             top: 50%;
             left: 50%;
@@ -113,7 +113,7 @@
 </head>
 <body>
     <main>
-        <section>
+        <section id="main-container">
             <form id="contest_form" action="https://southcentre.mallmaverick.com/newsletter_no_captcha">
                 <input type="hidden" value="210" name="contest[contest_id]" />
                 <input type="hidden" value="10" name="contest[property_id]" />
