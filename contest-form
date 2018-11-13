@@ -19,6 +19,9 @@
             font-family: "Whitney-light";
         } 
         #main-container {
+            width: 80%;
+            height: auto;
+            display: block;
             position: absolute;
             top: 50%;
             left: 50%;
