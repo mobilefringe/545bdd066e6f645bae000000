@@ -145,15 +145,15 @@ li {
 }
 @font-face {
     font-family: "ChronicleDisplay-Roman";
-    src: url("http://cdn.mallmaverick.com/system/site_images/photos/000/005/033/original/ChronicleDisp-Roman.otf?1412328195");
+    src: url("//mallmaverick.cdn.speedyrails.net/system/site_images/photos/000/005/033/original/ChronicleDisp-Roman.otf?1412328195");
 }
 @font-face {
     font-family: "ChronicleDisplay-Italic";
-    src: url("http://cdn.mallmaverick.com/system/site_images/photos/000/005/034/original/ChronicleDisp-Italic.otf?1412328241");
+    src: url("//mallmaverick.cdn.speedyrails.net/system/site_images/photos/000/005/034/original/ChronicleDisp-Italic.otf?1412328241");
 }
 @font-face {
     font-family: "WhitneyHTF-BookItalic";
-    src: url("http://cdn.mallmaverick.com/system/site_images/photos/000/005/077/original/WhitneyHTF-BookItalic.ttf?1412617140");
+    src: url("//mallmaverick.cdn.speedyrails.net/system/site_images/photos/000/005/077/original/WhitneyHTF-BookItalic.ttf?1412617140");
 }
 .main_content, footer {
     position: relative;
