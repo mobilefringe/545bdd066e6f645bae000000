@@ -1,7 +1,3 @@
-
-/*@import "https://cdn.mallmaverick.com/system/site_images/photos/000/003/934/original/foundation.min.css?1410468064";*/
-/*@import "https://cdn.mallmaverick.com/system/site_images/photos/000/004/024/original/slick.css?1410970514";*/
-
 @font-face {
   font-family: "MillerBanner-SemiBold";
   src: url(https://codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000//1478550907000/MillerBanner-Semibold.otf) format("opentype");
@@ -37,10 +33,10 @@ h1 {
     display: none;
 }
 #style .flex-direction-nav .flex-next {
-    background: url("http://cdn.mallmaverick.com/system/site_images/photos/000/004/993/original/arrow_right_pink_small.png?1412106248") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: url("https://cdn.mallmaverick.com/system/site_images/photos/000/004/993/original/arrow_right_pink_small.png?1412106248") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
 }
 #style .flex-direction-nav .flex-prev {
-    background: url("http://cdn.mallmaverick.com/system/site_images/photos/000/004/992/original/arrow_left_pink_small.png?1412106230") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: url("https://cdn.mallmaverick.com/system/site_images/photos/000/004/992/original/arrow_left_pink_small.png?1412106230") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
 }
 .bannner img {
     border: medium none;
