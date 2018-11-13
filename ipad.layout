@@ -22,6 +22,7 @@
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
     
     <!-- Custom CSS -->
+    <link href="//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000/text/css/1542145564157/foundation.min.css" rel="stylesheet">
     <link href="/application.css" rel="stylesheet">
     <!-- cookie jqeury -->
     <script src="http://kodekloud.s3.amazonaws.com/sites/5438407c6e6f64462d020000/601617fe9ab691b1b62a66ac3ca3e8b7/jquery.cookie.js"></script>
