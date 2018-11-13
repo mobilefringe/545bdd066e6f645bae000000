@@ -121,7 +121,7 @@
     <main>
         <div id="main-container">
             <form id="contest_form" action="https://southcentre.mallmaverick.com/newsletter_no_captcha">
-                <input type="hidden" value="210" name="contest[contest_id]" />
+                <input type="hidden" value="451" name="contest[contest_id]" />
                 <input type="hidden" value="10" name="contest[property_id]" />
                 <div class="form-container">
                     <div calss = "row">
