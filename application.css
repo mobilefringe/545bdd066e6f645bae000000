@@ -121,8 +121,9 @@ li {
 }
 @font-face {
     font-family: "Whitney-Light";
-    src: url("http://cdn.mallmaverick.com/system/site_images/photos/000/003/832/original/Whitney_Light.ttf?1410202127");
+    src: url("//mallmaverick.cdn.speedyrails.net/system/site_images/photos/000/006/155/original/Whitney_Light.ttf?1417104306");
 }
+/*http://mallmaverick.cdn.speedyrails.net/system/site_images/photos/000/006/155/original/Whitney_Light.ttf?1417104306*/
 @font-face {
     font-family: "ChronicleDeck-Roman";
     src: url("http://cdn.mallmaverick.com/system/site_images/photos/000/003/833/original/ChronicleDeck-Roman.otf?1410202153");
