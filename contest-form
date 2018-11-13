@@ -138,17 +138,12 @@
                             <input type="text" name="contest[postal_code]" placeholder="Postal Code">  
                         </div>
                     </div>
-                    <div class="row col-md-12">
-                        <label for="cbox1"><input type="checkbox" id="cbox1" name="contest[newsletter]" value="true"><span></span> I agree to receive newsletters from Southcentre Mall</label>
-                    </div>
+                    
                     <div class="row col-md-12">    
                         <label for="cbox2"><input type="checkbox" id="cbox2" name="contest[checkbox1]" value="true"><span></span> I understand and agree that by providing my email address I am consenting to receive news, announcements and promotions from Oxford Properties and businesses operating therein. You can unsubscribe at any time. See Oxford Properties Group’s <a class="underline" href="https://www.oxfordproperties.com/corp/en/oxford-properties/privacy-policy/" target="_blank">Privacy Statement</a></label>
                     </div>
-                    <!--<div class="row col-md-12">-->
-                    <!--    <label for="cbox3"><input type="checkbox" id="cbox3" name="contest[get_vendor_info]" value="true"><span></span> I agree to receive communications from Fairmont Jasper Park Lodge</label>-->
-                    <!--</div>    -->
                     <div class="row col-md-12">    
-                        <p style="margin-bottom: 10px;">*mandatory<span class="space"></span><a href="http://mallmaverick.cdn.speedyrails.net/system/site_images/photos/000/013/701/original/Oxford_Privacy_Statement_(2014_11_06).pdf?1445627232">Privacy Policy</a><span class="space"></span><a href="">Rules & Regulations</a></p>
+                        <p style="margin-bottom: 10px;">*mandatory<span class="space"></span><a href="">Rules & Regulations</a></p>
                     </div>
                     <div class="row col-md-12">
                         <input class="btn btn-primary" name="commit" type="submit" value="Submit">
