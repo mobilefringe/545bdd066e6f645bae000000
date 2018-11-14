@@ -32,7 +32,7 @@
     <script src="//mallmaverick.codecloudapp.com/mustache_mallmaverick.js?v=0.3"></script>
 
     <script>
-        setEndPoint('//home.mallmaverick.com/api/v3/home/all.json');
+        setEndPoint('//southcentre.mallmaverick.com/api/v3/southcentre/all.json');
     </script>
 </head>
 
