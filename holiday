@@ -1,10 +1,10 @@
 <div id="holiday_page_container">
     <div>
         <h1 id="mm_post_title" class="main_title"></h1>
-    <div id="mm_post_content"></div>
-    
-    <h2 id="section1_title" class="subpage_title"></h2>
-    <div id="section1_content" class="subpage_content regular_hours"></div>
+        <div id="mm_post_content"></div>
+        
+        <h2 id="section1_title" class="subpage_title"></h2>
+        <div id="section1_content" class="subpage_content regular_hours"></div>
     </div>
     <div class="section2" id="section2">
         <img src="" id="holiday_hours">
