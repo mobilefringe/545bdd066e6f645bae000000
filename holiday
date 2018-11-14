@@ -1,5 +1,5 @@
 <div>
-    
+    <h2 id="mm_post_title"></h2>
 </div>
 <script>
     $(document).ready(function(e) {                
@@ -18,10 +18,7 @@
                 document.title = data.title;
                 $('#mm_post_title').html(data.title);
                 $('#mm_post_author').html(data.author);
-                // $('#newsletter_mm_post_title').html(data.title);
-                // $('#newsletter_mm_post_author').html(data.author);
                 $('#mm_post_content').html(data.body);
-                // $('#newsletter_mm_post_content').html(data.body);
                 console.log(data);
             }); 
         }
