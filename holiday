@@ -9,6 +9,7 @@
     <div class="section2" id="section2">
         <div class="contaienr">
             <img src="" id="holiday_hours">
+            <div id="section2_content"></div>
         </div>
     </div>
 </div>
