@@ -22,9 +22,10 @@
                 document.title = data.title;
                 $('#mm_post_title').html(data.title);
                 $('#mm_post_content').html(data.body);
-                if(data.body,subpages)
+                if(data.subpages){
                 $('#section1_title').html(data.title);
                 $('#section1_content').html(data.body);
+                }
                 console.log(data);
             }); 
         }
