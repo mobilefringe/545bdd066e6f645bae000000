@@ -45,6 +45,7 @@
             top: 90%;
             left: 50%;
             transform: translate(-50%, -90%);
+            font-family: "WhitneyHTF-Book";
         }
         .content_container .description {
             font-family: "WhitneyHTF-Book";
