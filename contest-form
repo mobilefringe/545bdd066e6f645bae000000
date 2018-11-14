@@ -33,7 +33,7 @@
             color: #000;
         }
         .content_container .title {
-            margin: 20px 0 60px 0;
+            margin: 10px 0 60px 0;
         }
         .form_input {
             margin-bottom: 25px;
