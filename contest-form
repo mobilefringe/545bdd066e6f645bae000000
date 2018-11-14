@@ -87,6 +87,7 @@
         #submit {
             margin-bottom: 60px;
             padding: 8px 60px;
+            border: none;
             background: #060000;
             text-transform: uppercase;
             font-family: "Whitney-light";
