@@ -30,7 +30,8 @@
                     $('#section1_content').html(data.subpages[0].body);
                 }
                 console.log(data);
-            }); 
+            });
+            // Holiday Page Background 1
         }
         
         function renderPageData(feature_image_template, feature_image_container, imageName){
