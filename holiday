@@ -32,7 +32,7 @@
                 console.log(data);
             });
             // Holiday Page Background 1
-            repo = getRepoDetailsByName('Holiday Page Background 1').images;
+            repo = getRepoDetailsByName('Holiday Page Background 1');
         }
         
         function renderPageData(feature_image_template, feature_image_container, imageName){
