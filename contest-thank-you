@@ -29,6 +29,17 @@
             left: 50%;
             transform: translate(-50%, -65%);
         }
+        .content_container {
+            width: 80%;
+            position: absolute;
+            top: 90%;
+            left: 50%;
+            transform: translate(-50%, -90%);
+            font-family: "WhitneyHTF-Book";
+        }
+        .content_container .title {
+            font-family: "WhitneyHTF-Book";
+        }
         .logo_container {
             width: 300px;
             position: absolute;
@@ -47,7 +58,10 @@
            <a href="/contest-form">
                <img src="//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000/image/png/1542149771294/msg-thanks.png" alt="Thank You For Entering" />
            </a>
-        </div> 
+        </div>
+        <div class="content_container">
+            <h1 class="title center">Winner will be selected on<br>December 31, 2018</h1>
+        </div>
         <div class="logo_container">
             <img src="//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000/image/png/1542149738394/logo-sc.png" alt="South Centre Logo" />
         </div>
