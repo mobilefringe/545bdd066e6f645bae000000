@@ -17,8 +17,8 @@
             <h2 id="section3_title" class="subpage_title"></h2>
             <div id="section3_content"></div>
             <div class="button_container">
-                <div class="col-md-4"> Santa Photo Sizes/Prices</div>
-                <div class="col-md-4">Best Times to Visit Santa</div>
+                <div class="col-md-4 btn"> Santa Photo Sizes/Prices</div>
+                <div class="col-md-4 btn">Best Times to Visit Santa</div>
                 <div class="col-md-4">Sanata's Magic Messenger</div>
             </div>
             <img src="" id="holiday_hours">
