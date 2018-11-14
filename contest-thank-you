@@ -54,9 +54,9 @@
             color: #000;
         }
         .logo_container {
-            width: 300px;
+            width: 200px;
             position: absolute;
-            bottom: 20px;
+            bottom: 10px;
             left: 50%;
             transform: translate(-50%);
         }
