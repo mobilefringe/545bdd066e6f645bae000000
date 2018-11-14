@@ -16,10 +16,14 @@
             background-repeat: no-repeat;
         } 
         .button_container {
+            max-width: 500px;
             position: absolute;
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
+        }
+        .button_container img {
+            max-width: 100%;
         }
         a {
             /*padding: 12px 38px;*/
