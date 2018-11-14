@@ -56,7 +56,7 @@
                 $("#holiday_hours").attr('src',repo2.image_url);
             }
             // Holiday Page Background 2
-            repo = getRepoDetailsByName('Holiday Page Background 1');
+            repo = getRepoDetailsByName('Holiday Page Background 2');
             if(repo && repo.images) {
                 var repo = repo.images[0];
                 $("#section2").css({"background-image":"url("+repo.image_url+")"})
