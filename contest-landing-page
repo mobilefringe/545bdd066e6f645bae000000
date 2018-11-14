@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <title>Win a $500 Southcentre Gift Card</title>
     <link href="/application.css" rel="stylesheet">
@@ -9,7 +8,9 @@
             width: 100vw;
             height: calc(100vh - 23px);
             background: url("//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000/image/jpeg/1542149733490/snowman.jpg");
-            background-size: 100% calc(100vh - 23px);   
+            /*background-size: 100% calc(100vh - 23px);   */
+            background-size: contain;
+            background-repeat: no-repeat;
         } 
         .button_container {
             position: absolute;
