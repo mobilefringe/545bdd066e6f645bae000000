@@ -24,7 +24,7 @@
                 $('#mm_post_content').html(data.body);
                 if(data.subpages){
                     $('#section1_title').html(data.subpages[0].title);
-                    $('#section1_content').html(data.subpages);
+                    $('#section1_content').html(data.subpages[0].body);
                 }
                 console.log(data);
             }); 
