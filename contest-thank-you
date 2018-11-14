@@ -44,7 +44,6 @@
             top: 91%;
             left: 50%;
             transform: translate(-50%, -91%);
-            
         }
         .content_container .title {
             font-family: "WhitneyHTF-Book";
@@ -80,9 +79,9 @@
     </main>
     <script>
         $(document).ready(function(e){
-            // setTimeout(function() {
-            //     window.location= "/contest-landing-page"    
-            // }, 1500);
+            setTimeout(function() {
+                window.location= "/contest-landing-page"    
+            }, 1500);
         });
     </script>
 </body>
