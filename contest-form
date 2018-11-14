@@ -36,10 +36,10 @@
             /*margin: 420px 7% 0 7%;*/
             padding: 0 30px;
         }
-        input[type="text"], 
-        input[type="email"] {
+        .form_input {
             margin-bottom: 25px;
             padding: 0 20px;
+            width: 100%;
             height: 45px;
             background: transparent;
             border: 1px solid #060000;
@@ -126,19 +126,19 @@
                 <div class="form-container">
                     <div calss = "row">
                         <div class="col-md-6">
-                            <input type="text" name="contest[first_name]" placeholder="First Name">
+                            <input class="form_input" type="text" name="contest[first_name]" placeholder="First Name">
                             
                         </div>
                         <div class="col-md-6">
-                            <input type="text" name="contest[last_name]" placeholder="Last Name">  
+                            <input class="form_input" type="text" name="contest[last_name]" placeholder="Last Name">  
                         </div>
                     </div>
                     <div calss = "row">
                         <div class="col-md-6">
-                            <input type="email" name="contest[email]" placeholder="Email*" id="users_email">
+                            <input class="form_input" type="email" name="contest[email]" placeholder="Email*" id="users_email">
                         </div>
                         <div class="col-md-6">
-                            <input type="text" name="contest[postal_code]" placeholder="Postal Code">  
+                            <input class="form_input" type="text" name="contest[postal_code]" placeholder="Postal Code">  
                         </div>
                     </div>
                     <div class="row col-md-12">    
