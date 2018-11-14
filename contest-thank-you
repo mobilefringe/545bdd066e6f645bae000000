@@ -42,12 +42,13 @@
             top: 88%;
             left: 50%;
             transform: translate(-50%, -88%);
-            font-family: "WhitneyHTF-Book";
+            
         }
         .content_container .title {
             font-family: "WhitneyHTF-Book";
         }
         .content_container .description {
+            font-family: "WhitneyHTF-Book";
             font-size: 1rem;
         }
         .logo_container {
