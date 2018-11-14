@@ -624,18 +624,7 @@ margin:-10px 0 0 -21px;
 .holiday-mobile-break { 
     display: none;
 }
-/****** Holiday page ******/ 
-#holiday_page_container{
-        font-family: ChronicleDeck-Roman;
-}
-#holiday_page_container .main_title{
-    text-align: center;
-    font-size: 4em;
-    max-width: 700px;
-    margin: auto;
-    margin-top: 40px;
-}
-        
+      
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
     .hidden-popup-form{
         margin-top: 15px;
