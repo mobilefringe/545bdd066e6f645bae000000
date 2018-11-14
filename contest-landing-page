@@ -61,8 +61,8 @@
            </a>
         </div> 
         <div class="content_container">
-            <h1>Win a $500 Southcentre Gift Card + A Family Membership for the CalgaryZoo</h1>
-            <p>Family membership consists of 2 adults and 2 children. See Guest Services for details. No purchase necessary.</p>
+            <h1 class="center">Win a $500 Southcentre Gift Card + A Family Membership for the CalgaryZoo</h1>
+            <p class="center">Family membership consists of 2 adults and 2 children. See Guest Services for details. No purchase necessary.</p>
         </div>
         <div class="logo_container">
             <img src="//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000/image/png/1542149738394/logo-sc.png" alt="South Centre Logo" />
