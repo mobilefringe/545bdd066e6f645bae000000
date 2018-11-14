@@ -27,11 +27,6 @@
             left: 50%;
             transform: translate(-50%, -50%);
         }
-        .col-md-6,
-        .col-md-12 {
-            padding-right: 7.5px;
-            padding-left: 7.5px;
-        }
         .form-container {
             /*margin: 420px 7% 0 7%;*/
             padding: 0 30px;
