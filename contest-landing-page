@@ -32,6 +32,12 @@
             left: 50%;
             transform: translate(-50%);
         }
+        .content_container {
+            position: absolute;
+            top: 70%;
+            left: 50%;
+            transform: translate(-50%, -70%);
+        }
         a {
             /*padding: 12px 38px;*/
             /*background: #060000;*/
