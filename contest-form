@@ -30,6 +30,7 @@
         .content_container .description {
             margin: 0;
             font-family: "WhitneyHTF-Book";
+            font-size: 20px;
             color: #000;
         }
         .content_container .title {
