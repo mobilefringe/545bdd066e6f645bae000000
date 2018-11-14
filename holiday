@@ -37,6 +37,7 @@
                 var repo = repo.images[0];
                 $("#section2").css({"background-image":"url"+repo.image_url})
             }
+            var repo2 = getRepoDetailsByID("46295");
         }
         
         function renderPageData(feature_image_template, feature_image_container, imageName){
