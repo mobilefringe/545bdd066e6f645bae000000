@@ -58,9 +58,7 @@
 <body>
     <main>
         <div class="button_container">
-           <a href="/contest-form">
-               <img src="//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000/image/png/1542149771294/msg-thanks.png" alt="Thank You For Entering" />
-           </a>
+           <img src="//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000/image/png/1542149771294/msg-thanks.png" alt="Thank You For Entering" />
         </div>
         <div class="content_container">
             <h1 class="title center">Winner will be selected on<br>December 31, 2018</h1>
