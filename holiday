@@ -32,13 +32,13 @@
     </div>
     <div>
         <h2 id="section3_title3" class="subpage_title"></h2>
-            <div id="section3_content3"></div>
-            <h2 id="section3_title4" class="subpage_title"></h2>
-            <div id="section3_content4"></div>
-            <div class="holiday_collection clearfix">
-                <div id="section3_content5" class="col-md-6"></div>
-                <div id="section3_content6" class="col-md-6"></div>
-            </div>
+        <div id="section3_content3"></div>
+        <h2 id="section3_title4" class="subpage_title"></h2>
+        <div id="section3_content4"></div>
+        <div class="holiday_collection clearfix">
+            <div id="section3_content5" class="col-md-6"></div>
+            <div id="section3_content6" class="col-md-6"></div>
+        </div>
     </div>
 </div>
 <script>
