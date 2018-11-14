@@ -122,7 +122,6 @@
                     <div class="row">
                         <div class="col-md-6">
                             <input class="form_input" type="text" name="contest[first_name]" placeholder="First Name">
-                            
                         </div>
                         <div class="col-md-6">
                             <input class="form_input" type="text" name="contest[last_name]" placeholder="Last Name">  
@@ -142,7 +141,7 @@
                         </div>
                     </div>
                     <div class="row col-md-12">    
-                        <p style="margin-bottom: 10px;">*mandatory<span class="space"></span><a class href="//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000/application/pdf/1542209376147/Rules and Regs_AR Ipad Contest.pdf" target="_blank">Rules & Regulations</a></p>
+                        <p style="margin-bottom: 10px;"><a class href="//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000/application/pdf/1542209376147/Rules and Regs_AR Ipad Contest.pdf" target="_blank">Rules & Regulations</a></p>
                     </div>
                     <div class="row col-md-12">
                         <input class="btn btn-primary" name="commit" type="submit" value="Submit">
