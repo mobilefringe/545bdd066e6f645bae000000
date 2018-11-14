@@ -4,6 +4,9 @@
     <title>Win a $500 Southcentre Gift Card</title>
     <link href="/application.css" rel="stylesheet">
     <style>
+        body {
+            margin: 0;
+        }
         main {
             width: 100vw;
             height: calc(100vh - 23px);
