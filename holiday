@@ -35,7 +35,7 @@
             repo = getRepoDetailsByName('Holiday Page Background 1');
             if(repo) {
                 var repo = repo.images;
-                $("#section2").css({"background-image":"url"+repo.images})
+                $("#section2").css({"background-image":"url"+repo[0].image_url})
             }
         }
         
