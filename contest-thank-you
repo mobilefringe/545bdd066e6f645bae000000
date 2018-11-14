@@ -3,12 +3,16 @@
 <head>
     <title>Win a $500 Southcentre Gift Card + A Family Membership for the Calgary Zoo!</title>
     <style>
+        
         html {
             font-size: 16px;
         }
         body {
             margin: 0;
             font-size: 1rem;
+        }
+        header {
+            display: none;
         }
         .container {
             padding: 0;
