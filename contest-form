@@ -18,6 +18,9 @@
             position: relative;
             font-family: "Whitney-light";
         } 
+        .center {
+            text-align: center;
+        }
         #main-container {
             width: 80%;
             height: auto;
