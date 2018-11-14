@@ -43,6 +43,9 @@
         .content_container .title {
             font-family: "WhitneyHTF-Book";
         }
+        .content_container .description {
+            font-size: 1rem;
+        }
         .logo_container {
             width: 300px;
             position: absolute;
