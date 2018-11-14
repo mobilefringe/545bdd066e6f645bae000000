@@ -57,9 +57,6 @@
             left: 50%;
             transform: translate(-50%);
         }
-        a, a:link, a:visited {
-            color: #fff;    
-        }
     </style>
 </head>
 <body>
