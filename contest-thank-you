@@ -35,9 +35,9 @@
         .content_container {
             width: 80%;
             position: absolute;
-            top: 90%;
+            top: 88%;
             left: 50%;
-            transform: translate(-50%, -90%);
+            transform: translate(-50%, -88%);
             font-family: "WhitneyHTF-Book";
         }
         .content_container .title {
