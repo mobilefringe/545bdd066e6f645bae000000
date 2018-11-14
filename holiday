@@ -84,7 +84,7 @@
                     $('#section4_content4').html(data.subpages[7].body);
                     $('#section4_title5').html(data.subpages[8].title);
                     $('#section4_content5').html(data.subpages[8].body);
-                    $('#section4_content6').html(data.subpages[9].title);
+                    $('#section4_title6').html(data.subpages[9].title);
                     $('#section4_content6').html(data.subpages[9].body);
                     $('#section4_content7').html(data.subpages[10].body);
                 }
