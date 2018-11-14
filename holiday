@@ -1,5 +1,5 @@
 <div id="holiday_page_container">
-    <div class="container>
+    <div class="container">
         <h1 id="mm_post_title" class="main_title"></h1>
         <div id="mm_post_content"></div>
         
