@@ -29,6 +29,7 @@
         }
         .content_container .description {
             margin: 0;
+            color: #000;
         }
         .content_container .title {
             margin: 20px 0 60px 0;
