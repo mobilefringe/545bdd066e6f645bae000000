@@ -67,7 +67,7 @@
                 var repo = repo.images[0];
                 $("#section3").css({"background-image":"url("+repo.image_url+")"})
             }
-            var repo2 = getRepoDetailsByID("46295");
+            var repo2 = getRepoDetailsByID("46292");
             if(repo2){
                 $("#holiday_hours").attr('src',repo2.image_url);
             }
