@@ -2,7 +2,7 @@
     <h1 id="mm_post_title" class="main_title"></h1>
     <div id="mm_post_content"></div>
     
-    <h3 id="section_title" class="section_title"></h3>
+    <h3 id="section1_title" class="section_title"></h3>
 </div>
 <script>
     $(document).ready(function(e) {                
