@@ -55,7 +55,6 @@
             
             prefix = get_prefix();
             var pages_json = prefix + "/pages/southcentre-all-things-holiday.json"
-            console.log(pages_json);
             $.getJSON(pages_json).done(function(data) {
                 document.title = data.title;
                 $('#mm_post_title').html(data.title);
@@ -75,7 +74,6 @@
                     $('#section4_content3').html(data.subpages[6].body);
                     $('#section4_content4').html(data.subpages[7].body);
                 }
-                console.log(data);
             });
             // Holiday Hours
             repo = getRepoDetailsByName('Holiday Page Background 1');
