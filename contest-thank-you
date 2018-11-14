@@ -41,9 +41,9 @@
         .content_container {
             width: 80%;
             position: absolute;
-            top: 91%;
+            top: 93%;
             left: 50%;
-            transform: translate(-50%, -91%);
+            transform: translate(-50%, -93%);
         }
         .content_container .title {
             margin: 0;
