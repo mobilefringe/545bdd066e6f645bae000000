@@ -32,7 +32,7 @@
             <h2 id="section3_title4" class="subpage_title"></h2>
             <div id="section3_content4"></div>
             <div class="holiday_collection">
-                <div id="section3_content5"></div>
+                <div id="section3_content5" class="col-md-6"></div>
                 <div id="section3_content6"></div>
             </div>
         </div>
