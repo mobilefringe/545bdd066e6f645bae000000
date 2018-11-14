@@ -183,9 +183,9 @@ input::-moz-placeholder {
     font-family: "WhitneyHTF-Book",Arial,Helvetica,sans-serif;
     letter-spacing: 0.5px;
 }
-.row {
-    max-width: 100%;
-}
+/*.row {*/
+/*    max-width: 100%;*/
+/*}*/
 h1 {
     font-family: ChronicleDisplay-Roman;
 }
