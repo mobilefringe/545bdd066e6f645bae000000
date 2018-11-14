@@ -80,9 +80,9 @@
     </main>
     <script>
         $(document).ready(function(e){
-            // setTimeout(function() {
-            //     window.location= "/contest-landing-page"    
-            // }, 10000);
+            setTimeout(function() {
+                window.location= "/contest-landing-page"    
+            }, 10000);
         });
     </script>
 </body>
