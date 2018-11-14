@@ -56,7 +56,7 @@
             $(feature_image_container).html(item_rendered.join(''));
         }
         
-        renderAll();
+        loadMallData(renderAll());
     });
     function renderGeneral(container, template, collection){
         var item_list = [];
