@@ -625,6 +625,9 @@ margin:-10px 0 0 -21px;
     display: none;
 }
 /****** Holiday page ******/ 
+#holiday_page_container{
+        font-family: ChronicleDeck-Roman;
+}
 #holiday_page_container .main_title{
     text-align: center;
     font-size: 4em;
