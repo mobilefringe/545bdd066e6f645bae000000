@@ -12,6 +12,13 @@
             <div id="section2_content"></div>
         </div>
     </div>
+    <div class="section2" id="section2">
+        <div class="container">
+            
+            <div id="section2_content"></div>
+            <img src="" id="holiday_hours">
+        </div>
+    </div>
 </div>
 <script>
     $(document).ready(function(e) {                
