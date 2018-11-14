@@ -26,9 +26,9 @@
             transform: translate(-50%, -65%);
         }
         .logo_container {
-            width: 100px;
+            width: 300px;
             position: absolute;
-            bottom: 0;
+            bottom: 30px;
             left: 50%;
             transform: translate(-50%);
         }
