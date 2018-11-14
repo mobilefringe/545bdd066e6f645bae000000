@@ -39,7 +39,7 @@
             }
             var repo2 = getRepoDetailsByID("46295");
             if(repo2){
-                
+                $("#holiday_hours").src(repo2.image_url)
             }
         }
         
