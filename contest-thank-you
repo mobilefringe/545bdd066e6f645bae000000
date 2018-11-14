@@ -81,7 +81,7 @@
         $(document).ready(function(e){
             setTimeout(function() {
                 window.location= "/contest-landing-page"    
-            }, 500);
+            }, 1500);
         });
     </script>
 </body>
