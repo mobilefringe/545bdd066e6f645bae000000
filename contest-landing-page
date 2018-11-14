@@ -48,6 +48,7 @@
         }
         .content_container .description {
             font-family: "WhitneyHTF-Book";
+            font-size: 1rem;
         }
         a {
             /*padding: 12px 38px;*/
