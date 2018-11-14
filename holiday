@@ -10,7 +10,7 @@
         <div class="container">
             <img src="" id="holiday_hours">
             <div id="section2_content"></div>
-            <img src="//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000/image/png/1542232551695/SCWordmarkBold.png"> 
+            <img src="//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000/image/png/1542232551695/SCWordmarkBold.png" class="sc_logo"> 
         </div>
     </div>
     <div class="section" id="section3">
