@@ -45,7 +45,7 @@
                 }
                 console.log(data);
             });
-            // Holiday Page Background 1
+            // Holiday Hours
             repo = getRepoDetailsByName('Holiday Page Background 1');
             if(repo && repo.images) {
                 var repo = repo.images[0];
