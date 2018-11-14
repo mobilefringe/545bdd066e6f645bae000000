@@ -18,8 +18,8 @@
             <div id="section3_content"></div>
             <div class="button_container">
                 <div class="col-md-4 "> <div class="btn"></div>Santa Photo Sizes/Prices</div>
-                <div class="col-md-4 btn">Best Times to Visit Santa</div>
-                <div class="col-md-4 btn">Sanata's Magic Messenger</div>
+                <div class="col-md-4 "> <div class="btn"></div>Best Times to Visit Santa</div>
+                <div class="col-md-4 "> <div class="btn"></div>Sanata's Magic Messenger</div>
             </div>
             <img src="" id="holiday_hours">
         </div>
