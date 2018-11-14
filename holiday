@@ -69,7 +69,7 @@
             }
             var repo2 = getRepoDetailsByID("46292");
             if(repo2){
-                $("#holiday_hours").attr('src',repo2.image_url);
+                $("#all_about_santa").attr('src',repo2.image_url);
             }
         }
         
