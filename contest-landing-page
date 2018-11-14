@@ -15,15 +15,15 @@
             background-size: contain;
             background-repeat: no-repeat;
         } 
+        img {
+            max-width: 100%;
+        }
         .button_container {
             width: 600px;
             position: absolute;
             top: 65%;
             left: 50%;
             transform: translate(-50%, -65%);
-        }
-        .button_container img {
-            max-width: 100%;
         }
         a {
             /*padding: 12px 38px;*/
@@ -46,6 +46,9 @@
                <img src="//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000/image/png/1542149752570/msg-enter-here.png" alt="Enter Contest Button" />
            </a>
         </div> 
+        <div class="logo_container">
+            <img src="//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000/image/png/1542149738394/logo-sc.png" alt="South Centre Logo" />
+        </div>
     </main>
 </body>
 </html>
