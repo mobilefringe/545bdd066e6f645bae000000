@@ -10,9 +10,6 @@
             margin: 0;
             font-size: 1rem;
         }
-        header {
-            display: none;
-        }
         .container {
             padding: 0;
             margin: 0;
