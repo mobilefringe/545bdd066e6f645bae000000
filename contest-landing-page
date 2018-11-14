@@ -40,6 +40,7 @@
             font-family: "WhitneyHTF-Book";
         }
         .content_container .title {
+            margin: 0;
             font-family: "WhitneyHTF-Book";
         }
         .content_container .description {
