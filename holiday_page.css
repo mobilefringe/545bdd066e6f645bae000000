@@ -1,6 +1,7 @@
 #holiday_page_container{
     font-family: WhitneyHTF-Book;
     text-align:center;
+    img{max-width:100%;
     .main_title{
         text-align: center;
         // font-size: 4em;
