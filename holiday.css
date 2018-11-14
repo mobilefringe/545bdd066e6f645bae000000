@@ -630,6 +630,8 @@ margin:-10px 0 0 -21px;
     font-size: 4em;
     max-width: 700px;
     margin: auto;
+    
+    margin-top: 40px;
 }
         
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
