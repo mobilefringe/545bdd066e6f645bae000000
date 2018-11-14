@@ -27,9 +27,8 @@
             left: 50%;
             transform: translate(-50%, -50%);
         }
-        .form-container {
-            /*margin: 420px 7% 0 7%;*/
-            padding: 0 30px;
+        .content_container .description {
+            margin: 0 0 20px 0;
         }
         .form_input {
             margin-bottom: 25px;
