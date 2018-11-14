@@ -75,6 +75,8 @@
                     $('#section4_content4').html(data.subpages[7].body);
                     $('#section4_content5').html(data.subpages[6].body);
                     $('#section4_content5').html(data.subpages[7].body);
+                    $('#section4_content6').html(data.subpages[6].body);
+                    $('#section4_content6').html(data.subpages[7].body);
                 }
             });
             // Holiday Hours
