@@ -42,6 +42,9 @@
             left: 50%;
             transform: translate(-50%, -90%);
         }
+        .content_container .description {
+            font-family: "WhitneyHTF-Book";
+        }
         a {
             /*padding: 12px 38px;*/
             /*background: #060000;*/
