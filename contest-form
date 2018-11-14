@@ -95,8 +95,7 @@
             font-weight: bold;
         }
         p {
-            margin-right: 20px;
-            margin-bottom: 25px;
+            margin: 0;
             font-size: 16px;
         }
         a, a:link, a:visited {
