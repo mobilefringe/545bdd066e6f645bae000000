@@ -1,4 +1,4 @@
-<div>
+<div id="holiday_page_container">
     <h1 id="mm_post_title"></h1>
 </div>
 <script>
