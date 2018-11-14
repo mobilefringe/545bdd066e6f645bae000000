@@ -3,34 +3,34 @@
 
 <head>
     <title>Win a $500 Southcentre Gift Card</title>
-    <link href="http://preview-southcentre.codecloudapp.com/application.css" rel="stylesheet">
-<style>
-    main {
-        width: 100vw;
-        height: calc(100vh - 23px);
-        background: url("//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000/image/jpeg/1542149733490/snowman.jpg");
-        background-size: 100% calc(100vh - 23px);   
-    } 
-    .button_container {
-        position: absolute;
-        /*top: 480px;*/
-        /*left: 204px;*/
-        top: 70%;
-        left: 22%;
-    }
-    a {
-        padding: 12px 38px;
-        background: #060000;
-        text-transform: uppercase;
-        font-family: "Whitney-light";
-        font-size: 22px;
-        letter-spacing: 1.2px;
-        font-weight: bold;
-    }
-    a, a:link, a:visited {
-        color: #fff;    
-    }
-</style>
+    <link href="/application.css" rel="stylesheet">
+    <style>
+        main {
+            width: 100vw;
+            height: calc(100vh - 23px);
+            background: url("//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000/image/jpeg/1542149733490/snowman.jpg");
+            background-size: 100% calc(100vh - 23px);   
+        } 
+        .button_container {
+            position: absolute;
+            /*top: 480px;*/
+            /*left: 204px;*/
+            top: 70%;
+            left: 22%;
+        }
+        a {
+            padding: 12px 38px;
+            background: #060000;
+            text-transform: uppercase;
+            font-family: "Whitney-light";
+            font-size: 22px;
+            letter-spacing: 1.2px;
+            font-weight: bold;
+        }
+        a, a:link, a:visited {
+            color: #fff;    
+        }
+    </style>
 </head>
 <body>
     <main>
