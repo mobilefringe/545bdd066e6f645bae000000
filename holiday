@@ -3,7 +3,7 @@
     <div id="mm_post_content"></div>
     
     <h2 id="section1_title" class="section_title"></h2>
-    <div id="section1_content" class="section_content"></div>
+    <div id="section1_content" class="subpage_content"></div>
 </div>
 <script>
     $(document).ready(function(e) {                
