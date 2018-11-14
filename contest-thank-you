@@ -18,6 +18,8 @@
             background: url("//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000/image/jpeg/1542149733490/snowman.jpg");
             background-size: contain;
             background-repeat: no-repeat;
+        }img {
+            max-width: 100%;
         }
         .button_container {
             width: 600px;
