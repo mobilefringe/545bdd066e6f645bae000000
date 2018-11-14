@@ -16,7 +16,7 @@
         <div class="container">
             <h2 id="section3_title" class="subpage_title"></h2>
             <div id="section3_content"></div>
-            <div class="button_container">
+            <div class="button_container clearfix">
                 <div class="col-md-4 "> <div class="btn">Santa Photo Sizes/Prices</div></div>
                 <div class="col-md-4 "> <div class="btn">Best Times to Visit Santa</div></div>
                 <div class="col-md-4 "> <div class="btn">Sanata's Magic Messenger</div></div>
