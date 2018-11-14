@@ -66,6 +66,8 @@
                     $('#section3_content3').html(data.subpages[4].body);
                     $('#section3_title4').html(data.subpages[5].title);
                     $('#section3_content4').html(data.subpages[5].body);
+                    $('#section3_content5').html(data.subpages[6].body);
+                    $('#section3_content6').html(data.subpages[7].body);
                 }
                 console.log(data);
             });
