@@ -44,6 +44,11 @@
             <div id="section4_content5"></div>
             <h2 id="section4_title6" class="subpage_title"></h2>
             <div id="section4_content6"></div>
+            <div class="button_container clearfix">
+                <div class="col-md-4 "> <a class="btn" href="">Santa Photo Sizes/Prices</a></div>
+                <div class="col-md-4 "> <a class="btn" href="">Best Times to Visit Santa</a></div>
+                <div class="col-md-4 "> <a class="btn" href="">Sanata's Magic Messenger</a></div>
+            </div>
             <div id="section4_content7"></div>
         </div>
     </div>
