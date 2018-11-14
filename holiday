@@ -4,7 +4,7 @@
     
     <h2 id="section1_title" class="subpage_title"></h2>
     <div id="section1_content" class="subpage_content regular_hours"></div>
-    <div class="section2">
+    <div class="section2" id="section2>
         
     </div>
 </div>
@@ -33,6 +33,9 @@
             });
             // Holiday Page Background 1
             repo = getRepoDetailsByName('Holiday Page Background 1');
+            if(repo) {
+                
+            }
         }
         
         function renderPageData(feature_image_template, feature_image_container, imageName){
