@@ -51,17 +51,7 @@
             font-family: "WhitneyHTF-Book";
         }
         .content_container .description {
-            /*font-family: "WhitneyHTF-Book";*/
             font-size: 1rem;
-        }
-        a {
-            /*padding: 12px 38px;*/
-            /*background: #060000;*/
-            /*text-transform: uppercase;*/
-            /*font-family: "Whitney-light";*/
-            /*font-size: 22px;*/
-            /*letter-spacing: 1.2px;*/
-            /*font-weight: bold;*/
         }
         a, a:link, a:visited {
             color: #fff;    
