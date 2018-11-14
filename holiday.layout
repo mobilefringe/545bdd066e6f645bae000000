@@ -27,7 +27,13 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
     <link href="/holiday.css" rel="stylesheet">
 
+    <!--MallMaverick v=0.3-->
+    <script src="//mallmaverick.codecloudapp.com/mallmaverick_v3.js"></script>
+    <script src="//mallmaverick.codecloudapp.com/mustache_mallmaverick.js?v=0.3"></script>
 
+    <script>
+        setEndPoint('//home.mallmaverick.com/api/v3/home/all.json');
+    </script>
 </head>
 
 <body>
