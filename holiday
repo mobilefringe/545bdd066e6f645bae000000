@@ -5,7 +5,7 @@
     <h2 id="section1_title" class="subpage_title"></h2>
     <div id="section1_content" class="subpage_content regular_hours"></div>
     <div class="section2" id="section2">
-        
+        <img src="" id="holiday_hours">
     </div>
 </div>
 <script>
@@ -38,6 +38,9 @@
                 $("#section2").css({"background-image":"url"+repo.image_url})
             }
             var repo2 = getRepoDetailsByID("46295");
+            if(repo2){
+                
+            }
         }
         
         function renderPageData(feature_image_template, feature_image_container, imageName){
