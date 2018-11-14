@@ -19,15 +19,12 @@
             background-size: contain;
             background-repeat: no-repeat;
         }
-       .button_container {
+        .button_container {
+            width: 600px;
             position: absolute;
-            /*bottom: 284px;*/
-            /*left: 404px;*/
-            bottom: 37%;
-            left: 0;
-            right: 0;
-            margin: auto;
-            max-width: 210px;
+            top: 65%;
+            left: 50%;
+            transform: translate(-50%, -65%);
         }
         a {
             padding: 12px 38px;
@@ -46,8 +43,12 @@
 <body>
     <main>
         <div class="button_container">
-           <a href="/contest-landing-page">Start Over</a>
+           <a href="/contest-form">
+               <img src="//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000/image/png/1542149771294/msg-thanks.png" alt="Thank You For Entering" />
+           </a>
         </div> 
+        <!--   <a href="/contest-landing-page">Start Over</a>-->
+        <!--</div> -->
     </main>
 </body>
 </html>
