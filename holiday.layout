@@ -40,9 +40,7 @@
 <body>
 
     <header class="container"></header>
-    <div class="container">
-      {{yield}}
-    </div>
+        {{yield}}
     <footer>
     </footer>
     <!--<script src="//cdnjs.cloudflare.com/ajax/libs/i18next/1.6.3/i18next-1.6.3.min.js"></script>-->
