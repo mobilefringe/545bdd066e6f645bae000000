@@ -18,7 +18,7 @@
             <div id="section3_content"></div>
             <div class="button_container">
                 <div class="col-md-4"> Santa Photo Sizes/Prices</div>
-                <div class="col-md-4"></div>
+                <div class="col-md-4">Best Times to Visit Santa</div>
                 <div class="col-md-4"></div>
             </div>
             <img src="" id="holiday_hours">
