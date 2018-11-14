@@ -6,13 +6,13 @@
         <h2 id="section1_title" class="subpage_title"></h2>
         <div id="section1_content" class="subpage_content regular_hours"></div>
     </div>
-    <div class="section2" id="section2">
+    <div id="section2">
         <div class="container">
             <img src="" id="holiday_hours">
             <div id="section2_content"></div>
         </div>
     </div>
-    <div class="section3" id="section2">
+    <div class="section" id="section3">
         <div class="container">
             <h2 id="section3_title" class="subpage_title"></h2>
             <div id="section3_content"></div>
