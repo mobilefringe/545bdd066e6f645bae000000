@@ -12,7 +12,7 @@
         function renderPageHTML(){
             
             prefix = get_prefix();
-            var pages_json = prefix + "/pages/" + slug + ".json"
+            var pages_json = prefix + "/pages/southcentre-all-things-holiday.json"
             console.log(pages_json);
             $.getJSON(pages_json).done(function(data) {
                 document.title = data.title;
