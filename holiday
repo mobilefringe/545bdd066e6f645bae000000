@@ -10,16 +10,7 @@
         }
         
         function renderPageHTML(){
-            var pathArray = window.location.pathname.split( '/' );
-            var slug = pathArray[pathArray.length-1];
-            if(slug == "home-newsletterbenefits") {
-                $("#newsletter_page").show();
-                $("#default_pages").hide();
-            }
-            else {
-                $("#default_pages").show();
-                $("#newsletter_page").hide();
-            }
+            
             prefix = get_prefix();
             var pages_json = prefix + "/pages/" + slug + ".json"
             console.log(pages_json);
