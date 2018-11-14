@@ -124,7 +124,7 @@
                 <input type="hidden" value="451" name="contest[contest_id]" />
                 <input type="hidden" value="10" name="contest[property_id]" />
                 <div class="form-container">
-                    <div calss = "row">
+                    <div class="row">
                         <div class="col-md-6">
                             <input class="form_input" type="text" name="contest[first_name]" placeholder="First Name">
                             
@@ -133,7 +133,7 @@
                             <input class="form_input" type="text" name="contest[last_name]" placeholder="Last Name">  
                         </div>
                     </div>
-                    <div calss = "row">
+                    <div class="row">
                         <div class="col-md-6">
                             <input class="form_input" type="email" name="contest[email]" placeholder="Email*" id="users_email">
                         </div>
