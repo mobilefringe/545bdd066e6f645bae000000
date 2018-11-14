@@ -7,7 +7,9 @@
         <div id="section1_content" class="subpage_content regular_hours"></div>
     </div>
     <div class="section2" id="section2">
-        <img src="" id="holiday_hours">
+        <div>
+            <img src="" id="holiday_hours">
+        </div>
     </div>
 </div>
 <script>
