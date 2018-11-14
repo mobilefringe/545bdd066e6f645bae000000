@@ -25,8 +25,6 @@
     <link href="/application.css" rel="stylesheet">
     <!-- cookie jqeury -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
-    <script src="/holiday_popup.js"></script>
-    <script src="/pinit.js"></script>
     <link href="/holiday.css" rel="stylesheet">
 
 
