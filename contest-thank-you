@@ -51,6 +51,7 @@
         .content_container .description {
             font-family: "WhitneyHTF-Book";
             font-size: 1rem;
+            color: #000;
         }
         .logo_container {
             width: 300px;
