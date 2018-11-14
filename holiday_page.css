@@ -1,10 +1,15 @@
 #holiday_page_container{
-        font-family: WhitneyHTF-Book;
+    font-family: WhitneyHTF-Book;
     .main_title{
         text-align: center;
         font-size: 4em;
         max-width: 700px;
         margin: auto;
         margin-top: 40px;
+    }
+    #mm_post_content{
+        max-width: 700px;
+        margin: auto;
+        margin-top: 20px;
     }
 }
