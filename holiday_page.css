@@ -24,5 +24,8 @@
         
     }
     .regular_hours{
+        span{
+            font-family: ChronicleDisplay-Italic;
+        }
     }
 }
