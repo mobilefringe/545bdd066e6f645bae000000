@@ -79,9 +79,9 @@
     </main>
     <script>
         $(document).ready(function(e){
-            setTimeout(function() {
-                window.location= "/contest-landing-page"    
-            }, 1500);
+            // setTimeout(function() {
+            //     window.location= "/contest-landing-page"    
+            // }, 1500);
         });
     </script>
 </body>
