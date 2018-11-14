@@ -114,9 +114,11 @@
 <body>
     <main>
         <div id="main-container">
-            <div class="content_conatiner">
-                <p class="description center">Enter for a chance to win</p>
-                <h1 class="title center">A $500 Southcentre Gift Card + A Family<br> Membership for the Calgary Zoo</h1>
+            <div class="row">
+                <div class="col-md-12 content_conatiner">
+                    <p class="description center">Enter for a chance to win</p>
+                    <h1 class="title center">A $500 Southcentre Gift Card + A Family<br> Membership for the Calgary Zoo</h1>
+                </div>
             </div>
             <form id="contest_form" action="https://southcentre.mallmaverick.com/newsletter_no_captcha">
                 <input type="hidden" value="451" name="contest[contest_id]" />
