@@ -33,7 +33,7 @@
                 if(data.subpages){
                     $('#section1_title').html(data.subpages[0].title);
                     $('#section1_content').html(data.subpages[0].body);
-                    $('#section2_content').html(data.subpages[0].body);
+                    $('#section2_content').html(data.subpages[1].body);
                     
                 }
                 console.log(data);
