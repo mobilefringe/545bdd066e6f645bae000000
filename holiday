@@ -153,8 +153,9 @@
         $(".anchor_btn").click(function(e){
             console.log("clicked! anchor_btn", $(this).attr("href"));
             var href = $(this).attr("href");
-            console.log("position", position)
+            
             var position = $(href).offset().top - 100;
+            console.log("position", position)
               $("html, body").animate(
                 {
                   scrollTop: position
