@@ -1,11 +1,12 @@
 <div id="holiday_page_container">
+    <div class="button_container clearfix">
+        <div class="col-md-3 col-xs-6"> <a class="btn" href="#all_about_santa_target">All About Santa</a></div>
+        <div class="col-md-3 col-xs-6"> <a class="btn" href="">Sammy the Snowman</a></div>
+        <div class="col-md-3 col-xs-6"> <a class="btn" href="">Holiday Collection</a></div>
+        <div class="col-md-3 col-xs-6"> <a class="btn" href="">Gift Wrap & Services</a></div>
+    </div>
     <div class="container">
-        <div class="button_container clearfix">
-            <div class="col-md-3 col-xs-6"> <a class="btn" href="#all_about_santa_target">All About Santa</a></div>
-            <div class="col-md-3 col-xs-6"> <a class="btn" href="">Sammy the Snowman</a></div>
-            <div class="col-md-3 col-xs-6"> <a class="btn" href="">Holiday Collection</a></div>
-            <div class="col-md-3 col-xs-6"> <a class="btn" href="">Gift Wrap & Services</a></div>
-        </div>
+        
             
         <h1 id="mm_post_title" class="main_title"></h1>
         <div id="mm_post_content"></div>
