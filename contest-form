@@ -183,8 +183,12 @@
                     alert("Please enter your email address!");
                     $("#users_email").focus();
                     return false;
-                } else if ($("#cbox2").prop("checked") != true){
+                } else if ($("#cbox1").prop("checked") != true){
                     alert("Please agree to the Privacy Statement before submitting the contest form.");
+                    $("cbox2").focus();
+                    return false;
+                } else if ($("#cbox2").prop("checked") != true){
+                    alert("Please accept the rules and regulations before submitting the contest form.");
                     $("cbox2").focus();
                     return false;
                 } else {
