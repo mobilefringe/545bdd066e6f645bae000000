@@ -153,13 +153,13 @@
         $(".anchor_btn").click(function(e){
             console.log("clicked! anchor_btn", $(this).attr("href"));
             var position = $(".event_card_container#event_" + event.id).offset().top - 200;
-          $("html, body").animate(
-            {
-              scrollTop: position
-            },
-            500,
-            "linear"
-          );
+              $("html, body").animate(
+                {
+                  scrollTop: position
+                },
+                500,
+                "linear"
+              );
             
         })
         setInterval(function () {
