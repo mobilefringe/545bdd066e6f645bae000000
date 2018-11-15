@@ -2,7 +2,7 @@
     <div class="button_container clearfix visible-xs top_menu">
         <div class="col-md-3 col-xs-6"> <a class="btn" href="#section3">All About Santa</a></div>
         <div class="col-md-3 col-xs-6"> <a class="btn" href="#section3_part2">Sammy the Snowman</a></div>
-        <div class="col-md-3 col-xs-6"> <a class="btn" href="">Holiday Collection</a></div>
+        <div class="col-md-3 col-xs-6"> <a class="btn" href="#section4_title2">Holiday Collection</a></div>
         <div class="col-md-3 col-xs-6"> <a class="btn" href="">Gift Wrap & Services</a></div>
     </div>
     <div class="container">
