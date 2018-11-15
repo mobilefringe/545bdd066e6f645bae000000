@@ -165,7 +165,7 @@
               );
             
         });
-        var anchors = doc.getElementsByClassName('anchor_btn');
+        var anchors = document.getElementsByClassName('anchor_btn');
         console.log("anchors", anchors);
         for (var i = 0; i < anchors.length; i++) anchors[i].target='_parent' ;
         setInterval(function () {
