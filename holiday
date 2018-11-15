@@ -150,22 +150,25 @@
             $(feature_image_container).show();
             $(feature_image_container).html(item_rendered.join(''));
         }
-        
-        $(".anchor_btn").click(function(e){
-            console.log("clicked! anchor_btn", $(this).attr("href"));
-            var href = $(this).attr("href");
+        $('.anchor_btn').click(function(){
+            event.preventDefault()
+            window.parent.postMessage({"setAnchor": $(this).attr('name')}, "*")
+        })
+        // $(".anchor_btn").click(function(e){
+        //     console.log("clicked! anchor_btn", $(this).attr("href"));
+        //     var href = $(this).attr("href");
             
-            var position = $(href).offset().top - 100;
-            console.log("position", position)
-              $("html, body").animate( //$("html, body").animate(
-                {
-                  scrollTop: position
-                },
-                500,
-                "linear"
-              );
+        //     var position = $(href).offset().top - 100;
+        //         console.log("position", position)
+        //       $("html, body").animate( //$("html, body").animate(
+        //         {
+        //           scrollTop: position
+        //         },
+        //         500,
+        //         "linear"
+        //       );
             
-        });
+        // });
         //add _parent so anchor can work within iframe
         // var anchors = document.getElementsByClassName('anchor_btn');
         // for (var i = 0; i < anchors.length; i++) anchors[i].target='_parent' ;
