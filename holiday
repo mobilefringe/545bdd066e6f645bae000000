@@ -165,9 +165,9 @@
               );
             
         });
-        var anchors = document.getElementsByClassName('anchor_btn');
-        console.log("anchors", anchors);
-        for (var i = 0; i < anchors.length; i++) anchors[i].target='_parent' ;
+        // var anchors = document.getElementsByClassName('anchor_btn');
+        // console.log("anchors", anchors);
+        // for (var i = 0; i < anchors.length; i++) anchors[i].target='_parent' ;
         setInterval(function () {
             // first parameter is the message to be passed
             // second paramter is the domain of the parent
