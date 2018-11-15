@@ -148,8 +148,7 @@
                     </div>
                     <div class="row">
                         <div class="col-md-12">    
-                            <label for="cbox1"><input type="checkbox" id="cbox1" name="contest[checkbox1]" value="true"><span></span> I understand and agree that by providing my email address I am consenting to receive news, announcements and promotions from Oxford Properties and businesses operating therein. You can unsubscribe at any time. See Oxford Properties Group’s <a class="underline" href="https://www.oxfordproperties.com/corp/en/oxford-properties/privacy-policy/" target="_blank">Privacy Statement</a>. See Contest
-                                <a class="underline" href="//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000/application/pdf/1542209376147/Rules and Regs_AR Ipad Contest.pdf" target="_blank">Rules & Regulations</a>
+                            <label for="cbox1"><input type="checkbox" id="cbox1" name="contest[checkbox1]" value="true"><span></span> I understand and agree that by providing my email address I am consenting to receive news, announcements and promotions from Oxford Properties and businesses operating therein. You can unsubscribe at any time. See Oxford Properties Group’s <a class="underline" href="https://www.oxfordproperties.com/corp/en/oxford-properties/privacy-policy/" target="_blank">Privacy Statement</a>.
                             </label>
                         </div>
                     </div>
