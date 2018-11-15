@@ -150,21 +150,21 @@
             $(feature_image_container).html(item_rendered.join(''));
         }
         
-        $(".anchor_btn").click(function(e){
-            console.log("clicked! anchor_btn", $(this).attr("href"));
-            var href = $(this).attr("href");
+        // $(".anchor_btn").click(function(e){
+        //     console.log("clicked! anchor_btn", $(this).attr("href"));
+        //     var href = $(this).attr("href");
             
-            var position = $(href).offset().top - 100;
-            console.log("position", position)
-              $("#iFrame1").animate( //$("html, body").animate(
-                {
-                  scrollTop: position
-                },
-                500,
-                "linear"
-              );
+        //     var position = $(href).offset().top - 100;
+        //     console.log("position", position)
+        //       $("#iFrame1").animate( //$("html, body").animate(
+        //         {
+        //           scrollTop: position
+        //         },
+        //         500,
+        //         "linear"
+        //       );
             
-        });
+        // });
         var anchors = document.getElementsByClassName('anchor_btn');
         console.log("anchors", anchors);
         for (var i = 0; i < anchors.length; i++) anchors[i].target='_parent' ;
