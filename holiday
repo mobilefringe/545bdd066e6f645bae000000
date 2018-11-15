@@ -157,6 +157,7 @@
         window.addEventListener('message', function(event) {
           if(anchor = event.data['findElement']) {
             element = $('[name="' + anchor + '"]')
+            console.log("element", element)
             window.parent.postMessage({"offset": element.offset().top}, "*")
           }
         })
