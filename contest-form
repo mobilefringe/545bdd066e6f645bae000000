@@ -159,11 +159,6 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-12">    
-                            <p>* manditory fields</p>
-                        </div>
-                    </div>
-                    <div class="row">
                         <div class="col-md-12 center">
                             <input id="submit" class="btn btn-primary" name="commit" type="submit" value="Submit">
                         </div>
