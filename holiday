@@ -154,6 +154,12 @@
             event.preventDefault()
             window.parent.postMessage({"setAnchor": $(this).attr('href')}, "*")
         })
+        window.addEventListener('message', function(event) {
+  if(anchor = event.data['findElement']) {
+    element = $('[name="' + anchor + '"]')
+    window.parent.postMessage({"offset": element.offset().top}, "*")
+  }
+})
         // $(".anchor_btn").click(function(e){
         //     console.log("clicked! anchor_btn", $(this).attr("href"));
         //     var href = $(this).attr("href");
