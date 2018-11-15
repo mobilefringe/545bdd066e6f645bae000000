@@ -1,5 +1,5 @@
 <div id="holiday_page_container">
-    <div class="button_container clearfix">
+    <div class="button_container clearfix show_phone">
         <div class="col-md-3 col-xs-6"> <a class="btn" href="#all_about_santa_target">All About Santa</a></div>
         <div class="col-md-3 col-xs-6"> <a class="btn" href="">Sammy the Snowman</a></div>
         <div class="col-md-3 col-xs-6"> <a class="btn" href="">Holiday Collection</a></div>
