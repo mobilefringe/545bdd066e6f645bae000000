@@ -151,7 +151,7 @@
         }
         
         $(".anchor_btn").click(function(e){
-            console.log("clicked! anchor_btn", $(this));
+            console.log("clicked! anchor_btn", $(this).attr("href"));
             
         })
         setInterval(function () {
