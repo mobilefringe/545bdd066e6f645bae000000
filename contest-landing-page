@@ -12,10 +12,11 @@
             font-size: 1rem;
         }
         main {
+            margin: 50px 50px 0 50px;
             width: 100vw;
             height: calc(100vh - 23px);
             background: url("//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000/image/jpeg/1542149733490/snowman.jpg");
-            background-size: contain;
+            background-size: calc(100vw - 100px);
             background-repeat: no-repeat;
         } 
         img {
@@ -27,9 +28,9 @@
         .button_container {
             width: 600px;
             position: absolute;
-            top: 65%;
+            top: 64%;
             left: 50%;
-            transform: translate(-50%, -65%);
+            transform: translate(-50%, -64%);
         }
         .content_container {
             width: 80%;
