@@ -156,7 +156,7 @@
             
             var position = $(href).offset().top - 100;
             console.log("position", position)
-              $("html, body").animate(
+              $("#iFrame1").animate( //$("html, body").animate(
                 {
                   scrollTop: position
                 },
