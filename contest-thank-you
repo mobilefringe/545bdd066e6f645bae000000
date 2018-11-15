@@ -20,7 +20,6 @@
         }
         main {
             margin: 50px 50px 0 50px;
-            width: 100vw;
             height: calc(100vh - 23px);
             background: url("//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000/image/jpeg/1542149733490/snowman.jpg");
             background-size: calc(100vw - 100px);
