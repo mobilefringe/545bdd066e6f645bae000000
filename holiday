@@ -151,7 +151,8 @@
         }
         
         $(".anchor_btn").click(function(e){
-            console.log("clicked! anchor_btn");
+            console.log("clicked! anchor_btn", $(this));
+            
         })
         setInterval(function () {
             // first parameter is the message to be passed
