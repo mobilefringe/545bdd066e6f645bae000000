@@ -52,6 +52,7 @@
         <div class="container subsection1">
             <h2 id="section4_title1" class="subpage_title"></h2>
             <div id="section4_content1"></div>
+            <a id="holiday_collection" name="holiday_collection"></a>
             <h2 id="section4_title2" class="subpage_title"></h2>
             <div id="section4_content2"></div>
             <div class="holiday_collection clearfix">
