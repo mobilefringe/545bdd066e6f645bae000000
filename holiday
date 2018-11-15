@@ -152,7 +152,7 @@
         }
         $('.anchor_btn').click(function(){
             event.preventDefault()
-            window.parent.postMessage({"setAnchor": $(this).attr('name')}, "*")
+            window.parent.postMessage({"setAnchor": $(this).attr('href')}, "*")
         })
         // $(".anchor_btn").click(function(e){
         //     console.log("clicked! anchor_btn", $(this).attr("href"));
