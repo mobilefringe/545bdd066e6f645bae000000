@@ -3,7 +3,7 @@
         <div class="col-md-3 col-xs-6"> <a class="btn" href="#allabout_santa">All About Santa</a></div>
         <div class="col-md-3 col-xs-6"> <a class="btn" href="#sammy_the_snowman">Sammy the Snowman</a></div>
         <div class="col-md-3 col-xs-6"> <a class="btn" href="#holiday_collection">Holiday Collection</a></div>
-        <div class="col-md-3 col-xs-6"> <a class="btn" href="#section4_title5">Gift Wrap & Services</a></div>
+        <div class="col-md-3 col-xs-6"> <a class="btn" href="#giftwrap_services">Gift Wrap & Services</a></div>
     </div>
     <div class="container">
         <div class="button_container clearfix hidden-xs">
