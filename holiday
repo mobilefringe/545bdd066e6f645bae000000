@@ -149,6 +149,10 @@
             $(feature_image_container).show();
             $(feature_image_container).html(item_rendered.join(''));
         }
+        
+        $(".anchor_btn").click(function(e){
+            console.log("clicked! anchor_btn");
+        })
         setInterval(function () {
             // first parameter is the message to be passed
             // second paramter is the domain of the parent
