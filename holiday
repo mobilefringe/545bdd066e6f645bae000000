@@ -31,9 +31,9 @@
             <h2 id="section3_title1" class="subpage_title"></h2>
             <div id="section3_content1"></div>
             <div class="button_container clearfix">
-                <div class="col-md-4 "> <a class="btn" href="https://www.mallmaverick.com/system/site_images/photos/000/046/326/original/Santa_PhotoPrices_Promo.pdf?1542299862">Santa Photo Sizes/Prices</a></div>
-                <div class="col-md-4 "> <a class="btn" href="">Best Times to Visit Santa</a></div>
-                <div class="col-md-4 "> <a class="btn" href="">Sanata's Magic Messenger</a></div>
+                <div class="col-md-4 "> <a class="btn" href="https://www.mallmaverick.com/system/site_images/photos/000/046/326/original/Santa_PhotoPrices_Promo.pdf?1542299862" target="_blank">Santa Photo Sizes/Prices</a></div>
+                <div class="col-md-4 "> <a class="btn" href="" target="_blank">Best Times to Visit Santa</a></div>
+                <div class="col-md-4 "> <a class="btn" href="" target="_blank">Sanata's Magic Messenger</a></div>
             </div>
             <img src="" id="all_about_santa">
         </div>
