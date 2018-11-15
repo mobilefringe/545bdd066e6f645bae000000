@@ -167,8 +167,8 @@
             
         // });
         //add _parent so anchor can work within iframe
-        var anchors = document.getElementsByClassName('anchor_btn');
-        for (var i = 0; i < anchors.length; i++) anchors[i].target='_parent' ;
+        // var anchors = document.getElementsByClassName('anchor_btn');
+        // for (var i = 0; i < anchors.length; i++) anchors[i].target='_parent' ;
         
         //to set container iframe's width/height to fit content send message to parent like this
         setInterval(function () {
