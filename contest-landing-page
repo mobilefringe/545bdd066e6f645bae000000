@@ -41,7 +41,7 @@
         }
         .content_container .title {
             margin: 0;
-            font-family: "WhitneyHTF-Book";
+            font-family: "Whitney-Light";
         }
         .content_container .description {
             font-size: 1rem;
