@@ -80,11 +80,11 @@
         </div>
     </main>
     <script>
-        $(document).ready(function(e){
-            setTimeout(function() {
-                window.location= "/contest-landing-page"    
-            }, 10000);
-        });
+        // $(document).ready(function(e){
+        //     setTimeout(function() {
+        //         window.location= "/contest-landing-page"    
+        //     }, 10000);
+        // });
     </script>
 </body>
 </html>
