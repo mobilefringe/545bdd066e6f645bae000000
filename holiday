@@ -8,9 +8,9 @@
     <div class="container">
         <div class="button_container clearfix hidden-xs">
             <div class="col-md-3 col-xs-6"> <a class="btn anchor_btn" href="#allabout_santa">All About Santa</a></div>
-        <div class="col-md-3 col-xs-6"> <a class="btn anchor_btn" href="#sammy_the_snowman">Sammy the Snowman</a></div>
-        <div class="col-md-3 col-xs-6"> <a class="btn anchor_btn" href="#holiday_collection">Holiday Collection</a></div>
-        <div class="col-md-3 col-xs-6"> <a class="btn anchor_btn" href="#giftwrap_services">Gift Wrap & Services</a></div>
+            <div class="col-md-3 col-xs-6"> <a class="btn anchor_btn" href="#sammy_the_snowman">Sammy the Snowman</a></div>
+            <div class="col-md-3 col-xs-6"> <a class="btn anchor_btn" href="#holiday_collection">Holiday Collection</a></div>
+            <div class="col-md-3 col-xs-6"> <a class="btn anchor_btn" href="#giftwrap_services">Gift Wrap & Services</a></div>
         </div>
             
         <h1 id="mm_post_title" class="main_title"></h1>
