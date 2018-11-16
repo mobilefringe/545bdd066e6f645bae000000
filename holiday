@@ -189,7 +189,8 @@
             // in production always pass the target domain for which the message is intended
             window.top.postMessage(document.body.scrollHeight, "*");
         }, 500);
-        
+        $('.yield').fadeIn();
+    $(".modal-backdrop").remove();
         loadMallData(renderAll);
     });
     function renderGeneral(container, template, collection){
