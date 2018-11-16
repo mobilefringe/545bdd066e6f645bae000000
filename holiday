@@ -80,8 +80,8 @@
 
         function renderAll(){
             renderPageHTML();
-            $('.yield').fadeIn();
-            $(".modal-backdrop").remove();
+            // $('.yield').fadeIn();
+            // $(".modal-backdrop").remove();
         }
         
         function renderPageHTML(){
