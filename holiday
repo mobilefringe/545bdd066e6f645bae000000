@@ -81,7 +81,7 @@
         function renderAll(){
             renderPageHTML();
             $('.yield').fadeIn();
-        $(".modal-backdrop").remove();
+            $(".modal-backdrop").remove();
         }
         
         function renderPageHTML(){
