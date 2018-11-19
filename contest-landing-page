@@ -61,7 +61,7 @@
 <body>
     <main>
         <div class="button_container">
-           <a href="https://southcentre.mallmaverickstaging.com/pages/southcentre-ar-contest">
+           <a href="/contest-form">
                <img src="//codecloud.cdn.speedyrails.net/sites/545bdd066e6f645bae000000/image/png/1542149752570/msg-enter-here.png" alt="Enter Contest Button" />
            </a>
         </div> 
