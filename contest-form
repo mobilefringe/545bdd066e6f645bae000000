@@ -132,15 +132,15 @@
                 <div class="form-container">
                     <div class="row">
                         <div class="col-md-6">
-                            <input class="form_input" type="text" name="contest[first_name]" placeholder="First Name">
+                            <input id="first_name" class="form_input" type="text" name="contest[first_name]" placeholder="First Name">
                         </div>
                         <div class="col-md-6">
-                            <input class="form_input" type="text" name="contest[last_name]" placeholder="Last Name">  
+                            <input id="last_name" class="form_input" type="text" name="contest[last_name]" placeholder="Last Name">  
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-6">
-                            <input class="form_input" type="email" name="contest[email]" placeholder="Email*" id="users_email">
+                            <input id="email" class="form_input" type="email" name="contest[email]" placeholder="Email*" id="users_email">
                         </div>
                         <div class="col-md-6">
                             <input class="form_input" type="text" name="contest[postal_code]" placeholder="Postal Code">  
