@@ -174,13 +174,13 @@
     </main>
     <script>
         $(document).ready(function(e){
-            setInterval(function () {
-                // first parameter is the message to be passed
-                // second paramter is the domain of the parent
-                // in this case "*" has been used for demo sake (denoting no preference)
-                // in production always pass the target domain for which the message is intended
-                window.top.postMessage(document.body.scrollHeight, "*");
-            }, 500);
+            // setInterval(function () {
+            //     // first parameter is the message to be passed
+            //     // second paramter is the domain of the parent
+            //     // in this case "*" has been used for demo sake (denoting no preference)
+            //     // in production always pass the target domain for which the message is intended
+            //     window.top.postMessage(document.body.scrollHeight, "*");
+            // }, 500);
         
             $('#contest_form').submit(function(e){
                 e.preventDefault();
@@ -212,20 +212,20 @@
                     
                     contest_entry.contest = contest_data;
                     console.log("contest_data", contest_data);
-                    // var host = "https://southcentre.mallmaverick.com";
-                    // var slug = "southcentre-ar-contest"
-                    // var action = host + "/contests/" + slug + "/create_js_entry"
-                    // $.ajax({
-                    //     url : action,
-                    //     type: "POST",
-                    //     data : contest_entry,
-                    //     success: function(data){
-                    //       window.location= "/contest-thank-you";
-                    //     },
-                    //     error: function (data){
-                    //         alert('An error occured while processing your request. Please try again later!')
-                    //     }
-                    // });
+                    var host = "https://southcentre.mallmaverick.com";
+                    var slug = "southcentre-ar-contest"
+                    var action = host + "/contests/" + slug + "/create_js_entry"
+                    $.ajax({
+                        url : action,
+                        type: "POST",
+                        data : contest_entry,
+                        success: function(data){
+                          window.location= "/contest-thank-you";
+                        },
+                        error: function (data){
+                            alert('An error occured while processing your request. Please try again later!')
+                        }
+                    });
                 }
             })
         });
