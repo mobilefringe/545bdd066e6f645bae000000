@@ -126,7 +126,7 @@
                     <h1 class="title center">A $500 Southcentre Gift Card + A Family<br> Membership for the Calgary Zoo</h1>
                 </div>
             </div>
-            <form id="contest_form" action="https://southcentre.mallmaverick.com/newsletter_no_captcha">
+            <form id="contest_form">
                 <input type="hidden" value="451" name="contest[contest_id]" />
                 <input type="hidden" value="10" name="contest[property_id]" />
                 <div class="form-container">
@@ -199,8 +199,32 @@
                     $("cbox2").focus();
                     return false;
                 } else {
-                    $.post("https://southcentre.mallmaverick.com/newsletter_no_captcha", $(this).serialize(), function(data){
-                   window.location= "/contest-thank-you"    
+                //     $.post("https://southcentre.mallmaverick.com/newsletter_no_captcha", $(this).serialize(), function(data){
+                //   window.location= "/contest-thank-you"    
+                //     });
+                    
+                    var contest_entry = {};
+                    var contest_data = {};
+                    contest_data.first_name = $('#first_name').val();
+                    contest_data.last_name = $('#last_name').val();
+                    contest_data.email = $('#email').val();
+                    contest_data.postal_code = $('#postal_code').val();
+                    
+                    contest_entry.contest = contest_data;
+                    
+                    var host = "https://southcentre.mallmaverick.com";
+                    var slug = "southcentre-ar-contest"
+                    var action = host + "/contests/" + slug + "/create_js_entry"
+                    $.ajax({
+                        url : action,
+                        type: "POST",
+                        data : contest_entry,
+                        success: function(data){
+                           window.location= "/contest-thank-you";
+                        },
+                        error: function (data){
+                            alert('An error occured while processing your request. Please try again later!')
+                        }
                     });
                 }
             })
