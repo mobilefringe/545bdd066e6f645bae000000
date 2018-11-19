@@ -90,7 +90,7 @@
         }
         #submit {
             margin-bottom: 60px;
-            padding: 8px 60px;
+            padding: 12px 60px;
             border: none;
             background: #060000;
             text-transform: uppercase;
