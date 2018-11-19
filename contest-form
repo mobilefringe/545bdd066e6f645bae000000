@@ -140,7 +140,7 @@
                     </div>
                     <div class="row">
                         <div class="col-md-6">
-                            <input id="email" class="form_input" type="email" name="contest[email]" placeholder="Email*" id="users_email">
+                            <input id="email" class="form_input" type="email" name="contest[email]" placeholder="Email*">
                         </div>
                         <div class="col-md-6">
                             <input id="postal_code" class="form_input" type="text" name="contest[postal_code]" placeholder="Postal Code">  
@@ -186,9 +186,9 @@
                 e.preventDefault();
                 var email = $("#users_email").val();
                 
-                if ($("#users_email").val() == "") {
+                if ($("#email").val() == "") {
                     alert("Please enter your email address!");
-                    $("#users_email").focus();
+                    $("#email").focus();
                     return false;
                 } else if ($("#cbox1").prop("checked") != true){
                     alert("Please agree to the Privacy Statement before submitting the contest form.");
