@@ -211,7 +211,6 @@
                     contest_data.postal_code = $('#postal_code').val();
                     
                     contest_entry.contest = contest_data;
-                    console.log("contest_data", contest_data);
                     var host = "https://southcentre.mallmaverick.com";
                     var slug = "southcentre-ar-contest"
                     var action = host + "/contests/" + slug + "/create_js_entry"
