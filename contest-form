@@ -211,21 +211,21 @@
                     contest_data.postal_code = $('#postal_code').val();
                     
                     contest_entry.contest = contest_data;
-                    
-                    var host = "https://southcentre.mallmaverick.com";
-                    var slug = "southcentre-ar-contest"
-                    var action = host + "/contests/" + slug + "/create_js_entry"
-                    $.ajax({
-                        url : action,
-                        type: "POST",
-                        data : contest_entry,
-                        success: function(data){
-                           window.location= "/contest-thank-you";
-                        },
-                        error: function (data){
-                            alert('An error occured while processing your request. Please try again later!')
-                        }
-                    });
+                    console.log("contest_data", contest_data);
+                    // var host = "https://southcentre.mallmaverick.com";
+                    // var slug = "southcentre-ar-contest"
+                    // var action = host + "/contests/" + slug + "/create_js_entry"
+                    // $.ajax({
+                    //     url : action,
+                    //     type: "POST",
+                    //     data : contest_entry,
+                    //     success: function(data){
+                    //       window.location= "/contest-thank-you";
+                    //     },
+                    //     error: function (data){
+                    //         alert('An error occured while processing your request. Please try again later!')
+                    //     }
+                    // });
                 }
             })
         });
